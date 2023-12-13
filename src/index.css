@@ -1,0 +1,449 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0px;
+}
+
+.tablebg {
+  background: linear-gradient(157.84deg, rgba(207, 138, 51, 0.1) 14.47%, rgba(247, 239, 138, 0) 113.1%) !important;
+}
+
+.bgcolor {
+  background: linear-gradient(90deg, #AE8625 -3.12%, #F7EF8A 29.71%, #D2AC47 73.6%, #EDC967 102.14%) !important;
+  backdrop-filter: blur(38.5864px) !important;
+
+}
+.mediabg{
+  border-radius: 32px;
+background: rgba(252, 255, 111, 0.11);
+}
+.cardbgclr{
+  border-radius: 15px;
+border: 2px solid #F9C334;
+background: #111010;
+box-shadow: 1px 1px 15px 0px #3F3F3F;
+}
+.cardbgclr2{
+  border-radius: 15px;
+border: 2px solid #F9C334;
+background: linear-gradient(93deg, rgba(207, 138, 51, 0.10) 24.44%, rgba(247, 239, 138, 0.00) 89.09%), #111010;
+box-shadow: 1px 1px 15px 0px #3F3F3F;
+}
+.cardclr3{
+  border-radius: 15px;
+border: 2px solid #F9C334;
+background: #111010;
+box-shadow: 1px 1px 15px 0px #3F3F3F;
+}
+
+.btnbg {
+  border-radius: 19px;
+  border: 1px solid #F9C333;
+  background: linear-gradient(231deg, #000 23.34%, #7A551B 136.12%, #946317 166.79%);
+
+}
+
+.bgcolordark {
+  background: linear-gradient(90deg, #bb8d219f -3.12%, #f8f07f75 29.71%, #f5c5419c 73.6%, #ffc525b0 102.14%) !important;
+  backdrop-filter: blur(38.5864px) !important;
+
+}
+
+.token {
+  background: linear-gradient(157.84deg, rgba(207, 138, 51, 0.1) 14.47%, rgba(247, 239, 138, 0) 113.1%) !important;
+}
+.mapbg{
+  border-radius: 32px;
+background: rgba(252, 255, 111, 0.11);
+}
+
+.stepbtnbg {
+  border-radius: 9999px;
+  background: linear-gradient(81deg, #2B2B2B -44.59%, #616161 31.98%, #2D2D2D 82.96%, #A0A0A0 130.42%);
+}
+
+.dailyCardbg {
+  border-radius: 32px;
+  border: 1px solid var(--billionair-com-1920-x-1080-default-nero, #FFF);
+  background: rgba(252, 255, 111, 0.03);
+  backdrop-filter: blur(8.899999618530273px);
+}
+
+
+.gradientText {
+  background: linear-gradient(90deg, #AE8625 -3.12%, #F7EF8A 29.71%, #D2AC47 73.6%, #EDC967 102.14%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background-clip: text !important;
+  text-fill-color: transparent !important;
+}
+
+.bg-box1 {
+  position: absolute;
+  width: 472px;
+  height: 554.424px;
+  opacity: 0.4;
+  background: linear-gradient(180deg, #F9C333 0%, #F7EF8A 100%);
+  filter: blur(117.14800262451172px);
+  left: -20%;
+  top: 40%;
+  /* z-index: -1; */
+}
+.bg-box2 {
+  width: 772px;
+  height: 654.424px;
+  opacity: 0.4;
+  background: linear-gradient(180deg, #F9C333 0%, #F7EF8A 100%);
+  filter: blur(117.14800262451172px);
+}
+.bg-box3 {
+  position: absolute;
+  left: -20%;
+  top: -45%;
+  width: 500px;
+  height: 413.687px;
+  opacity: 0.4;
+  background: linear-gradient(180deg, #FFC55C 0%, #FFCD91 100%);
+  filter: blur(117.14800262451172px);
+}
+.bg-box4 {
+  position: absolute;
+  width: 255px;
+  height: 253.687px;
+  opacity: 0.4;
+  background: linear-gradient(180deg, #F9C333 0%, rgba(217, 217, 217, 0.00) 100%, #FFC55C 100%);
+  filter: blur(117.14800262451172px);
+  left: -15%;
+  bottom: -20%;
+}
+.bg-box5 {
+  position: absolute;
+  width: 555px;
+  height: 453.687px;
+  opacity: 0.5;
+  background: linear-gradient(180deg, rgba(223, 173, 52, 0.55) 0%, rgba(255, 248, 156, 0.55) 100%);
+  filter: blur(200px);
+  left: -15%;
+  bottom: -20%;
+}
+.bg-box6 {
+  position: absolute;
+  width: 555px;
+  height: 353.687px;
+  opacity: 0.5;
+  background: linear-gradient(180deg, #F9C333 0%, #F7EF8A 100%);
+  filter: blur(200px);
+  left: -25%;
+  bottom: -30%;
+}
+.bg-box7 {
+  position: absolute;
+  width: 555px;
+  height: 353.687px;
+  opacity: 0.5;
+  background: linear-gradient(180deg, #F9C333 0%, #F7EF8A 100%);
+  filter: blur(200px);
+  left: -25%;
+  top: 50%;
+}
+.bg-box7left {
+  position: absolute;
+  width: 555px;
+  height: 353.687px;
+  opacity: 0.5;
+  background: linear-gradient(180deg, #F9C333 0%, #F7EF8A 100%);
+  filter: blur(200px);
+  right: -45%;
+  top: 20%;
+}
+.bg-box8left {
+  position: absolute;
+  width: 555px;
+  height: 423.687px;
+  opacity: 0.5;
+  background: linear-gradient(180deg, #F9C333 0%, #F7EF8A 100%);
+  filter: blur(200px);
+  right: -15%;
+  top: 25%;
+}
+.bg-box9 {
+  position: absolute;
+  width: 555px;
+  height: 453.687px;
+  opacity: 0.5;
+  background: linear-gradient(180deg, #F9C333 0%, #F7EF8A 100%);
+  filter: blur(200px);
+  left: -25%;
+  bottom: 50%;
+}
+.bg-box10 {
+  position: absolute;
+  width: 555px;
+  height: 453.687px;
+  opacity: 0.5;
+  background: linear-gradient(180deg, #F9C333 0%, #F7EF8A 100%);
+  filter: blur(200px);
+  left: -25%;
+  bottom: 20%;
+}
+.bg-box9left {
+  position: absolute;
+  width: 555px;
+  height: 423.687px;
+  opacity: 0.5;
+  background: linear-gradient(180deg, #F9C333 0%, #F7EF8A 100%);
+  filter: blur(200px);
+  right: -15%;
+  top: 85%;
+}
+.bg-box10left {
+  position: absolute;
+  width: 555px;
+  height: 423.687px;
+  opacity: 0.5;
+  background: linear-gradient(180deg, #F9C333 0%, #F7EF8A 100%);
+  filter: blur(200px);
+  right: -15%;
+  top: 35%;
+}
+
+.bg-filter {
+  border-radius: 32px;
+  border: 4px solid var(--billionair-com-1920-x-1080-default-nero-10, rgba(255, 255, 255, 0.10));
+  background: linear-gradient(212deg, rgba(255, 255, 255, 0.00) 0.66%, rgba(255, 199, 0, 0.09) 29.46%, rgba(255, 255, 255, 0.00) 103.45%);
+
+  backdrop-filter: blur(11.649999618530273px);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+.country-option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.country-logo {
+  width: 35px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.selected-logo {
+  width: 35px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.exchnagecolor {
+  background-color: rgba(252, 255, 111, 0.11);
+}
+
+.filterblurbg {
+  background-image: url(../src/assects/images/bgimg.png);
+  background-size: 100% 100%;
+}
+
+.rewardCard {
+  border-radius: 47px;
+  border: 1px solid #FFF;
+  background: linear-gradient(221deg, rgba(161, 161, 161, 0.22) 9.66%, rgba(47, 47, 43, 0.22) 64.78%, rgba(192, 192, 192, 0.22) 105.88%);
+}
+
+.Biggestbg {
+  border-radius: 47px;
+  border: 2px solid #FFF;
+  background: linear-gradient(134deg, rgba(255, 248, 156, 0.22) 13.82%, rgba(249, 195, 52, 0.22) 57.98%);
+}
+
+.tablerow {
+  border-radius: 42px;
+  background: linear-gradient(270deg, rgba(249, 195, 51, 0.28) 11.86%, rgba(255, 248, 156, 0.28) 86.6%);
+}
+
+.tablerow2 {
+  border-radius: 42px;
+  background: linear-gradient(270deg, rgba(249, 195, 51, 0.18) 11.86%, rgba(255, 248, 156, 0.18) 86.6%);
+}
+
+.tabalerow3 {
+  border-radius: 42px;
+  background: linear-gradient(270deg, rgba(249, 195, 51, 0.08) 11.86%, rgba(255, 248, 156, 0.08) 86.6%);
+}
+
+.css-13cymwt-control {
+  background: rgba(134, 134, 134, 0.45) !important;
+  border: none !important;
+  border-radius: 30px !important;
+  color: white !important;
+}
+
+.benefitCardbg {
+  border-radius: 32px;
+  border: 1px solid #FFF;
+  background: linear-gradient(262deg, rgba(53, 52, 32, 0.22) 16.16%, rgba(60, 62, 35, 0.22) 82.08%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.LicensedCard {
+  background: linear-gradient(94deg, rgba(108, 90, 42, 0.00) 0.01%, rgba(77, 74, 42, 0.62) 100%);
+  backdrop-filter: blur(31.74250030517578px);
+}
+
+.stepsbg {
+  border-radius: 47px;
+  background: linear-gradient(94deg, rgba(108, 90, 42, 0.00) 0.01%, rgba(77, 74, 42, 0.62) 100%), linear-gradient(221deg, rgba(255, 248, 156, 0.16) 9.66%, rgba(249, 195, 52, 0.16) 105.88%);
+  backdrop-filter: blur(4.449999809265137px);
+}
+
+.css-t3ipsp-control:hover {
+  background: rgba(134, 134, 134, 0.45) !important;
+
+}
+
+.css-1nmdiq5-menu {
+  background: rgba(134, 134, 134, 0.45) !important;
+  /* display: ; */
+
+}
+
+.css-qbdosj-Input {
+  display: none !important;
+}
+
+.css-19bb58m {
+  display: none !important;
+}
+
+.bgcover {
+  background-image: url(../src/assects/images/bg11.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: contain;
+}
+
+.country-option {
+  display: flex !important;
+  background-color: #5f5f5f !important;
+  color: white !important;
+}
+
+.css-d7l1ni-option:hover {
+  background-color: aliceblue !important;
+  color: #5f5f5f !important;
+  cursor: pointer !important;
+}
+
+.css-1xc3v61-indicatorContainer {
+  cursor: pointer !important;
+}
+
+.css-tr4s17-option {
+  cursor: pointer !important;
+  background-color: rgb(180, 180, 180) !important;
+  color: #5f5f5f !important;
+
+}
+
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  font-size: 18px !important;
+  position: absolute;
+  right: -7px;
+  top: 8px;
+  color: white;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 18px !important;
+  position: absolute;
+  left: -10px;
+  top: 8px;
+  color: white;
+
+}
+.sportsbg{
+  background-image: url(../src/assects/images/bgimg.png);
+  background-size: cover;
+}
+.buybackbg{
+  border-radius: 16px;
+border: 1px solid #FFF89C;
+background: var(--billionair-com-1920-x-1080-default-nero-10, rgba(255, 255, 255, 0.10));
+backdrop-filter: blur(16.75px);
+}
+.buybackbg2{
+  border-radius: 16px;
+  border: 1px solid #FFB2B2;
+background: var(--billionair-com-1920-x-1080-default-nero-10, rgba(255, 255, 255, 0.10));
+backdrop-filter: blur(16.75px);
+}
+.buybackbg3{
+  border-radius: 16px;
+  border: 1px solid #4FFF6B;
+background: var(--billionair-com-1920-x-1080-default-nero-10, rgba(255, 255, 255, 0.10));
+backdrop-filter: blur(16.75px);
+}
+.textbuycolor{
+  background: var(--billionair-com-1920-x-1080-default-linear-caribbean-green-caribbean-green, linear-gradient(270deg, #FFD178 0.01%, #FFBE9F 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.textbuycolor2{
+  background: linear-gradient(90deg, #D86D6D 0.8%, #F18079 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.textbuycolor3{
+  background: linear-gradient(90deg, #82D86D 0.8%, #79F1BF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bordercolor{
+  background: linear-gradient(0deg, #F9C333 0%, #F9C333 100%), #F9C333;
+}
+.rmapbg{
+  position: absolute;
+  width: 100%;
+  height: 1300px;
+  background-image: url(../src/assects/images/rmapbg.png);
+  background-size: cover;
+  mix-blend-mode: overlay;
+  top: -10%;
+}
+.gambloingbg{
+  border-radius: 47px;
+  border: 2px solid #FFF;
+  background: linear-gradient(262deg, rgba(96, 92, 53, 0.22) 16.16%, rgba(125, 130, 72, 0.22) 82.08%);
+}
+.detailtokenbg{
+  border-radius: 31px;
+border: 1px solid #DBC68E;
+background: var(--billionair-com-1920-x-1080-default-shark, #1C1D22);
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+
+  input[type="range"]::-webkit-slider-thumb {
+    width: 15px;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px !important;
+    cursor: pointer;
+    background: #FFF;
+    border-radius: 50%;
+
+  }
+}

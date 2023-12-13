@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import ved from "../../assects/video/course-video.mp4"
 import Bg from "../../assects/images/bg11.png"
 import Iicon from "../../assects/images/i.png";
-import Link from "../../assects/svgs/Link.svg"
+import Link from "../../assects/svgs/Link1.svg"
 import Tree from "../../assects/svgs/tree.svg"
 import tei from "../../assects/svgs/twi.svg"
 import tel from "../../assects/svgs/tele.svg"

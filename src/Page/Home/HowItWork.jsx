@@ -80,7 +80,7 @@ const imgData = [
 const HowItWork = () => {
 
     return (
-        <div className="space-y-[95px]" >
+        <div className="space-y-[95px] relative z-[2]" >
             <div className="space-y-[60px]">
                 <div className="space-y-3 w-[96%] xs:w-[100%] sm:w-[100%] md:w-[100%] m-auto">
                     <h3 className="font-[Inter] text-[43px]  font-[900] leading-[40px] uppercase gradientText text-center">HOW DOES IT WORK?</h3>
@@ -99,9 +99,9 @@ const HowItWork = () => {
             <div>
                 <BuyBackSectionCard />
             </div>
-            <div className=" space-y-[6rem] xs:space-y-3">
+            <div className=" 2xl:space-y-0 xl:space-y-0 lg:space-y-0 md:space-y-[5rem] sm:space-y-[5rem] space-y-[5rem] ">
                 <div>
-                    <div className="flex  xs:block sm:block md:block justify-between items-center">
+                    <div className="flex  xs:block sm:block md:block justify-between 2xl:space-y-0 xl:space-y-0 lg:space-y-0 md:space-y-[5rem] sm:space-y-[5rem] space-y-[5rem] items-center">
 
                         <div className="w-[49%] xs:w-[100%] sm:w-[100%] md:w-[100%] space-y-[20px] xs:text-center sm:text-center ">
                             <h3 className="text-[40px] xs:text-[22px] font-[Inter] leading-[40px] uppercase font-[900] gradientText">35+ DIFFERENT SPORTS</h3>
@@ -117,12 +117,12 @@ const HowItWork = () => {
             
                 </div>
                 <div>
-                    <div className="flex items-center justify-between xs:flex-col-reverse sm:flex-col-reverse md:flex-col-reverse  space-y-3">
+                    <div className="flex items-center justify-between xs:flex-col-reverse  sm:flex-col-reverse md:flex-col-reverse ">
                        
                          <div className="w-[49%] rounded-[40px] sportsbg h-[420px] flex justify-center items-end xs:w-[100%] sm:w-[100%] md:w-[100%]">
                             <img className="h-[470px] pb-[1rem]" src={CASINO} alt="" />
                         </div>
-                        <div className="w-[49%] xs:w-[100%] sm:w-[100%] md:w-[100%] space-y-[20px] xs:text-center sm:text-center ">
+                        <div className="w-[49%] 2xl:pb-0 xl:pb-0 lg:pb-0 md:pb-[4rem] sm:pb-[4rem] pb-[4rem] xs:w-[100%] sm:w-[100%] md:w-[100%] space-y-[20px] xs:text-center sm:text-center ">
                             <h3 className="text-[40px] xs:text-[22px] font-[Inter] leading-[40px] uppercase font-[900] gradientText">200+  CASINO GAMES</h3>
                             <h5 className="text-[18px] xs:text-[14px] font-[Poppins] leading-[28px] font-[400] text-white">SCORPION offers a complete online casino with over 200+ games
                                 from all major game providers. Casino games include slots,

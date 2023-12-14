@@ -24,81 +24,24 @@ const TokenDetailsSection = () => {
                         </div>
                     </center>
 
-                    <div className="rounded   py-6 2xl:px-8 xl:px-8 lg:px-8 md:px-5 sm:px-4 px-4 2xl:hidden xl:hidden">
-                        <div className="">
-                            <div className="pb-2">
-                                <h3 className="text-[16px] xs:text-[14px] font-[600] font-[Poppins] text-white ">Token Name</h3>
-                                <p className="text-[15px] xs:text-[13px] font-[400] font-[Poppins] text-white mb-2 mr-2">Scorpion Casino</p>
-                            </div>
-                            <div >
-                                <h3 className="text-[16px] xs:text-[14px] font-[600] font-[Poppins] text-white ">Token Sale Stage</h3>
-                                <p className="text-[15px] xs:text-[13px] font-[400] font-[Poppins] text-white mb-2 mr-2">10</p>
-                            </div>
-                            <div >
-                                <h3 className="text-[16px] xs:text-[14px] font-[600] font-[Poppins] text-white ">Token Type</h3>
-                                <p className="text-[15px] xs:text-[13px] font-[400] font-[Poppins] text-white mb-2 mr-2">BEP-20 (Binance Smart Chain)</p>
-                            </div>
-                            <div>
-                                <h3 className="text-[16px] xs:text-[14px] font-[600] font-[Poppins] text-white ">Token Symbol</h3>
-                                <p className="text-[15px] xs:text-[13px] font-[400] font-[Poppins] text-white mb-2 mr-2">SCORP</p>
-                            </div>
-                            <div>
-                                <h3 className="text-[16px] xs:text-[14px] font-[600] font-[Poppins] text-white ">Decimal</h3>
-                                <p className="text-[15px] xs:text-[13px] font-[400] font-[Poppins] text-white mr-2 mb-2">18</p>
-                            </div>
 
-
-                        </div>
-
-                        <div>
-                            <h3 className="text-[16px] font-[600] font-[Poppins] text-white ">Token Contract Address</h3>
-                            <div className="2xl:flex xl:flex lg:flex md:flex flex  ">
-                                <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Poppins] text-white mr-2">0xD77401A76d6c.....5dEc07615509E7</p>
-                                <img src={copyIcon} alt="" onClick={handleCopy} width={13} />
-                                <ToastContainer />
-
-                            </div>
-                        </div>
-
-
-                        <div className="col-span-3  flex  justify-between flex-wrap 2xl:px-8 xl:px-8 lg:px-8 md:px-0 sm:px-0 ">
-
-                            <div className="pb-2 py-2 pt-5">
-                                <h3 className="text-[20px] font-[800] font-[Poppins] text-white mb-2">Presale Details</h3>
-                                <div>
-                                    <h3 className="text-[14px]  font-[600] font-[Poppins] text-white ">Token sold during the Pre-sale</h3>
-                                    <p className="text-[13px] font-[400] font-[Poppins] text-white mr-2 mb-2">200,000,000 SCORP </p>
-                                </div>
-
-                                <div className="pt-6">
-                                    <h3 className="text-[20px]  font-[600] font-[Poppins] text-white ">Current Stage Price</h3>
-                                    <p className="text-[13px] font-[400] font-[Poppins] text-white mr-2 mb-2">1 SCORP  =  $0.01</p>
-                                </div>
-                                <div className="pt-6">
-                                    <h3 className="text-[20px]  font-[600] font-[Poppins] text-white ">Exchange Listing Price</h3>
-                                    <p className="text-[13px] font-[400] font-[Poppins] text-white mr-2 mb-2">1 SCORP = $0.05 </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="lg:hidden md:hidden sm:hidden xs:hidden">
+                    <div className="">
                         <div className="space-y-[47px]">
-                            <div className="w-[63%] mx-auto col-span-4 space-y-3 detailtokenbg py-6 flex justify-between flex-wrap 2xl:px-8 xl:px-8 lg:px-8 md:px-5 sm:px-4 px-4">
-                                <div className="flex justify-between w-[100%] ">
-                                    <div className="pb-2 w-[32%]">
+                            <div className=" 2xl:w-[63%] xl:w-[63%] lg:w-[63%] md:w-[90%] sm:w-[90%] w-[90%] mx-auto col-span-4 space-y-3 detailtokenbg py-6 flex justify-between flex-wrap 2xl:px-8 xl:px-8 lg:px-8 md:px-5 sm:px-4 px-4">
+                                <div className="2xl:flex xl:flex lg:flex md:block sm:block block justify-between w-[100%] ">
+                                    <div className="pb-2  2xl:w-[32%] xl:w-[32%] lg:w-[32%] md:w-[100%] sm:w-[100%] w-[100%]">
                                         <h3 className="text-[20px]  font-[600] font-[Poppins] text-white mb-2">Token Name</h3>
                                         <div className="2xl:f3ex xl:flex lg:flex md:flex sm:block block">
                                             <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Poppins] text-white ">Scorpion Casino</p>
                                         </div>
                                     </div>
-                                    <div className="w-[30%]">
+                                    <div className=" 2xl:w-[30%] xl:w-[30%] lg:w-[30%] md:w-[100%] sm:w-[100%] w-[100%]">
                                         <h3 className="text-[20px] font-[600] font-[Poppins] text-white mb-2">Token Symbol</h3>
                                         <div className="2xl:flex xl:flex lg:flex md:flex sm:block block">
                                             <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Poppins] text-white ">SCORP </p>
                                         </div>
                                     </div>
-                                    <div className="w-[32%]">
+                                    <div className=" 2xl:w-[32%] xl:w-[32%] lg:w-[32%] md:w-[100%] sm:w-[100%] w-[100%]">
                                         <h3 className="text-[20px] font-[600] font-[Poppins] text-white mb-2">Token Type</h3>
                                         <p className="text-[15px] font-[400] font-[Poppins] text-white ">BEP-20 (Binance Smart Chain)</p>
                                     </div>
@@ -107,8 +50,8 @@ const TokenDetailsSection = () => {
 
                                 </div>
 
-                                <div className="flex w-[100%] justify-between space-x-10">
-                                    <div className="w-[63%] space-y-2">
+                                <div className=" w-[100%] 2xl:flex xl:flex lg:flex md:block sm:block block justify-between 2xl:space-x-10 xl:space-x-10 lg:space-x-10 md:space-x-0 sm:space-x-0 space-x-0 ">
+                                    <div className=" 2xl:w-[63%] xl:w-[63%] lg:w-[63%] md:w-[90%] sm:w-[90%] w-[90%] space-y-2">
                                         <h3 className="text-[20px] font-[600] font-[Poppins] text-white xs:text-[14px]">Token Contract Address</h3>
                                         <div className="2xl:flex xl:flex lg:flex md:flex sm:block block   ">
                                             {/* <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Poppins] text-white mr-2">0x37803ecdcbBF1886CD97A8EAD0DbA4d7291f19A7</p> */}
@@ -119,7 +62,7 @@ const TokenDetailsSection = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="w-[32.5%] pl-[rem]">
+                                    <div className="2xl:w-[32.5%] xl:w-[32.5%] lg:w-[32.5%] md:w-[90%] sm:w-[90%] w-[90%]  ">
                                         <h3 className="text-[20px] font-[600] font-[Poppins] text-white mb-2">Decimal</h3>
                                         <p className="text-[15px] font-[400] font-[Poppins] text-white ">18</p>
                                     </div>
@@ -130,8 +73,8 @@ const TokenDetailsSection = () => {
 
                             <div className="col-span-3 detailtokenbg rounded-[30px] px-[60px]">
 
-                                <div className=" py-8 flex justify-between items-center">
-                                    <div className="w-[35%] border-r border-[#F9C333]">  
+                                <div className=" py-8 2xl:flex xl:flex lg:flex md:block sm:block block justify-between items-center">
+                                    <div className=" 2xl:w-[35%] xl:w-[35%] lg:w-[35%] md:w-[100%] sm:w-[100%] w-[100%] 2xl:border-r xl:border-r lg:border-r md:border-none sm:border-none border-none border-[#F9C333]">  
                                     <h3 className="text-[20px]  font-[800] font-[Poppins] text-white mb-2">Presale Details</h3>
                                     <div>
                                         <h3 className="text-[16px] font-[600] font-[Poppins] text-white mb-2">Token sold during the Pre-sale</h3>
@@ -139,11 +82,11 @@ const TokenDetailsSection = () => {
                                     </div>
                                     </div>
 
-                                    <div className="py-4 w-[30%] border-r border-[#F9C333]" >
+                                    <div className="py-4 2xl:w-[30%] xl:w-[30%] lg:w-[30%] md:w-[100%] sm:w-[100%] w-[100%] 2xl:border-r xl:border-r lg:border-r md:border-none sm:border-none border-none border-[#F9C333]" >
                                         <h3 className="text-[20px] font-[600] font-[Poppins] text-white mb-2">Current Stage Price</h3>
                                         <p className="text-[15px] font-[400] font-[Poppins] text-white mr-2">1 SCORP = $0.01</p>
                                     </div>
-                                    <div className="w-[20%]">
+                                    <div className="2xl:w-[20%] xl:w-[20%] lg:w-[20%] md:w-[100%] sm:w-[100%] w-[100%]">
                                         <h3 className="text-[20px] font-[600] font-[Poppins] text-white mb-2">Exchange Listing Price</h3>
                                         <p className="text-[15px] font-[400] font-[Poppins] text-white mr-2">1 SCORP = $0.05</p>
                                     </div>

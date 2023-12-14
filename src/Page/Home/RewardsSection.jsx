@@ -226,7 +226,7 @@ const RewardSection = () => {
                 </div>
 
             </div  >
-            <div className="w-[49%] rewardCard px-10 py-6  ">
+            <div className=" 2xl:w-[49%] xl:w-[49%] lg:w-[49%] md:w-[100%] sm:w-[100%] w-[100%] rewardCard px-10 py-6  ">
             {
                 listData.map((item, id) => (
 

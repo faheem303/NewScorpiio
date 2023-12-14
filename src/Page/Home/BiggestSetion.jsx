@@ -8,8 +8,8 @@ import Beta from "../../assects/images/beta.png"
 const BiggestSection = () => {
 
     return (
-       <div>
-         <div className="Biggestbg " >
+       <div className="overflow-scroll scroll">
+         <div className="Biggestbg relative z-[2] w-[100%] min-w-[900px]" >
             <div className="flex items-center px-[29px] py-[40px] justify-between xs:block sm:block md:block">
                 <div className=" flex ">
                     <h3 className="w-[100%] max-w-[26%] text-[32px] gradientText uppercase font-[900] font-[Inter] leading-[45px] text-white border-r ">BIGGEST BUY-IN COMPETITION</h3>

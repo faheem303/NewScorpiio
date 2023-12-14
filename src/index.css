@@ -189,6 +189,18 @@ background: rgba(252, 255, 111, 0.11);
   left: -25%;
   bottom: 20%;
 }
+.hoverdropbg{
+  border-radius: 17.81px;
+  border: 2px solid #FFDC87;
+  background: rgba(45, 44, 27, 0.96);
+}
+.scroll::-webkit-scrollbar {
+  width: 0px !important;
+}
+.smallscrbg{
+  border-radius: 32px;
+background: rgba(252, 255, 111, 0.11);
+}
 .bg-box9left {
   position: absolute;
   width: 555px;

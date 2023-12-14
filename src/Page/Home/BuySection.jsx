@@ -8,7 +8,7 @@ import Buyimg from "../../assects/images/buysec.png"
 
 const BuySection = () => {
     return (
-        <div className="  xs:py-8 " >
+        <div className="  xs:py-8  " >
             <p style={{ top: "-100px", position: "relative" }} id="howItWork"></p>
             <h2 className="text-[40px] xs:text-[40px] xs:text-left sm:text-left uppercase text-center font-[900] gradientText  font-[Inter] leading-[40px]">HOW TO BUY?</h2>
             <div className="pt-[31px] w-full block xs:space-y-3 sm:space-y-3 md:space-y-3 justify-between 2xl:flex xl:flex lg:flex md:flex sm:flex flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col flex-col">

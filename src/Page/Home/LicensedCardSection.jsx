@@ -12,7 +12,7 @@ const LicensedCardSection = () => {
 
     return (
         <div className="" >
-            <div className="flex items-center justify-between gap-[28px] xs:block sm:block md:block">
+            <div className="flex items-center 2xl:space-y-0 xl:space-y-0 lg:space-y-0  md:space-y-5 sm:space-y-5 space-y-5 justify-between gap-[28px] xs:block sm:block md:block">
                 <div className=" rounded-[32px] flex justify-between pl-[32px]  py-[38px] border LicensedCard border-[#FFF89C] h-[218px] max-w-[432px] w-[100%]">
                     <div className="w-[300px] space-y-3">
                         <h3 className="font-[Poppins] -tracking-[1.7px] text-[26px] 2xl:text-[28px] xl:text-[28px] lg:text-[28px] md:text-[28px] sm:text-[28px] font-[700] leading-[35.064px] text-white">Secured Licensed Platform</h3>

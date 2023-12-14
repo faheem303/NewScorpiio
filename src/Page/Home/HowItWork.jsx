@@ -84,7 +84,7 @@ const HowItWork = () => {
             <div className="space-y-[60px]">
                 <div className="space-y-3 w-[96%] xs:w-[100%] sm:w-[100%] md:w-[100%] m-auto">
                     <h3 className="font-[Inter] text-[43px]  font-[900] leading-[40px] uppercase gradientText text-center">HOW DOES IT WORK?</h3>
-                    <h5 className="font-[poppins] text-[18px] font-[400] leading-[28px] text-[#fff] text-[white] text-center">
+                    <h5 className="font-[inter] text-[18px] font-[400] leading-[28px] text-[#fff] text-[white] text-center">
                         Curious about how the Scorpion Casino ecosystem works? Here’s a simplified explanation. <br />
                         Scorpion Casino is a global Crypto Casino and Sports Betting platform generating daily revenue. This income drives the growth of the $SCORP Token through an integrated daily Buy-Back, Burn and Reward System.</h5>
 
@@ -105,10 +105,10 @@ const HowItWork = () => {
 
                         <div className="w-[49%] xs:w-[100%] sm:w-[100%] md:w-[100%] space-y-[20px] xs:text-center sm:text-center ">
                             <h3 className="text-[40px] xs:text-[22px] font-[Inter] leading-[40px] uppercase font-[900] gradientText">35+ DIFFERENT SPORTS</h3>
-                            <h5 className="text-[18px] xs:text-[14px] font-[Poppins] leading-[28px] font-[400] text-white">SCORPION provides various sporting betting opportunities,
+                            <h5 className="text-[18px] xs:text-[14px] font-[inter] leading-[28px] font-[400] text-white">SCORPION provides various sporting betting opportunities,
                                 including football, tennis, American football, horse racing,
                                 basketball, golf, boxing, and MMA.</h5>
-                                <button className="px-[90px] py-4 bgcolor rounded-full text-[18px] font-[500] leading-[21px] font-[Poppins]">Buy $SCORP</button>
+                                <button className="px-[90px] py-4 bgcolor rounded-full text-[18px] font-[700] leading-[21px] font-[inter]">Buy $SCORP</button>
                         </div>
                         <div className="w-[49%] rounded-[40px] sportsbg h-[420px] flex justify-center items-end xs:w-[100%] sm:w-[100%] md:w-[100%]">
                             <img className="h-[470px] pb-[1rem]" src={Sports} alt="" />
@@ -124,10 +124,10 @@ const HowItWork = () => {
                         </div>
                         <div className="w-[49%] 2xl:pb-0 xl:pb-0 lg:pb-0 md:pb-[4rem] sm:pb-[4rem] pb-[4rem] xs:w-[100%] sm:w-[100%] md:w-[100%] space-y-[20px] xs:text-center sm:text-center ">
                             <h3 className="text-[40px] xs:text-[22px] font-[Inter] leading-[40px] uppercase font-[900] gradientText">200+  CASINO GAMES</h3>
-                            <h5 className="text-[18px] xs:text-[14px] font-[Poppins] leading-[28px] font-[400] text-white">SCORPION offers a complete online casino with over 200+ games
+                            <h5 className="text-[18px] xs:text-[14px] font-[inter] leading-[28px] font-[400] text-white">SCORPION offers a complete online casino with over 200+ games
                                 from all major game providers. Casino games include slots,
                                 blackjack, roulette, poker, live casino, and more.</h5>
-                                <button className="px-[90px] py-4 bgcolor rounded-full text-[18px] font-[500] leading-[21px] font-[Poppins]">Buy $SCORP</button>
+                                <button className="px-[90px] py-4 bgcolor rounded-full text-[18px] font-[700] leading-[21px] font-[inter]">Buy $SCORP</button>
                         </div>
 
                     </div>

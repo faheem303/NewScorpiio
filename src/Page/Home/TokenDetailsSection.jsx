@@ -17,8 +17,8 @@ const TokenDetailsSection = () => {
                 <div className=" ">
                     <center>
                         <div>
-                            <h2 className="uppercase font-[800] font-[Poppins] text-[34px] xs:text-[30px] gradientText">Token Details</h2>
-                            <p className="leading-[25px] text-[15px] xs:text-[14px] font-[400] font-[Poppins] text-white mb-2 py-4">Use the contract information below to add the $SCORP token to
+                            <h2 className="uppercase font-[900] font-[Inter] text-[40px] xs:text-[30px] gradientText">Token Details</h2>
+                            <p className="leading-[25px] text-[15px] xs:text-[14px] font-[400] font-[Inter] text-white mb-2 py-4">Use the contract information below to add the $SCORP token to
                                 your wallet.
                             </p>
                         </div>
@@ -30,20 +30,20 @@ const TokenDetailsSection = () => {
                             <div className=" 2xl:w-[63%] xl:w-[63%] lg:w-[63%] md:w-[90%] sm:w-[90%] w-[90%] mx-auto col-span-4 space-y-3 detailtokenbg py-6 flex justify-between flex-wrap 2xl:px-8 xl:px-8 lg:px-8 md:px-5 sm:px-4 px-4">
                                 <div className="2xl:flex xl:flex lg:flex md:block sm:block block justify-between w-[100%] ">
                                     <div className="pb-2  2xl:w-[32%] xl:w-[32%] lg:w-[32%] md:w-[100%] sm:w-[100%] w-[100%]">
-                                        <h3 className="text-[20px]  font-[600] font-[Poppins] text-white mb-2">Token Name</h3>
+                                        <h3 className="text-[20px]  font-[600] font-[Inter] text-white mb-2">Token Name</h3>
                                         <div className="2xl:f3ex xl:flex lg:flex md:flex sm:block block">
-                                            <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Poppins] text-white ">Scorpion Casino</p>
+                                            <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Inter] text-white ">Scorpion Casino</p>
                                         </div>
                                     </div>
                                     <div className=" 2xl:w-[30%] xl:w-[30%] lg:w-[30%] md:w-[100%] sm:w-[100%] w-[100%]">
-                                        <h3 className="text-[20px] font-[600] font-[Poppins] text-white mb-2">Token Symbol</h3>
+                                        <h3 className="text-[20px] font-[600] font-[Inter] text-white mb-2">Token Symbol</h3>
                                         <div className="2xl:flex xl:flex lg:flex md:flex sm:block block">
-                                            <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Poppins] text-white ">SCORP </p>
+                                            <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Inter] text-white ">SCORP </p>
                                         </div>
                                     </div>
                                     <div className=" 2xl:w-[32%] xl:w-[32%] lg:w-[32%] md:w-[100%] sm:w-[100%] w-[100%]">
-                                        <h3 className="text-[20px] font-[600] font-[Poppins] text-white mb-2">Token Type</h3>
-                                        <p className="text-[15px] font-[400] font-[Poppins] text-white ">BEP-20 (Binance Smart Chain)</p>
+                                        <h3 className="text-[20px] font-[600] font-[Inter] text-white mb-2">Token Type</h3>
+                                        <p className="text-[15px] font-[400] font-[Inter] text-white ">BEP-20 (Binance Smart Chain)</p>
                                     </div>
 
 
@@ -52,19 +52,19 @@ const TokenDetailsSection = () => {
 
                                 <div className=" w-[100%] 2xl:flex xl:flex lg:flex md:block sm:block block justify-between 2xl:space-x-10 xl:space-x-10 lg:space-x-10 md:space-x-0 sm:space-x-0 space-x-0 ">
                                     <div className=" 2xl:w-[63%] xl:w-[63%] lg:w-[63%] md:w-[90%] sm:w-[90%] w-[90%] space-y-2">
-                                        <h3 className="text-[20px] font-[600] font-[Poppins] text-white xs:text-[14px]">Token Contract Address</h3>
+                                        <h3 className="text-[20px] font-[600] font-[Inter] text-white xs:text-[14px]">Token Contract Address</h3>
                                         <div className="2xl:flex xl:flex lg:flex md:flex sm:block block   ">
-                                            {/* <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Poppins] text-white mr-2">0x37803ecdcbBF1886CD97A8EAD0DbA4d7291f19A7</p> */}
+                                            {/* <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Inter] text-white mr-2">0x37803ecdcbBF1886CD97A8EAD0DbA4d7291f19A7</p> */}
                                             <div className="2xl:flex xl:flex lg:flex md:flex sm:block block   ">
-                                                <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Poppins] text-white mr-2">0xD77401Aakbcjsibjisbijasb25dEc07615509E7</p>
+                                                <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Inter] text-white mr-2">0xD77401Aakbcjsibjisbijasb25dEc07615509E7</p>
                                                 <img src={copyIcon} alt="" onClick={handleCopy} width={13} />
                                                 <ToastContainer />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="2xl:w-[32.5%] xl:w-[32.5%] lg:w-[32.5%] md:w-[90%] sm:w-[90%] w-[90%]  ">
-                                        <h3 className="text-[20px] font-[600] font-[Poppins] text-white mb-2">Decimal</h3>
-                                        <p className="text-[15px] font-[400] font-[Poppins] text-white ">18</p>
+                                        <h3 className="text-[20px] font-[600] font-[Inter] text-white mb-2">Decimal</h3>
+                                        <p className="text-[15px] font-[400] font-[Inter] text-white ">18</p>
                                     </div>
                                 </div>
                             </div>
@@ -75,20 +75,20 @@ const TokenDetailsSection = () => {
 
                                 <div className=" py-8 2xl:flex xl:flex lg:flex md:block sm:block block justify-between items-center">
                                     <div className=" 2xl:w-[35%] xl:w-[35%] lg:w-[35%] md:w-[100%] sm:w-[100%] w-[100%] 2xl:border-r xl:border-r lg:border-r md:border-none sm:border-none border-none border-[#F9C333]">  
-                                    <h3 className="text-[20px]  font-[800] font-[Poppins] text-white mb-2">Presale Details</h3>
+                                    <h3 className="text-[20px]  font-[800] font-[Inter] text-white mb-2">Presale Details</h3>
                                     <div>
-                                        <h3 className="text-[16px] font-[600] font-[Poppins] text-white mb-2">Token sold during the Pre-sale</h3>
-                                        <p className="text-[15px] font-[400] font-[Poppins] text-white mr-2">200,000,000 SCORP </p>
+                                        <h3 className="text-[16px] font-[600] font-[Inter] text-white mb-2">Token sold during the Pre-sale</h3>
+                                        <p className="text-[15px] font-[400] font-[Inter] text-white mr-2">200,000,000 SCORP </p>
                                     </div>
                                     </div>
 
                                     <div className="py-4 2xl:w-[30%] xl:w-[30%] lg:w-[30%] md:w-[100%] sm:w-[100%] w-[100%] 2xl:border-r xl:border-r lg:border-r md:border-none sm:border-none border-none border-[#F9C333]" >
-                                        <h3 className="text-[20px] font-[600] font-[Poppins] text-white mb-2">Current Stage Price</h3>
-                                        <p className="text-[15px] font-[400] font-[Poppins] text-white mr-2">1 SCORP = $0.01</p>
+                                        <h3 className="text-[20px] font-[600] font-[Inter] text-white mb-2">Current Stage Price</h3>
+                                        <p className="text-[15px] font-[400] font-[Inter] text-white mr-2">1 SCORP = $0.01</p>
                                     </div>
                                     <div className="2xl:w-[20%] xl:w-[20%] lg:w-[20%] md:w-[100%] sm:w-[100%] w-[100%]">
-                                        <h3 className="text-[20px] font-[600] font-[Poppins] text-white mb-2">Exchange Listing Price</h3>
-                                        <p className="text-[15px] font-[400] font-[Poppins] text-white mr-2">1 SCORP = $0.05</p>
+                                        <h3 className="text-[20px] font-[600] font-[Inter] text-white mb-2">Exchange Listing Price</h3>
+                                        <p className="text-[15px] font-[400] font-[Inter] text-white mr-2">1 SCORP = $0.05</p>
                                     </div>
                                 </div>
                             </div>

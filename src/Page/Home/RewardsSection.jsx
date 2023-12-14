@@ -8,10 +8,6 @@ import { useTranslation } from "react-i18next";
 
 import Tick1 from "../../assects/images/tick1.png"
 import cross from "../../assects/images/cross.png"
-import Bronze from "../../assects/images/bronze.png"
-import Silver from "../../assects/images/silver.png"
-import Gold from "../../assects/images/gold.png"
-import Platinum from "../../assects/images/platinum.png"
 import Crown from "../../assects/images/crown.png"
 
 
@@ -32,9 +28,9 @@ const RewardSection = () => {
     const listData = [
         {
             id: 1,
-            packageType: "Bronze",
+            packageType: "Diamond Scorpion NFT",
             spendPrice: amountRange,
-            spendImage: Bronze,
+            spendImage: Crown,
             packageList: [
                 {
                     id: 1,
@@ -67,9 +63,9 @@ const RewardSection = () => {
         },
         {
             id: 2,
-            packageType: "Silver",
+            packageType: "Diamond Scorpion NFT",
             spendPrice: amountRange,
-            spendImage: Silver,
+            spendImage: Crown,
             packageList: [
                 {
                     id: 1,
@@ -101,9 +97,9 @@ const RewardSection = () => {
         },
         {
             id: 3,
-            packageType: "Gold",
+            packageType: "Diamond Scorpion NFT",
             spendPrice: amountRange,
-            spendImage: Gold,
+            spendImage: Crown,
             packageList: [
                 {
                     id: 1,
@@ -135,9 +131,9 @@ const RewardSection = () => {
         },
         {
             id: 4,
-            packageType: "Platinium  ",
+            packageType: "Diamond Scorpion NFT  ",
             spendPrice: amountRange,
-            spendImage: Platinum,
+            spendImage: Crown,
             packageList: [
                 {
                     id: 1,
@@ -169,7 +165,7 @@ const RewardSection = () => {
         },
         {
             id: 5,
-            packageType: "Diamond ",
+            packageType: "Diamond Scorpion NFT ",
             spendPrice: amountRange,
             spendImage: Crown,
             packageList: [

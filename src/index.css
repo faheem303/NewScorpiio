@@ -5,6 +5,7 @@
 
 body {
   margin: 0px;
+  font-family: 'Inter', sans-serif !important;
 }
 
 .tablebg {
@@ -15,6 +16,11 @@ body {
   background: linear-gradient(90deg, #AE8625 -3.12%, #F7EF8A 29.71%, #D2AC47 73.6%, #EDC967 102.14%) !important;
   backdrop-filter: blur(38.5864px) !important;
 
+}
+.herobtnbg{
+  border-radius: 19px;
+border: 1px solid #F9C333;
+background: linear-gradient(231deg, #000 23.34%, #7A551B 136.12%, #946317 166.79%);
 }
 .mediabg{
   border-radius: 32px;

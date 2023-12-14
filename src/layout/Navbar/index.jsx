@@ -40,7 +40,7 @@ const Navbar = ({ handelClick }) => {
 
 
     return (
-        <nav className=" z-10 bg-[#111010] fixed  top-0 2xl:px-[90px] xl:px-[90px] lg:px-[90px] md:px-[90px] sm:px-4 xs:px-4  py-6 sm:py-0 xs:py-3 w-full " >
+        <nav className=" z-10 bg-[#111010] fixed  top-0 2xl:px-[90px] xl:px-[90px] lg:px-[90px] md:px-[90px] sm:px-4 xs:px-4  py-3 sm:py-0 xs:py-3 w-full " >
             <header className="flex justify-between">
                 <div
                     className="flex items-center space-x-10 h-16 max-w-screen-2xl sm:px-0 xs:px-0 lg:px- "
@@ -73,12 +73,12 @@ const Navbar = ({ handelClick }) => {
                     </div>
                     <div className='flex items-center justify-between xs:justify-start space-x-5 xs:space-x-0 '>
                         <div className='flex justify-between space-x-6 xs:hidden sm:hidden md:hidden '>
-                            <h4 className='text-white font-[poppins] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#future">What is Scorpion Casino?</a> </h4>
-                            <h4 className='text-white font-[poppins] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#groth">Growth Potential</a> </h4>
-                            <h4 className='text-white font-[poppins] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#whitepaper">Whitepaper</a> </h4>
-                            <h4 className='text-white font-[poppins] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#tokenomics">Tokenomics</a> </h4>
-                            <h4 className='text-white font-[poppins] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]'>  <a href="#howtobuy">How to Buy</a></h4>
-                            <h4 className='text-white font-[poppins] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]'> <a href="#faqs">FAQ</a> </h4>
+                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#future">What is Scorpion Casino?</a> </h4>
+                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#groth">Growth Potential</a> </h4>
+                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#whitepaper">Whitepaper</a> </h4>
+                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#tokenomics">Tokenomics</a> </h4>
+                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]'>  <a href="#howtobuy">How to Buy</a></h4>
+                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]'> <a href="#faqs">FAQ</a> </h4>
 
                         </div>
 
@@ -115,7 +115,7 @@ const Navbar = ({ handelClick }) => {
                     </div>
                 </div>
                 <div className='flex items-center'>
-                    <button className='bgcolor text-[18px] font-[Poppins] font-[600] rounded-full px-4 h-[40px]'>Connect Wallet</button>
+                    <button className='bgcolor 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] text-[12px] font-[Inter] font-[700] rounded-full px-4 h-[40px]'>Connect Wallet</button>
                 </div>
             </header >
             {

@@ -13,7 +13,7 @@ function Barriers() {
               alt=""
             />
           </div>
-          <div className="2xl:w-[48%] xl:w-[48%] lg:w-[48%] md:w-[80%] sm:w-[85%] w-[90%] flex flex-col 2xl:gap-[20px] xl:gap-[20px] lg:gap-[20px] md:gap-[20px] sm:gap-[17px] gap-[17px]">
+          <div className="z-[2] 2xl:w-[48%] xl:w-[48%] lg:w-[48%] md:w-[80%] sm:w-[85%] w-[90%] flex flex-col 2xl:gap-[20px] xl:gap-[20px] lg:gap-[20px] md:gap-[20px] sm:gap-[17px] gap-[17px]">
             <h2 className="2xl:text-[40px] xl:text-[40px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[30px] 2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center text-center gradientText font-[900] leading-[40px] uppercase">
               BREAKING DOWN THE BARRIERS TO THE CASINO INDUSTRY
             </h2>

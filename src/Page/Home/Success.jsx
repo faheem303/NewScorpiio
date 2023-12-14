@@ -23,15 +23,15 @@ function Success() {
           }
         />
        <SuccessCards
-          src={CoinMarket}
+          src={CryptoNews}
           imgClass={"h-[200px] mx-auto"}
           title={"Funtoken"}
           para={
             "Launched years ago, Funtoken remains consistently ranked in the top 500 on CoinMarketCap. It is listed on top-tier exchanges like Huobi and Binance."
           }
         />
-        <SuccessCards
-          src={CryptoNews}
+        <SuccessCards 
+          src={CoinMarket}
           imgClass={"h-[200px] mx-auto"}
           title={"Stake"}
           para={

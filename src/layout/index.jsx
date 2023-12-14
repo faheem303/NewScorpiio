@@ -10,7 +10,7 @@ import Navbar from './Navbar';
 const Layout = ({handelClick}) => {
     return (
         <div className='relative'>
-            <div className='mb-[6rem] xs:mb-[3rem] sm:mb-[3rem] md:mb-[3rem]'>
+            <div className='mb-[4rem] xs:mb-[3rem] sm:mb-[3rem] md:mb-[3rem]'>
             <Navbar handelClick={handelClick} className="bg-[#111010] " />
             </div>
             <div>

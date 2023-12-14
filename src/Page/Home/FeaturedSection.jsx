@@ -1,18 +1,20 @@
 import React from "react";
 
-import img1 from "../../assects/svgs/evo.e50f73eb35beb77cc2ea.png.svg"
-import img2 from "../../assects/svgs/image (2).svg"
-import img3 from "../../assects/svgs/image (3).svg"
-import img4 from "../../assects/svgs/image (4).svg"
-import img5 from "../../assects/svgs/image (5).svg"
-import img6 from "../../assects/svgs/image (6).svg"
-import img7 from "../../assects/svgs/image (7).svg"
-import img8 from "../../assects/svgs/image (8).svg"
-import img9 from "../../assects/svgs/image (9).svg"
-import img10 from "../../assects/svgs/image (10).svg"
-import img11 from "../../assects/svgs/image (11).svg"
+import img1 from "../../assects/icons/fe (9).png"
+import img2 from "../../assects/icons/fe (12).png"
+import img3 from "../../assects/icons/fe (3).png"
+import img4 from "../../assects/icons/fe (6).png"
+import img5 from "../../assects/icons/fe (10).png"
+import img6 from "../../assects/icons/fe (1).png"
+import img7 from "../../assects/icons/fe (4).png"
+import img8 from "../../assects/icons/fe (7).png"
+import img9 from "../../assects/icons/fe (11).png"
+import img10 from "../../assects/icons/fe (2).png"
+import img11 from "../../assects/icons/fe (5).png"
+import img12 from "../../assects/icons/fe (8).png"
 
 const imgData = [
+    
     {
         id: 1,
         imgName: img1,
@@ -39,27 +41,27 @@ const imgData = [
     },
     {
         id: 7,
-        imgName: img6,
-    },
-    {
-        id: 8,
         imgName: img7,
     },
     {
-        id: 9,
+        id: 8,
         imgName: img8,
     },
     {
-        id: 10,
+        id: 9,
         imgName: img9,
     },
     {
-        id: 11,
+        id: 10,
         imgName: img10,
     },
     {
-        id: 12,
+        id: 11,
         imgName: img11,
+    },
+    {
+        id: 12,
+        imgName: img12,
     },
 ]
 
@@ -69,15 +71,15 @@ const imgData = [
 const FeaturedSection = () => {
     return (
         <>
-            <div className="w-full 2xl:px-44 xl:px-44 px-10  bg-[#090909] py-12" >
+            <div className="w-full   px-10  bg-[#090909] py-12" >
                 <div className="text-center">
-                    <h2 className="font-[800] font-[Poppins] color text-[34px] xs:text-[30px] gradientText uppercase">Featured In</h2>
+                    <h2 className="font-[900] font-[inter] color text-[40px] xs:text-[30px] gradientText uppercase">Featured In</h2>
                 </div>
                 <div className="pt-5 grid grid-cols-4 lg:grid-cols-4 md:grid-cols-2 gap-2 xs:grid-cols-2 sm:grid-cols-2 w-full flex 2xl:justify-between xl:justify-between lg:justify-between md:justify-evenly sm:justify-evenly justify-evenly flex-wrap">
                     {
                         imgData.map((item, id) => (
-                            <a href={item.link} key={id} className="md:flex md:justify-center sm:flex sm:justify-center xs:flex xs:justify-center">
-                                <img className="items-center content-center w-[200px] h-[100px]" src={item.imgName}  alt="" />
+                            <a href={item.link} key={id} className="flex justify-center md:flex md:justify-center sm:flex sm:justify-center xs:flex xs:justify-center">
+                                <img className="items-center content-center w-[170px]" src={item.imgName}  alt="" />
                             </a>
                         ))
                     }

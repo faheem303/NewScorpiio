@@ -176,7 +176,7 @@ const cardData = [
 
             <div className="">
                 <h2 className="uppercase font-[900] font-[Inter] text-[40px] xs:text-[30px] gradientText">Roadmap</h2>
-                <p className="text-[18px] text-[#fff] font-[Poppins] font-[400] leading-[28px]">This is the SCORPION Casino Roadmap</p>
+                <p className="text-[18px] text-[#fff] font-[Inter] font-[400] leading-[28px]">This is the SCORPION Casino Roadmap</p>
             </div>
             <div className=" pt-16 w-[100%]" style={{paddingBottom:"-30px"}}>
                 <div style={{ height: "", position: "relative" }}>
@@ -201,17 +201,17 @@ const cardData = [
                                 onClick={() => handleSlideClick(id)} >
                                     <div className=" space-y-2  ">
                                         <div className=" " >
-                                            <h4 className="gradientText text-[18px] font-[900] font-[Poppins]">{item.qa}</h4>
+                                            <h4 className="gradientText text-[18px] font-[900] font-[Inter]">{item.qa}</h4>
                                           
                                         </div>
-                                        <h3 className="font-[700] pb-2 gradientText font-[Poppins] text-[32px] leading-[29px]">{item.phase} </h3>
+                                        <h3 className="font-[700] pb-2 gradientText font-[Inter] text-[32px] leading-[29px]">{item.phase} </h3>
                                         <div className="">
                                             {
                                                 item.paraData.map((i, k) => (
                                                     <div className="flex">
                                                         {item.tickIcon ?
                                                             <img className="w-[18px] h-[18px] mr-2" src={item.tickIcon} alt="" /> : <></>}
-                                                        <span key={k} className="font-[400] mb-4 text-gray-300 font-[Poppins] text-[16px] leading-[18px]">{i.para}</span>
+                                                        <span key={k} className="font-[400] mb-4 text-gray-300 font-[Inter] text-[16px] leading-[18px]">{i.para}</span>
                                                     </div>
                                                 ))
                                             }
@@ -224,10 +224,10 @@ const cardData = [
                                                 item.id == 3 ?
                                                     item.comp &&
                                                     <div className="bgcolor flex items-center py-[10px] px-[20px] rounded-full">
-                                                        <h4 className="  text-[16px] font-[Poppins]">{(item.comp).toUpperCase()}</h4>
+                                                        <h4 className="  text-[16px] font-[Inter]">{(item.comp).toUpperCase()}</h4>
                                                     </div> :
                                                     <div className="bgcolordark flex items-center py-[10px] px-[20px] rounded-full">
-                                                        <h4 className="  text-[16px] font-[Poppins]">{(item.comp).toUpperCase()}</h4>
+                                                        <h4 className="  text-[16px] font-[Inter]">{(item.comp).toUpperCase()}</h4>
                                                     </div>
 
                                             }

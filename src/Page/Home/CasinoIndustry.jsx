@@ -240,17 +240,17 @@ const CasinoIndustry = () => {
             <div className="gambloingbg py-12 xs:py-4 sm:py-6 space-y-4  xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] m-auto   ">
             <h3 className="text-[43px] text-center font-[900] leading-[40px] uppercase xs:text-[30px] text-white font-[Inter] gradientText">DISRUPTING THE GAMBLING INDUSTRY </h3>
 
-                <div className="flex justify-center   items-end ">
-                    <div className="w-[240px] xs:w-[30%] sm:w-[30%] md:w-[30%] lg:w-[30%] mr-4 xs:mr-1">
+                <div className="flex justify-center items-end ">
+                    <div className="w-[10%]  xs:w-[30%] sm:w-[30%] md:w-[30%] lg:w-[30%] mr-4 xs:mr-1">
                         {
                             TableData.map((item, id) => (
 
-                                <div className="text-start xs:text-[8px] xs:font-[500] sm:text-[12px] w-[240px] xs:w-[100%] sm:w-[100%] md:w-[100%] font-[Poppins]  font-[700]  px-3 xs:px-1  xs:py-2 py-3  text-white"><h5>{item.title}</h5></div>
+                                <div className="text-start xs:text-[8px] xs:font-[500] sm:text-[12px] w-[240px] xs:w-[100%] sm:w-[100%] md:w-[100%] font-[inter]  font-[700]  px-3 xs:px-1  xs:py-2 py-3  text-white"><h5>{item.title}</h5></div>
                             ))
                         }
 
                     </div>
-                    <div className="xs:w-[%]  sm:w-[%] md:w-[%] lg:w-[%] ">
+                    <div className="">
 
                         <div className="flex  ">
                                 <div className="flex">

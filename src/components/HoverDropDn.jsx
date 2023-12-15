@@ -157,7 +157,7 @@ const HoverDropDn = () => {
                 </div>
             </div>
             <div className="py-5 rounded-b-[17.81px] bg-[#6F612F] px-[40px]">
-                <div className="flex justify-between">
+                <div className="flex justify-between items-center">
                     <h3 className="text-[18px] font-[Inter] text-white font-[700]">Need support?</h3>
                     <a href="" className="underline font-[Inter] text-white font-[400] text-[18px]">Join our 24/7 Live Chat Support on Telegram</a>
                 </div>

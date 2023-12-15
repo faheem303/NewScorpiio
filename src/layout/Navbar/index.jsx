@@ -90,19 +90,19 @@ const Navbar = ({ handelClick }) => {
                                     }} type="button" >
                                     <img src={flg} width={20} className=" mr-2" />
                                     {lang}
-                                    <svg  className={`fill-current text-white h-4 w-4 transform ${langStatus ? "rotate-180" : ""}`} aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                                    <svg className={`fill-current text-white h-4 w-4 transform ${langStatus ? "rotate-180" : ""}`} aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
 
                                 {
                                     langStatus &&
-                                    <div id="dropdown" class="absolute w-[1000px] hoverdropbg -right-[70%]   z-10 bg-white divide-y divide-gray-100 rounded-lg shadow " >
+                                    <div id="dropdown" class="absolute w-[1000px] hoverdropbg -right-[270%] top-[180%]   z-10 bg-white divide-y divide-gray-100 rounded-lg shadow " >
                                         <ul class="text-sm text-black " aria-labelledby="dropdownDefaultButton">
                                             <div>
                                                 <HoverDropDn />
                                             </div>
                                             <div className="pointer-events-none  absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                                               
+
                                             </div>
-                                          
+
 
                                         </ul>
                                     </div>
@@ -123,60 +123,13 @@ const Navbar = ({ handelClick }) => {
                 <div className='' >
 
                     <div className=' relative  space-y-8 py-12 px-6 2xl:hidden xl:hidden lg:hidden h-[990px] bg-[#111010] w-full left-0 absolute'>
-                        <button className='text-white font-[poppins] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose}  >What is Scorpion Casino?</button>
-                        <h4 className='text-white font-[poppins] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose} > Growth Potential </h4>
-                        <h4 className='text-white font-[poppins] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose} > Whitepaper </h4>
-                        <h4 className='text-white font-[poppins] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose} > Tokenomics </h4>
-                        <h4 className='text-white font-[poppins] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose}> How to Buy</h4>
-                        <h4 className='text-white font-[poppins] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose}>FAQ</h4>
-                        <li className='flex items-center'>
-                            <div className='relative '>
-
-                                <button onClick={handleLangDropdown} id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white font-medium rounded-lg text-sm w-[full]  py-2.5 text-center inline-flex items-center px-2"
-                                    style={{
-                                        border: "1px solid #727272",
-                                        width: "100%"
-                                    }} type="button" >
-                                    <img src={globe} width={20} className=" mr-2" />
-                                    {lang}
-                                    <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-
-                                {
-                                    langStatus &&
-                                    <div id="dropdown" class="absolute w-[100%]  z-10 bg-white divide-y divide-gray-100 rounded-lg shadow " >
-                                        <ul class="text-sm text-black " aria-labelledby="dropdownDefaultButton">
-                                            <li>
-                                                <button onClick={() => {
-                                                    handelClick('en')
-                                                    setLangStatus(!langStatus)
-                                                    setLang("English")
-
-                                                }
-                                                } style={{ width: "100%" }} class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white" >English</button>
-                                            </li>
-                                            <li>
-                                                <button onClick={() => {
-                                                    setLangStatus(!langStatus)
-                                                    handelClick('de')
-                                                    setLang("German")
-                                                }} style={{ width: "100%" }} class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">German</button>
-                                            </li>
-                                            <li>
-                                                <button onClick={() => {
-                                                    setLangStatus(!langStatus)
-                                                    handelClick('fr')
-                                                    setLang("French")
-
-                                                }} style={{ width: "100%" }} class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">French</button>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                }
-
-                            </div>
-
-                        </li>
+                        <button className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose}  >What is Scorpion Casino?</button>
+                        <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose} > Growth Potential </h4>
+                        <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose} > Whitepaper </h4>
+                        <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose} > Tokenomics </h4>
+                        <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose}> How to Buy</h4>
+                        <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose}>FAQ</h4>
+                     
 
                     </div>
                 </div>

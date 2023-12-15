@@ -76,7 +76,7 @@ function PressRelease() {
   return (
     <>
       <div className="flex justify-end">
-        <div className="2xl:w-[92.5%] xl:w-[92.5%] lg:w-[92.5%] md:w-[95%] sm:w-[95%] w-[95%] pb-[95px]">
+        <div className="2xl:w-[88%] xl:w-[90%] lg:w-[90%] md:w-[95%] sm:w-[95%] w-[95%] pb-[95px]">
           <div>
             <h2 className="2xl:text-[40px] xl:text-[40px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[30px] gradientText font-[900] leading-[40px] uppercase 2xl:pb-[20px] xl:pb-[20px] lg:pb-[20px] md:pb-[20px] sm:pb-[0px] pb-[0px]">
               Press release

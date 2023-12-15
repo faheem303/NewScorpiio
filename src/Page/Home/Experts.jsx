@@ -19,7 +19,7 @@ import SmallCosta from "../../assects/images/smallCosta.png";
 function Experts() {
   return (
     <>
-      <div className="2xl:w-[85%] xl:w-[85%] lg:w-[85%] md:w-[90%] sm:w-[90%] w-[90%]  mx-auto pb-[95px]">
+      <div className=" w-[100%]  mx-auto pb-[95px]">
         <div>
           <h2 className="2xl:text-[40px] xl:text-[40px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[30px] text-center gradientText font-[900] leading-[40px] uppercase 2xl:pb-[83px] xl:pb-[83px] lg:pb-[83px] md:pb-[44px] sm:pb-[44px] pb-[44px]">
           what crypto experts think about $scorp

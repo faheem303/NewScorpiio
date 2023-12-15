@@ -49,7 +49,7 @@ const BenefitSection = () => {
                     BenefitData.map((item, id) => (
                         <div key={id} className="text-white text-center  benefitCardbg px-4 py-6 space-y-3 border border-[#e3c88e3d] rounded-lg">
                            
-                            <h3 className="font-[900] font-[Inter] uppercase text-[25px] leading-[30px] gradientText ">{item.title}</h3>
+                            <h3 className="font-[900] font-[Inter] uppercase text-[20px] leading-[30px] gradientText ">{item.title}</h3>
                             <p id="howtobuy" className="text-center font-[400] font-[Inter] text-[14px] xs:text-[13px] text-[#FFF]">{item.subtitle}</p>
                             <div className="flex justify-center">
                             <img src={item.image} alt=""  className="2xl:h-[234px] xl:h-[160px] lg:h-[160px] md:h-[200px] sm:h-[200px] h-[200px]"/>

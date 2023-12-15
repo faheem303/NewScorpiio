@@ -91,15 +91,15 @@ const HowItWork = () => {
 
                 </div>
 
-                <div className="flex pb-6 pt-12 filterblurbg justify-center flex-col items-center space-y-3" >
-                    <img className=" w-[100%] 2xl:w-[90%] xl:w-[90%] xs:w-[100%] sm:w-[100%] md:w-[100%]" src={Frame} alt="" />
+                <div className="flex  pb-6 pt-12 justify-center flex-col items-center space-y-3" >
+                    <img className=" w-[100%] 2xl:w-[100%] xl:w-[100%] xs:w-[100%] sm:w-[100%] md:w-[100%]" src={Frame} alt="" />
 
                 </div>
             </div>
             <div>
                 <BuyBackSectionCard />
             </div>
-            <div className=" 2xl:space-y-0 xl:space-y-0 lg:space-y-0 md:space-y-[5rem] sm:space-y-[5rem] space-y-[5rem] ">
+            <div className=" 2xl:space-y-[6rem] xl:space-y-[6rem] lg:space-y-[6rem] md:space-y-[5rem] sm:space-y-[5rem] space-y-[5rem] ">
                 <div>
                     <div className="flex  xs:block sm:block md:block justify-between 2xl:space-y-0 xl:space-y-0 lg:space-y-0 md:space-y-[5rem] sm:space-y-[5rem] space-y-[5rem] items-center">
 

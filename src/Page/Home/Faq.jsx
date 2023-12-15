@@ -102,8 +102,8 @@ const FaqList = () => {
     <>
       <div>
         <div className="2xl:w-[75%] xl:w-[75%] lg:w-[75%] md:w-[75%] sm:w-[85%] w-[85%] mx-auto pb-[95px]">
-          <div className="text-center pb-[40px]">
-          <h2 className="2xl:text-[40px] xl:text-[40px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[30px] gradientText font-[900] leading-[40px] uppercase 2xl:pb-[14pxpx] xl:pb-[14pxpx] lg:pb-[14pxpx] md:pb-[14pxpx] sm:pb-[12px] pb-[12px]">
+          <div className="text-center ">
+          <h2 className="2xl:text-[40px] xl:text-[40px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[30px] gradientText font-[900] leading-[40px] uppercase 2xl:pb-[14px] xl:pb-[14px] lg:pb-[14px] md:pb-[14px] sm:pb-[12px] pb-[12px]">
          Faqs
          </h2>
             <p className="text-[18px] font-[400] text-[#fff] 2xl:pb-[30px] xl:pb-[30px] lg:pb-[30px] md:pb-[30px] sm:pb-[0px] pb-[0px]">

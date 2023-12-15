@@ -7,7 +7,7 @@ import CryptoNews from "../../assects/images/ex1 (1).png";
 function Success() {
   return (
     <>
-     <div className="2xl:w-[85%] xl:w-[85%] lg:w-[85%] md:w-[90%] sm:w-[90%] w-[90%]  mx-auto pb-[95px]">
+     <div className=" w-[100%]  mx-auto pb-[95px]">
       <div>
         <h2 className="2xl:text-[40px] xl:text-[40px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[30px] text-center gradientText font-[900] leading-[40px] uppercase 2xl:pb-[67px] xl:pb-[67px] lg:pb-[67px] md:pb-[44px] sm:pb-[44px] 2xl:pb-[39px] xl:pb-[39px] lg:pb-[39px] md:pb-[39px] sm:pb-[30px] pb-[25px]">
         Success Stories & Growth Potential
@@ -32,7 +32,7 @@ function Success() {
         />
         <SuccessCards 
           src={CoinMarket}
-          imgClass={"h-[200px] mx-auto"}
+          imgClass={"h-[170px] mx-auto "}
           title={"Stake"}
           para={
             "Stake is one of the fastest-growing companies worldwide, valued at billions of dollars. They have established long-term partnerships with music superstar Drake and the UFC."

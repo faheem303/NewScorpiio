@@ -4,7 +4,7 @@ import Button from "../../components/Button/button";
 
 function Gambling() {
   return (
-    <div className="2xl:w-[85%] xl:w-[85%] lg:w-[85%] md:w-[90%] sm:w-[90%] w-[100%]  mx-auto pb-[95px]">
+    <div className=" w-[100%]  mx-auto pb-[95px]">
       <div className="flex flex-wrap-reverse 2xl:justify-between xl:justify-between lg:justify-between md:justify-center sm:justify-center justify-center gap-y-[19px] 2xl:border-[1.5px] xl:border-[1.5px] lg:border-[1.5px] md:border-[1.5px] sm:border-[1.5px] border-[0] border-solid border-[#FFFBC8] 2xl:py-[55px] xl:py-[55px] lg:py-[55px] md:py-[55px] sm:py-[55px] py-0 2xl:px-[50px] xl:px-[50px] lg:px-[50px] md:px-[50px] sm:px-[50px] px-0 rounded-[37px]">
         <div className="2xl:w-[49%] xl:w-[49%] lg:w-[49%] md:w-[90%] sm:w-[95%] w-[100%]">
           <img

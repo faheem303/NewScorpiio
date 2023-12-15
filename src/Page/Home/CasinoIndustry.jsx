@@ -240,8 +240,8 @@ const CasinoIndustry = () => {
             <div className="gambloingbg py-12 xs:py-4 sm:py-6 space-y-4  xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] m-auto   ">
             <h3 className="text-[43px] text-center font-[900] leading-[40px] uppercase xs:text-[30px] text-white font-[Inter] gradientText">DISRUPTING THE GAMBLING INDUSTRY </h3>
 
-                <div className="flex justify-center items-end ">
-                    <div className="w-[10%]  xs:w-[30%] sm:w-[30%] md:w-[30%] lg:w-[30%] mr-4 xs:mr-1">
+                <div className="flex w-[90%] mx-auto justify-between items-end ">
+                    <div className="[30%]  xs:w-[30%] sm:w-[30%] md:w-[30%] lg:w-[30%] mr-4 xs:mr-1">
                         {
                             TableData.map((item, id) => (
 
@@ -250,10 +250,8 @@ const CasinoIndustry = () => {
                         }
 
                     </div>
-                    <div className="">
-
-                        <div className="flex  ">
-                                <div className="flex">
+                    <div className="w-[60%]">
+                    <div className="flex justify-between">
                                     {
                                         TableColDataP.map((item) => (
 
@@ -271,7 +269,7 @@ const CasinoIndustry = () => {
                                                     {item.TableDataCol.map((i) => (
                                                         <div
                                                             key={i.id}
-                                                            className=" w-[150px] xs:w-[38px] sm:w-[55px] md:w-[65px] lg:w-[85px] py-[4px] flex justify-center   text-white"
+                                                            className=" w-[110px] xs:w-[38px] sm:w-[55px] md:w-[65px] lg:w-[85px] py-[4px] flex justify-center   text-white"
                                                         >
                                                             <img className="h-[40px] xs:h-[20px] sm:h-[34px] md:h-[40px]" src={i.img} alt="" />
                                                         </div>
@@ -282,7 +280,6 @@ const CasinoIndustry = () => {
                                     }
                                 </div>
 
-                        </div>
                     </div>
                 </div>
                 <p id="whitepaper"></p>

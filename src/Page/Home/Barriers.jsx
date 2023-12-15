@@ -4,11 +4,11 @@ import BarriersImg from "../../assects/images/barriers.png";
 function Barriers() {
   return (
     <>
-      <div className="2xl:w-[85%] xl:w-[85%] lg:w-[85%] md:w-[90%] sm:w-[90%] w-[90%]  mx-auto py-[95px]">
+      <div className="w-[100%]  mx-auto py-[95px]">
         <div className="flex flex-wrap-reverse 2xl:justify-between xl:justify-between lg:justify-between md:justify-center sm:justify-center justify-center gap-y-[29px]">
           <div className="relative 2xl:w-[49%] xl:w-[49%] lg:w-[49%] md:w-[90%] sm:w-[95%] w-[100%]">
             <img
-              className="absolute -top-[29%] w-[100%] 2xl:h-[554px] xl:h-[554px] lg:h-[554px] md:h-[554px] sm:h-auto h-auto"
+              className="absolute -top-[10%] w-[100%] 2xl:h-[500px] xl:h-[500px] lg:h-[500px] md:h-[500px] sm:h-auto h-auto"
               src={BarriersImg}
               alt=""
             />

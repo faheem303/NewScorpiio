@@ -58,9 +58,9 @@ const ProductDetailsSection = () => {
                 </a>
 
             </div>
-            <div className='flex justify-between  xs:space-y-3 sm:space-y-3 md:space-y-3 xs:block md:block sm:block'>
+            <div className='flex justify-between lg:space-y-4 xs:space-y-3 sm:space-y-3 md:space-y-3 lg:block xs:block md:block sm:block'>
 
-                <div className="w-[60%] space-y-[17px]  xs:w-[100%] sm:w-[100%] md:w-[100%]  ">
+                <div className="w-[60%] xl:w-[55%] flex flex-col justify-end space-y-[17px] lg:w-[100%]  xs:w-[100%] sm:w-[100%] md:w-[100%]  ">
                     <h5 className="text-[20px] font-[900] gradientText font-[Inter] text-white uppercase">THe world’s first Social Gambling Cryptocurrency </h5>
                     <h3 className="text-[30px] leading-[27px] font-[Inter] font-[900] gradientText uppercase">ICONIC CASINO TOKEN LAUNCH IS SET TO DISRUPT THE $450 BILLION GAMBLING INDUSTRY WITH A SHOCKING COMMUNITY REWARD SYSTEM</h3>
                     <h5 className="text-[18px] font-[400] leading-[28px] font-[Inter]  text-white ">Start earning today and receive up to 10,000 USDT in daily passive staking income from a licensed and regulated global Casino and Betting Platform, no matter the market conditions.</h5>
@@ -75,12 +75,12 @@ const ProductDetailsSection = () => {
                         </video>
                     </div>
                 </div>
-                <div className='w-[38%] xs:w-[100%] sm:w-[100%] md:w-[100%]'>
+                <div className='w-[38%] xl:w-[42%] lg:w-[65%] lg:mx-auto flex flex-col justify-end  xs:w-[100%] sm:w-[100%] md:w-[100%]'>
 
 
-                    <div className=' py-[30px] h-[830px]  px-[52px]  bg-filter space-y-4'>
+                    <div className=' py-[30px]  2xl:h-[830px] xl:h-[830px] lg:h-[900px] md:h-[900px] sm:lg:h-[900px] h-[900px]  2xl:px-[52px] xl:px-[45px] lg:px-[32px] md:px-[52px] sm:px-[52px] px-[52px]  bg-filter space-y-4'>
                         <div>
-                            <h3 className="text-[36px] font-[700] text-center font-[Inter] leading-[66px] text-white">$SCORP Pre-Sale</h3>
+                            <h3 className="2xl:text-[36px] xl:text-[36px] lg:text-[26px] md:text-[26px] sm:text-[28px] text-[36px] font-[700] text-center font-[Inter] 2xl:leading-[60px] xl:leading-[60px]  lg:leading-[35px] md:leading-[60px] sm:leading-[60px] text-white">$SCORP Pre-Sale</h3>
                         </div>
                         <div className=' bgposter '>
 
@@ -127,16 +127,16 @@ const ProductDetailsSection = () => {
                                         <h4 className="text-white text-[13px]"> <span className="pr-1">1 SCORP</span>=<span>$0.0714</span></h4>
                                         <hr className="text-white w-[20%]" />
                                     </div>
-                                    <div className="flex justify-between xs:block sm:block xs:space-y-2 sm:space-y-2 ">
-                                        <button className="flex items-center xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7 xs:px-2 xs:py-1  py-2 border hover:border-gray-400">
+                                    <div className="2xl:flex justify-between xl:flex lg:block md:block block sm:block xs:space-y-2 sm:space-y-2 md:space-y-2 lg:space-y-2 ">
+                                        <button className="flex items-center xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7 xs:px-2 xs:py-1  py-2 border hover:border-gray-400">
                                             <img src={eth} className="pr-2" alt="" />
                                             ETH
                                         </button>
-                                        <button className="flex items-center xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7 xs:px-2 xs:py-1 py-2 border hover:border-gray-400">
+                                        <button className="flex items-center xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%]  flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7 xs:px-2 xs:py-1 py-2 border hover:border-gray-400">
                                             <img src={USDT} className="pr-2 w-[26px]" alt="" />
                                             USDT
                                         </button>
-                                        <button className="flex items-center  xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7 xs:px-2 xs:py-1 py-2 border hover:border-gray-400">
+                                        <button className="flex items-center  xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%]  flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7 xs:px-2 xs:py-1 py-2 border hover:border-gray-400">
                                             <img src={BNB} className="pr-2" alt="" />
                                             BNB
                                         </button>

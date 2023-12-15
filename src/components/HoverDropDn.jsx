@@ -1,5 +1,7 @@
 import React from "react";
 
+
+import ret from "../assects/images/rateg.svg"
 import HDicon from "../assects/svgs/hd (1).svg"
 import HDicon2 from "../assects/svgs/hd (2).svg"
 import HDicon3 from "../assects/svgs/hd (3).svg"
@@ -27,6 +29,7 @@ import fg14 from "../assects/svgs/fg (14).svg"
 const HoverDropDn = () => {
     return (
         <div className="relative hoverdropbg h-[500px] pt-12 flex flex-col justify-between" >
+            <img className="w-[40px] absolute -top-[4%] right-[23%]" src={ret} alt="" />
             <div className=" px-12 2xl:flex xl:flex lg:flex md:flex sm:block block justify-between ">
                 <div className="space-y-[35px]">
                     <div>

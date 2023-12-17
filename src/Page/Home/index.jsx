@@ -50,11 +50,15 @@ import FaqList from './Faq';
 
 const Home = () => {
     return (
-        <div className=' bg-[#111010] overflow-hidden'>
+        <div className=' bg-[#111010]  overflow-hidden'>
+            <div className='relative z-[2]'>
             <div className='px-[90px] sm:px-10 xs:px-6 '>
-                <div id='home'>
+                <div id='home' className=''>
                     <ProductDetaliSection />
                 </div>
+            </div>
+            <div className="herobgbox2"></div>
+            <div className="herobgbox1"></div>
             </div>
             <div className='py-[60px]'>
                 <FeaturedSection />

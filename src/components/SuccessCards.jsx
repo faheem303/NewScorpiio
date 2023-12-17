@@ -6,7 +6,7 @@ function SuccessCards({src,imgClass,title,para}) {
       <div
         className={" uccessCards mediabg 2xl:w-[31%] xl:w-[31%] lg:w-[31%] md:w-[48%] sm:w-[60%] w-[80%] shadow-[ 1px 1px 15px #3F3F3F] rounded-[15px] 2xl:pt-[44px] xl:pt-[44px] lg:pt-[44px] md:pt-[44px] sm:pt-[34px] pt-[34px] 2xl:pb-[25px] xl:pb-[25px] lg:pb-[25px] md:pb-[25px] sm:pb-[25px] pb-[25px] px-[16px] flex flex-col  justify-center"}
       >
-        <div className='h-[210px] flex items-center'>
+        <div className='h-[210px] flex items-end'>
         <img className={imgClass}  src={src} alt="" />
         </div>
        <div className='h-[230px]'>

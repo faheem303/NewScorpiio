@@ -34,7 +34,7 @@ function Experts() {
         <div className="2xl:pb-[83px] xl:pb-[83px] lg:pb-[83px] md:pb-[44px] sm:pb-[44px] pb-[44px]">
           <CryptoExperts container={"flex flex-wrap-reverse 2xl:justify-between xl:justify-between lg:justify-between md:justify-center sm:justify-center justify-center gap-y-[23px]"} title={"i just bought the next billion dollar crypto"} para={"Scorpion Casino also offer passive income when no other crypto gambling platform offers those exact features so all of this is really important and the main reason why I did take advantage of getting in on.”"} btnLarge={"Michael Wrubel"} followerslarge={"Youtuber | 310k Followers"} srcLarge={Wrubel} srcSmall={SmallWrubel} name={"Michael Wrubel"} btnFollowers={"Youtuber | 310k Followers"} lastSrc={""}/>
         </div>
-        <div className="2xl:pb-[83px] xl:pb-[83px] lg:pb-[83px] md:pb-[44px] sm:pb-[44px] pb-[44px]">
+        <div className="">
           <CryptoExperts container={"flex flex-row-reverse flex-wrap-reverse 2xl:justify-between xl:justify-between lg:justify-between md:justify-center sm:justify-center justify-center gap-y-[23px]"} title={"I really like SCORPION CASINO. they have a big shot of becoming a huge success"} para={"The UI (Design) of the Casino is very nice, and they have a ton of different Partnerships that will make this casino truly exceptional."} smallContainer={"flex-row-reverse justify-end"} btnLarge={"Crypto Panda"} followerslarge={"Youtuber | 15k Followers"} srcLarge={Panda} srcSmall={SmallPanda} name={"Crypto Panda"} btnFollowers={"Youtuber | 15k Followers"} lastSrc={""}/>
         </div>
       </div>

@@ -21,7 +21,7 @@ function BlockChain() {
           </div>
           <div className="2xl:w-[49%] xl:w-[49%] lg:w-[49%] md:w-[90%] sm:w-[95%] w-[100%]">
             <img
-              className="w-[100%] 2xl:h-[460px] xl:h-[460px] lg:h-[460px] md:h-[457px] sm:h-auto h-auto"
+              className="w-[100%] 2xl:h-[466px] xl:h-[466px] lg:h-[466px] md:h-[457px] sm:h-auto h-auto"
               src={Blockchain}
               alt=""
             />

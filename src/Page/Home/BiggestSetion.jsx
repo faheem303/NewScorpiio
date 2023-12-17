@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "../../components/Button/button";
 import Beta from "../../assects/images/beta.png"
 
@@ -7,15 +7,21 @@ import Beta from "../../assects/images/beta.png"
 
 const BiggestSection = () => {
 
+    const [show, setShow] = useState(false);
+
+    const handelShowMore = () => {
+        setShow(!show)
+    }
+
     return (
-       <div className="overflow-scroll scroll">
-         <div className="Biggestbg relative z-[2] w-[100%] min-w-[900px]" >
-            <div className="flex items-center px-[29px] py-[40px] justify-between xs:block sm:block md:block">
-                <div className=" flex ">
-                    <h3 className="w-[100%] max-w-[26%] text-[32px] gradientText uppercase font-[900] font-[Inter] leading-[45px] text-white border-r ">BIGGEST BUY-IN COMPETITION</h3>
-                    <p className="w-[80%] text-white text-[18px] font-[inter] pl-5 font-[400] leading-[28px]">We’ve established a Top 10 Biggest Buy-in competition for all pre-sale participants, with a prize pool of 25,000 USD (in $SCORP). This is our way of rewarding those who recognize the immense potential before others and have made a significant contribution to the success of the Scorpion Casino ecosystem.</p>
+        <div className="overflow-scroll scroll">
+            <div className="Biggestbg relative z-[2] w-[100%] min-w-[900px]" >
+                <div className="flex items-center px-[29px] py-[40px] justify-between xs:block sm:block md:block">
+                    <div className=" flex ">
+                        <h3 className="w-[100%] max-w-[26%] text-[32px] gradientText uppercase font-[900] font-[Inter] leading-[45px] text-white border-r ">BIGGEST BUY-IN COMPETITION</h3>
+                        <p className="w-[80%] text-white text-[18px] font-[inter] pl-5 font-[400] leading-[28px]">We’ve established a Top 10 Biggest Buy-in competition for all pre-sale participants, with a prize pool of 25,000 USD (in $SCORP). This is our way of rewarding those who recognize the immense potential before others and have made a significant contribution to the success of the Scorpion Casino ecosystem.</p>
+                    </div>
                 </div>
-            </div>
                 <div className="px-[20px] pb-[40px] space-y-3">
                     <div className="px-6">
                         <ul className="flex justify-between ">
@@ -83,15 +89,88 @@ const BiggestSection = () => {
                             <li className="text-[#fff] w-[120px] text-end py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >$1,500</li>
                         </ul>
                     </div>
-                  
-                </div>
-              
+                    {
+                        show &&
+                        <>
 
-        </div>
-        <div className="flex justify-center pt-[30px]">
-                    <button className="bgcolor text-[18px] font-[600] font-[inter] h-[64px] px-[44px] rounded-full">Load More</button>
+                            <div className="px-6 ">
+                                <ul className="flex justify-between ">
+                                    <li className="text-[#fff] w-[120px]  py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >6th</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >0x9cb...5965b</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >2023-10-06</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >12</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >$26,103.44</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >Platinum</li>
+                                    <li className="text-[#fff] w-[120px] text-end py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >$2,000</li>
+                                </ul>
+                            </div>
+                            <div className="px-6 ">
+                                <ul className="flex justify-between ">
+                                    <li className="text-[#fff] w-[120px]  py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >7th</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >0x112...950a6</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >2023-09-04</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >2</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >$25,350.69</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >Platinum</li>
+                                    <li className="text-[#fff] w-[120px] text-end py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >$1,500</li>
+                                </ul>
+                            </div>
+                            <div className="px-6 ">
+                                <ul className="flex justify-between ">
+                                    <li className="text-[#fff] w-[120px]  py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >8th</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >0x112...950a6</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >2023-09-04</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >2</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >$25,350.69</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >Platinum</li>
+                                    <li className="text-[#fff] w-[120px] text-end py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >$1,500</li>
+                                </ul>
+                            </div>
+                            <div className="px-6 ">
+                                <ul className="flex justify-between ">
+                                    <li className="text-[#fff] w-[120px]  py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >9th</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >0x112...950a6</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >2023-09-04</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >2</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >$25,350.69</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >Platinum</li>
+                                    <li className="text-[#fff] w-[120px] text-end py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >$1,500</li>
+                                </ul>
+                            </div>
+                            <div className="px-6 ">
+                                <ul className="flex justify-between ">
+                                    <li className="text-[#fff] w-[120px]  py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >10th</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >0x112...950a6</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >2023-09-04</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >2</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >$25,350.69</li>
+                                    <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >Platinum</li>
+                                    <li className="text-[#fff] w-[120px] text-end py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >$1,500</li>
+                                </ul>
+                            </div>
+                        </>
+
+                    }
+
                 </div>
-       </div>
+
+
+            </div>
+           {
+            !show &&
+             <div className="flex justify-center pt-[30px]">
+             <button onClick={handelShowMore} className="bgcolor text-[18px] font-[600] font-[inter] h-[64px] px-[44px] rounded-full">Load More</button>
+         </div>
+           }
+            {
+                show &&
+                <>
+                    <div className="flex justify-center pt-[30px]">
+                        <button onClick={handelShowMore} className="bgcolor text-[18px] font-[600] font-[inter] h-[64px] px-[44px] rounded-full">Less</button>
+                    </div>
+                </>
+            }
+        </div>
     )
 }
 export default BiggestSection 

@@ -94,7 +94,7 @@ const Navbar = ({ handelClick }) => {
 
                                 {
                                     langStatus &&
-                                    <div id="dropdown" class="absolute w-[1000px] hoverdropbg -right-[270%] top-[180%]   z-10 bg-white divide-y divide-gray-100 rounded-lg shadow " >
+                                    <div id="dropdown" class="absolute w-[1000px] hoverdropbg -right-[203%] top-[180%]   z-10 bg-white divide-y divide-gray-100 rounded-lg shadow " >
                                         <ul class="text-sm text-black " aria-labelledby="dropdownDefaultButton">
                                             <div>
                                                 <HoverDropDn />

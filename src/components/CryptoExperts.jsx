@@ -49,15 +49,15 @@ function CryptoExperts({
             </div>
             <div className="2xl:hidden xl:hidden lg:hidden md:block sm:block block ">
             <div className={`flex 2xl:gap-[14px] xl:gap-[14px] lg:gap-[14px] md:gap-[14px] sm:gap-[14px] gap-[10px] justify-between ${smallContainer}`}>
-              <img className="w-[165px] h-[165px]" src={srcSmall} alt="" />
+              <img className="w-[135px] h-[135px]" src={srcSmall} alt="" />
               <div>
-                <h2 className="pb-[7px] 2xl:text-[40.15px] xl:text-[40.15px] lg:text-[40.15px] md:text-[40.15px] sm:text-[40.15px] text-[30px] text-[#AE8625] font-[700] leading-[40.82px] uppercase">
+                <h2 className="pb-[7px] 2xl:text-[40.15px] xl:text-[40.15px] lg:text-[40.15px] md:text-[40.15px] sm:text-[40.15px] text-[38px] text-[#AE8625] font-[900] leading-[40.82px] uppercase">
                   {name}
                 </h2>
                 <Button
-                  btnText={btnFollowers}
-                  className={
-                    "btn font-[700] text-[9px] text-[#111010] leading-[14.91px] rounded-[37px] 2xl:w-[270px] xl:w-[270px] lg:w-[270px] md:w-[270px] sm:w-[270px] w-[160px] 2xl:h-[49px] xl:h-[49px] lg:h-[49px] md:h-[49px] sm:h-[49px] h-[40px] flex items-center justify-center"
+                  text={btnFollowers}
+                  classes={
+                    "bgcolor font-[900] text-[11px] text-[#111010] leading-[14.91px] rounded-[37px] 2xl:w-[270px] xl:w-[270px] lg:w-[270px] md:w-[270px] sm:w-[270px] w-[160px] 2xl:h-[49px] xl:h-[49px] lg:h-[49px] md:h-[49px] sm:h-[49px] h-[40px] flex items-center justify-center"
                   }
                 />
               </div>

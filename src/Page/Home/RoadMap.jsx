@@ -189,8 +189,8 @@ const RoadMap = () => {
     return (
         <div className=" " >
 
-            <div className="">
-                <h2 className="uppercase font-[900] font-[Inter] text-[40px] xs:text-[30px] gradientText">Roadmap</h2>
+            <div className="relative z-[2]">
+                <h2 className="uppercase font-[900] font-[Inter] text-[40px] xs:text-[30px] gradientText z-[2]">Roadmap</h2>
                 <p className="text-[18px] text-[#fff] font-[Inter] font-[400] leading-[28px]">This is the SCORPION Casino Roadmap</p>
             </div>
             <div className=" pt-6 w-[100%]" style={{ paddingBottom: "-30px" }}>
@@ -240,10 +240,10 @@ const RoadMap = () => {
                                             item.id == 3 ?
                                                 item.comp &&
                                                 <div className="bgcolor flex items-center py-[10px] px-[20px] rounded-full">
-                                                    <h4 className="  text-[16px] font-[Inter]">{(item.comp).toUpperCase()}</h4>
+                                                    <h4 className="  text-[16px] font-[700] font-[Inter]">{(item.comp).toUpperCase()}</h4>
                                                 </div> :
                                                 <div className="bgcolordark flex  items-center py-[10px] px-[20px] rounded-full">
-                                                    <h4 className="  text-[16px] font-[Inter]">{(item.comp).toUpperCase()}</h4>
+                                                    <h4 className="  text-[16px] font-[700] font-[Inter]">{(item.comp).toUpperCase()}</h4>
                                                 </div>
 
                                         }

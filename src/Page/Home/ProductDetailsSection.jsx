@@ -32,8 +32,8 @@ const ProductDetailsSection = () => {
     const [pop1, setPop1] = useState(false);
 
     return (
-        <div className='b-[#111010] space-y-4 pt-[2.5rem]'>
-            <div className="flex justify-end space-x-3 md:hidden sm:hidden xs:hidden">
+        <div className='b-[#111010]  space-y-4 pt-[2.5rem]'>
+            <div className="flex  justify-end space-x-3 md:hidden sm:hidden xs:hidden z-[2]">
 
                 <Button classes=" flex items-center justify-center rounded-md  text-[9px] w-[32px] h-[32px]" wallet={Link} />
 
@@ -58,6 +58,7 @@ const ProductDetailsSection = () => {
                 </a>
 
             </div>
+          
             <div className='flex justify-between lg:space-y-4 xs:space-y-3 sm:space-y-3 md:space-y-3 lg:block xs:block md:block sm:block'>
 
                 <div className="w-[60%] xl:w-[55%] flex flex-col justify-end space-y-[17px] lg:w-[100%]  xs:w-[100%] sm:w-[100%] md:w-[100%]  ">
@@ -70,12 +71,12 @@ const ProductDetailsSection = () => {
                         <img className="max-w-[146.38px] ml-2" src={Solid} alt="" />
                     </div>
                     <div className="pt-[2.2rem]">
-                        <video controls preload="metadata" poster={poster} playsinline className="bgposter max-h-[458px] xs:h-[230px] sm:h-[330px] md:h-[420px] " height="100px" width="100%" >
+                        <video controls preload="metadata" poster={poster} playsinline className="bg-filter rounded-[20px] bgposter max-h-[458px] xs:h-[230px] sm:h-[330px] md:h-[420px] " height="100px" width="100%" >
                             <source src={ved} type="video/mp4" />
                         </video>
                     </div>
                 </div>
-                <div className='w-[38%] xl:w-[42%] lg:w-[65%] lg:mx-auto flex flex-col justify-end  xs:w-[100%] sm:w-[100%] md:w-[100%]'>
+                <div className='w-[38%] xl:w-[42%] lg:w-[65%] lg:mx-auto flex flex-col justify-end  xs:w-[100%] sm:w-[100%] md:w-[100%] z-[2]'>
 
 
                     <div className=' py-[30px]  2xl:h-[830px] xl:h-[830px] lg:h-[900px] md:h-[900px] sm:lg:h-[900px] h-[900px]  2xl:px-[52px] xl:px-[45px] lg:px-[32px] md:px-[52px] sm:px-[52px] px-[52px]  bg-filter space-y-4'>
@@ -86,7 +87,7 @@ const ProductDetailsSection = () => {
 
                             <div className="bg-[#090909] max-w-[703px] rounded-t-[13px] px-8 xs:px-10  sm:px-16 md:px-16 py-6 xs:pt-5 sm:pt-5 md:pt-8 ">
                                 <h3 className='2xl:text-[50px] xl:text-[38px] lg:text-[34px] md:text-[32px] sm:text-[28px] xs:text-[32px] font-[800] text-center font-[Inter] gradientText'>$284,545.09</h3>
-                                <div className='flex items-center justify-center space-x-2 '>
+                                <div className='flex items-center justify-between space-x-2 '>
                                     <h5 className=' text-center 2xl:text-[16px] xl:text-[14px] lg:text-[13px] md:text-[13px] sm:xs:text-[13px] xs:text-[13px] font-[Inter] text-[#929292]'>2846% of minimum goal raised</h5>
                                     <span className="relative">
                                         <button onMouseEnter={() => setPop1(true)} onMouseOut={() => setPop1(false)} type="button" className={`cursor-pointer `}>
@@ -170,7 +171,7 @@ const ProductDetailsSection = () => {
                         <div>
                             <div className="flex justify-between w-[90%] mx-auto gap-[15px] pt-[1rem]">
                                 <button className="text-[14px] font-[500] font-[Inter] leading-[21px] flex w-[278px] h-[28px] items-center justify-center text-white  rounded-[10px] bg-[#3F3F3F]"> <img className="pr-1 w-[22px] h-[22px]" src={que} alt="" /> How to buy</button>
-                                <button className="text-[14px] font-[500] font-[Inter] leading-[21px] flex w-[278px] h-[28px] items-center justify-center text-white  rounded-[10px] bg-[#3F3F3F]"> <img className="pr-1 w-[22px] h-[22px]" src={refe} alt="" /> How to buy</button>
+                                <button className="text-[14px] font-[500] font-[Inter] leading-[21px] flex w-[278px] h-[28px] items-center justify-center text-white  rounded-[10px] bg-[#3F3F3F]"> <img className="pr-1 w-[22px] h-[22px]" src={refe} alt="" />5% Referral Link</button>
 
                             </div>
                             <div className="py-[1rem]">

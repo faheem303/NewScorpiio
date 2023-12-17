@@ -77,6 +77,10 @@ background: rgba(252, 255, 111, 0.11);
   background: rgba(252, 255, 111, 0.03);
   backdrop-filter: blur(8.899999618530273px);
 }
+.mobdailybg{
+  border-radius: 32px;
+background: rgba(252, 255, 111, 0.11);
+}
 
 
 .gradientText {
@@ -197,7 +201,7 @@ background: rgba(252, 255, 111, 0.11);
 }
 .hoverdropbg{
   border-radius: 17.81px;
-  border: 2px solid #FFDC87;
+  border: 1.5px solid #FFDC87;
   background: rgba(45, 44, 27, 0.96);
 }
 .scroll::-webkit-scrollbar {
@@ -226,6 +230,7 @@ background: rgba(252, 255, 111, 0.11);
   filter: blur(200px);
   right: -15%;
   top: 35%;
+  background: var(radial-gradient(80% 80% at 50% 50%, #293729 0%, rgba(0, 0, 0, 0.00) 40%)) !important;
 }
 
 .bg-filter {
@@ -283,17 +288,17 @@ background: rgba(252, 255, 111, 0.11);
 
 .tablerow {
   border-radius: 42px;
-  background: linear-gradient(270deg, rgba(249, 195, 51, 0.28) 11.86%, rgba(255, 248, 156, 0.28) 86.6%);
+  background:#ffd900a2;
 }
 
 .tablerow2 {
   border-radius: 42px;
-  background: linear-gradient(270deg, rgba(249, 195, 51, 0.18) 11.86%, rgba(255, 248, 156, 0.18) 86.6%);
+  background: #c0c0c0b0;
 }
 
 .tabalerow3 {
   border-radius: 42px;
-  background: linear-gradient(270deg, rgba(249, 195, 51, 0.08) 11.86%, rgba(255, 248, 156, 0.08) 86.6%);
+  background: #cd8032b4;
 }
 
 .css-13cymwt-control {
@@ -389,9 +394,31 @@ background: rgba(252, 255, 111, 0.11);
   color: white;
 
 }
+.herobgbox1{
+  position: absolute;
+  width: 555px;
+  height: 423.687px;
+  opacity: 0.5;
+  background: linear-gradient(180deg, #293729 0%, #111111 100%);
+  filter: blur(92px);
+  right: 2%;
+  top: 0%;
+  z-index: -2;
+}
+.herobgbox2{
+  position: absolute;
+  width: 555px;
+  height: 623.687px;
+  opacity: 0.4;
+  background: linear-gradient(180deg, #968E77 0%, #7C5E0E 100%);
+  filter: blur(117.14800262451172px);
+  left: -4%;
+  top: 0%;
+  z-index: -2;
+}
 .sportsbg{
-  background-image: url(../src/assects/images/bgimg.png);
-  background-size: cover;
+  background-image: url(../src/assects/images/bdrbg.png);
+  background-size: 100% 100%;
 }
 .buybackbg{
   border-radius: 16px;

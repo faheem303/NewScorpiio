@@ -287,6 +287,8 @@ const CasinoIndustry = () => {
           
             <div  className="gambloingbg   m-auto md:w-[100%] sm:w-[100%] xs:w-[100%] lg:w-[100%]">
                 <WhitepaperSection />
+                <p id="token"></p>
+
             </div>
         </div>
     )

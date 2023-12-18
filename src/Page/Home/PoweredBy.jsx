@@ -102,6 +102,7 @@ function PoweredBy() {
                 ))
             }
         </div>
+        <p id="faqs"></p>
       </div>
     </>
   );

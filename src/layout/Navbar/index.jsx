@@ -64,7 +64,7 @@ const Navbar = ({ handelClick }) => {
                             </svg>
                         </button>
                         <div className="flex items-center w-[160px]">
-                            <a href="#"  >
+                            <a href="#hero"  >
                                 <img src={Logo} className="h-[55px] xs:h-[52px] sm:h-[53px] w-[100%]" alt="Metropoly Logo" />
                             </a>
                         </div>
@@ -73,11 +73,11 @@ const Navbar = ({ handelClick }) => {
                     </div>
                     <div className='flex items-center justify-between xs:justify-start space-x-5 xs:space-x-0 '>
                         <div className='flex justify-between space-x-6 xs:hidden sm:hidden md:hidden '>
-                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#future">What is Scorpion Casino?</a> </h4>
-                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#groth">Growth Potential</a> </h4>
+                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#scorpion">What is Scorpion Casino?</a> </h4>
+                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]'>  <a href="#howto">How to Buy</a></h4>
                             <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#whitepaper">Whitepaper</a> </h4>
-                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#tokenomics">Tokenomics</a> </h4>
-                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]'>  <a href="#howtobuy">How to Buy</a></h4>
+                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#token">Tokenomics</a> </h4>
+                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#success">Growth Potential</a> </h4>
                             <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]'> <a href="#faqs">FAQ</a> </h4>
 
                         </div>
@@ -94,7 +94,7 @@ const Navbar = ({ handelClick }) => {
 
                                 {
                                     langStatus &&
-                                    <div id="dropdown" class="absolute w-[1000px] hoverdropbg -right-[203%] top-[180%]   z-10 bg-white divide-y divide-gray-100 rounded-lg shadow " >
+                                    <div id="dropdown" class="absolute w-[1000px] hoverdropbg -right-[203%] top-[181%]   z-10 bg-white divide-y divide-gray-100 rounded-lg shadow " >
                                         <ul class="text-sm text-black " aria-labelledby="dropdownDefaultButton">
                                             <div>
                                                 <HoverDropDn />
@@ -127,7 +127,7 @@ const Navbar = ({ handelClick }) => {
                         <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose} > Growth Potential </h4>
                         <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose} > Whitepaper </h4>
                         <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose} > Tokenomics </h4>
-                        <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose}> How to Buy</h4>
+                       
                         <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose}>FAQ</h4>
                      
 

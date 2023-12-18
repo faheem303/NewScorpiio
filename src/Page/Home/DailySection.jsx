@@ -18,7 +18,7 @@ const DailySection = () => {
                 <h5 className="text-[18px] font-[inter] font-[400] leading-[28.8px] xs:text-[14px] text-white">Get paid every day even during the pre-sale based on the amount of $SCORP you hold. The faster you buy $SCORP tokens and the more you acquire, the higher your rewards (in USDT and $SCORP) will grow over time. You don’t need to take any action; once you’ve purchased the tokens, they will be automatically staked and can be managed through your personal dashboard (simply click on the wallet icon in the top right corner). Don’t miss this opportunity to be one of the first to enjoy truly passive staking income.</h5>
 
                 <div className="">
-                    <Button text="Buy $SCORP" classes=" bgcolor h-[64px] text-[#1C1D23] px-[100px] py-[12px] text-[18px] font-[700] leading-[21px] rounded-full" />
+                    <Button link="#hero" text="Buy $SCORP" classes=" bgcolor h-[64px] text-[#1C1D23] px-[100px] py-[12px] text-[18px] font-[700] leading-[21px] rounded-full" />
                 </div>
                 
             </div>

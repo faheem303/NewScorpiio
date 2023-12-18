@@ -100,7 +100,7 @@ const HoverDropDn = () => {
                                 <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">English</p>
                             </div>
                             <div className="flex items-center space-x-4">
-                                <img src={fg2} alt="" />
+                                <img src={fg12} alt="" />
                                 <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">German</p>
                             </div>
                             <div className="flex items-center space-x-4">
@@ -142,7 +142,7 @@ const HoverDropDn = () => {
                                 <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Russian</p>
                             </div>
                             <div className="flex items-center space-x-4">
-                                <img src={fg12} alt="" />
+                                <img src={fg2} alt="" />
                                 <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Chinese</p>
                             </div>
                             <div className="flex items-center space-x-4">

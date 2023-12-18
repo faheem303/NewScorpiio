@@ -29,6 +29,7 @@ const ExchangeSection = () => {
                     <img className="h-[117px] w-[117.051px] " src={exc} alt="" />
                 </div>
                </div>
+               <p id='scorpion'></p>
             </div>
 
         </div>

@@ -108,9 +108,11 @@ const HowItWork = () => {
                             <h5 className="text-[18px] xs:text-[14px] font-[inter] leading-[28px] font-[400] text-white">SCORPION provides various sporting betting opportunities,
                                 including football, tennis, American football, horse racing,
                                 basketball, golf, boxing, and MMA.</h5>
+                                <a href="#hero">
                                 <button className="px-[90px] py-4 bgcolor rounded-full text-[18px] font-[700] leading-[21px] font-[inter]">Buy $SCORP</button>
+                                </a>
                         </div>
-                        <div className="w-[49%] rounded-[40px] sportsbg 2xl:h-[420px] xl:h-[420px] lg:h-[420px] md:h-[420px] sm:h-[270px] h-[270px]  flex justify-center items-end xs:w-[100%] sm:w-[100%] md:w-[100%]">
+                        <div className="w-[49%] filterblurbg 2xl:h-[420px] xl:h-[420px] lg:h-[420px] md:h-[420px] sm:h-[270px] h-[270px]  flex justify-center items-end xs:w-[100%] sm:w-[100%] md:w-[100%]">
                             <img className="h-[470px] 2xl:h-[470px] xl:h-[470px] lg:h-[470px] md:h-[470px] sm:h-[300px] h-[300px] pb-[1rem]" src={Sports} alt="" />
                         </div>
                     </div>
@@ -118,7 +120,7 @@ const HowItWork = () => {
                 </div>
                 <div>
                     <div className="flex items-center justify-between xs:flex-col-reverse  sm:flex-col-reverse md:flex-col-reverse ">
-                    <div className="w-[49%] rounded-[40px] sportsbg 2xl:h-[420px] xl:h-[420px] lg:h-[420px] md:h-[420px] sm:h-[270px] h-[270px]  flex justify-center items-end xs:w-[100%] sm:w-[100%] md:w-[100%]">
+                    <div className="w-[49%] filterblurbg 2xl:h-[420px] xl:h-[420px] lg:h-[420px] md:h-[420px] sm:h-[270px] h-[270px]  flex justify-center items-end xs:w-[100%] sm:w-[100%] md:w-[100%]">
                             <img className="h-[470px] 2xl:h-[470px] xl:h-[470px] lg:h-[470px] md:h-[470px] sm:h-[300px] h-[300px] pb-[1rem]" src={CASINO} alt="" />
                         </div>
                        
@@ -128,7 +130,9 @@ const HowItWork = () => {
                             <h5 className="text-[18px] xs:text-[14px] font-[inter] leading-[28px] font-[400] text-white">SCORPION offers a complete online casino with over 200+ games
                                 from all major game providers. Casino games include slots,
                                 blackjack, roulette, poker, live casino, and more.</h5>
+                                <a href="#hero">
                                 <button className="px-[90px] py-4 bgcolor rounded-full text-[18px] font-[700] leading-[21px] font-[inter]">Buy $SCORP</button>
+                                </a>
                         </div>
 
                     </div>

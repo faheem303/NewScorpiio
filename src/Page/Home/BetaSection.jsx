@@ -11,7 +11,7 @@ const BetaSection = () => {
         <div className="" >
             <div className=" 2xl:flex xl:flex lg:flex items-center justify-between block sm:block md:block">
                 
-                <div className="filterblurbg h-[400px] p-2 flex justify-center items-center  2xl:w-[45%] xl:w-[45%] lg:w-[45%] md:w-[100%] sm:w-[100%] w-[100%]  mr-auto "   >
+                <div className="filterblurbg h-[400px]  flex justify-center items-center  2xl:w-[45%] xl:w-[45%] lg:w-[45%] md:w-[100%] sm:w-[100%] w-[100%]  mr-auto "   >
                     <img className="h-[478px]" src={Beta} alt="" />
                 </div>
                 <div className=" 2xl:w-[45%] xl:w-[45%] lg:w-[45%] md:w-[100%] sm:w-[100%] w-[100%] py-[2rem] xs:text-center sm:text-center  space-y-3">

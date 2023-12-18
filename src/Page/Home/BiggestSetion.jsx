@@ -170,6 +170,7 @@ const BiggestSection = () => {
                     </div>
                 </>
             }
+            <p id='howto'></p>
         </div>
     )
 }

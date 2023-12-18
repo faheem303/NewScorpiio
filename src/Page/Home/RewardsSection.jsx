@@ -9,6 +9,10 @@ import { useTranslation } from "react-i18next";
 import Tick1 from "../../assects/images/tick1.png"
 import cross from "../../assects/images/cross.png"
 import Crown from "../../assects/images/crown.png"
+import R1 from "../../assects/images/rng (1).png"
+import R2 from "../../assects/images/rng (2).png"
+import R3 from "../../assects/images/rng (3).png"
+import R4 from "../../assects/images/rng (4).png"
 
 
 import RewardCard from "./RewardsCard";
@@ -28,9 +32,9 @@ const RewardSection = () => {
     const listData = [
         {
             id: 1,
-            packageType: "Diamond Scorpion NFT",
+            packageType: "Bronze Scorpion NFT",
             spendPrice: amountRange,
-            spendImage: Crown,
+            spendImage: R2,
             packageList: [
                 {
                     id: 1,
@@ -63,9 +67,9 @@ const RewardSection = () => {
         },
         {
             id: 2,
-            packageType: "Diamond Scorpion NFT",
+            packageType: "Silver Scorpion NFT",
             spendPrice: amountRange,
-            spendImage: Crown,
+            spendImage: R1,
             packageList: [
                 {
                     id: 1,
@@ -97,9 +101,9 @@ const RewardSection = () => {
         },
         {
             id: 3,
-            packageType: "Diamond Scorpion NFT",
+            packageType: "Gold Scorpion NFT",
             spendPrice: amountRange,
-            spendImage: Crown,
+            spendImage: R4,
             packageList: [
                 {
                     id: 1,
@@ -131,9 +135,9 @@ const RewardSection = () => {
         },
         {
             id: 4,
-            packageType: "Diamond Scorpion NFT  ",
+            packageType: "Platinum Scorpion NFT",
             spendPrice: amountRange,
-            spendImage: Crown,
+            spendImage: R3,
             packageList: [
                 {
                     id: 1,

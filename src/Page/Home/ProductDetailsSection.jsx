@@ -32,7 +32,7 @@ const ProductDetailsSection = () => {
     const [pop1, setPop1] = useState(false);
 
     return (
-        <div className='b-[#111010]  space-y-4 pt-[2.5rem]'>
+        <div className='b-[#111010]  space-y-4 pt-[2.5rem]' id="hero">
             <div className="flex  justify-end space-x-3 md:hidden sm:hidden xs:hidden z-[2]">
 
                 <Button classes=" flex items-center justify-center rounded-md  text-[9px] w-[32px] h-[32px]" wallet={Link} />

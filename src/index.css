@@ -78,8 +78,8 @@ background: rgba(252, 255, 111, 0.11);
   backdrop-filter: blur(8.899999618530273px);
 }
 .mobdailybg{
-  border-radius: 32px;
-background: rgba(252, 255, 111, 0.11);
+ background-image: url(../src/assects/images/filterbg.png);
+ background-size: 100% 100%; 
 }
 
 
@@ -201,7 +201,7 @@ background: rgba(252, 255, 111, 0.11);
 }
 .hoverdropbg{
   border-radius: 17.81px;
-  border: 1.5px solid #FFDC87;
+  border: 0.5px solid #FFDC87;
   background: rgba(45, 44, 27, 0.96);
 }
 .scroll::-webkit-scrollbar {
@@ -270,7 +270,7 @@ background: rgba(252, 255, 111, 0.11);
 }
 
 .filterblurbg {
-  background-image: url(../src/assects/images/bgimg.png);
+  background-image: url(../src/assects/images/filterbg.png);
   background-size: 100% 100%;
 }
 
@@ -416,10 +416,7 @@ background: rgba(252, 255, 111, 0.11);
   top: 0%;
   z-index: -2;
 }
-.sportsbg{
-  background-image: url(../src/assects/images/bdrbg.png);
-  background-size: 100% 100%;
-}
+
 .buybackbg{
   border-radius: 16px;
 border: 1px solid #FFF89C;

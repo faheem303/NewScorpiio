@@ -90,7 +90,7 @@ const Home = () => {
                         <div>
                             <BiggestSection />
                         </div>
-                        <div className='relative'>
+                        <div className='relative' >
                             <BuySection />
                             <div className='bg-box3'></div>
                             <div className='bg-box4'></div>
@@ -100,7 +100,7 @@ const Home = () => {
                             <div className='bg-box6'></div>
                         </div>
 
-                        <div className='relative'>
+                        <div className='relative' >
                             <HowItWork />
                             <div className='bg-box7'></div>
                             <div className='bg-box7left'></div>
@@ -112,13 +112,12 @@ const Home = () => {
                             <div className='bg-box7left'></div>
                             <div className='bg-box7left'></div>
                         </div>
-                        <p id="tokenomics"></p>
                         <div className='relative'>
                             <TokenomicsSectiion />
                             <div className='bg-box7'></div>
 
                         </div>
-                        <div className='relative'>
+                        <div className='relative' >
                             <TokenDetailsSection />
                             <div className='bg-box7left'></div>
                             <div className='bg-box7left'></div>
@@ -181,7 +180,7 @@ const Home = () => {
                     <div className='bg-box10left'></div>
 
                 </div>
-
+                    
                 <div className='relative'>
                     <FaqList />
                     <div className='bg-box10'></div>

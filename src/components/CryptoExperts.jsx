@@ -51,7 +51,7 @@ function CryptoExperts({
             <div className={`flex 2xl:gap-[14px] xl:gap-[14px] lg:gap-[14px] md:gap-[14px] sm:gap-[14px] gap-[10px] justify-between ${smallContainer}`}>
               <img className="w-[135px] h-[135px]" src={srcSmall} alt="" />
               <div>
-                <h2 className="pb-[7px] 2xl:text-[40.15px] xl:text-[40.15px] lg:text-[40.15px] md:text-[40.15px] sm:text-[40.15px] text-[38px] text-[#AE8625] font-[900] leading-[40.82px] uppercase">
+                <h2 className="pb-[7px] 2xl:text-[40.15px] xl:text-[40.15px] lg:text-[40.15px] md:text-[40.15px] sm:text-[40.15px] text-[38px] gradientText font-[900] leading-[40.82px] uppercase">
                   {name}
                 </h2>
                 <Button

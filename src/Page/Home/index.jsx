@@ -150,38 +150,38 @@ const Home = () => {
                 <div className='w-[80%] max-w-[1200px] mx-auto'>
                     <Barriers />
                     <Crypto />
-                    <div className='relative'>
+                    <div className='relative z-[2]'>
                         <Gambling />
                         <div className='bg-box8left'></div>
 
                     </div>
-                    <div className='relative'>
+                    <div className='relative z-[2]'>
                         <Scorp />
                         <div className='bg-box8left'></div>
                     </div>
-                    <div className='relative'>
+                    <div className='relative z-[2]'>
                         <Experts />
                         <div className='bg-box9'></div>
                         <div className='bg-box9left'></div>
                     </div>
                     <BlockChain />
-                    <div className='relative'>
+                    <div className='relative z-[2]'>
                         <Success />
                         <div className='bg-box10left'></div>
                     </div>
-                    <div className='relative'>
+                    <div className='relative z-[2]'>
                         <Media />
                         <div className='bg-box10'></div>
                     </div>
                 </div>
                 <PressRelease />
-                <div className='relative'>
+                <div className='relative z-[2]'>
                     <PoweredBy />
                     <div className='bg-box10left'></div>
 
                 </div>
-                    
-                <div className='relative'>
+
+                <div className='relative z-[2]'>
                     <FaqList />
                     <div className='bg-box10'></div>
                 </div>

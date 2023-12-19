@@ -113,29 +113,32 @@ function Footer() {
           </div>
           {/* small screen  */}
           <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block">
-            <h3 className="mb-[5px] text-[20px] text-white font-[700] leading-[30px]">
+           <div className="flex items-center justify-between">
+           <h3 className="mb-[5px] text-[20px] text-white font-[700] leading-[30px]">
               Join the Winning Team
             </h3>
+            <div className="flex flex justify-center gap-[12px] my-[21px]">
+              <a href="#">
+                <img className="w-[18px]"  src={Link} alt="" />
+              </a>
+              <a href="#">
+                <img className="w-[18px]"  src={Twitter} alt="" />
+              </a>
+              <a href="#">
+                <img className="w-[18px]"  src={Telegram} alt="" />
+              </a>
+              <a href="#">
+                <img className="w-[18px]"  src={Insta} alt="" />
+              </a>
+            </div>
+           </div>
             <p className=" text-[12px] text-white font-[400] leading-[18px]">
               Step into the world of casinos, high stakes, and incredible
               rewards by joining the Scorpion community today! Experience the
               unmatched privileges and benefits of being part of the world’s
               first social online gambling ecosystem powered by $SCORP.
             </p>
-            <div className="flex flex justify-center gap-[12px] my-[21px]">
-              <a href="#">
-                <img src={Link} alt="" />
-              </a>
-              <a href="#">
-                <img src={Twitter} alt="" />
-              </a>
-              <a href="#">
-                <img src={Telegram} alt="" />
-              </a>
-              <a href="#">
-                <img src={Insta} alt="" />
-              </a>
-            </div>
+           
             <div className="">
               <h2 className="text-[20px] text-white font-[700] leading-[30px]">
                 Scorpion Casino

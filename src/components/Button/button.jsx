@@ -13,6 +13,7 @@ const Button = ({ text, link, wallet, onClick, classes, imageClass, }) => {
                 <span className="">
                     {(text)}
                 </span>
+                
 
 
             </button>

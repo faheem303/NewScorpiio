@@ -83,10 +83,10 @@ const HowItWork = () => {
         <div className="space-y-[95px] relative z-[2]" >
             <div className="space-y-[60px]">
                 <div className="space-y-3 w-[96%] xs:w-[100%] sm:w-[100%] md:w-[100%] m-auto">
-                    <h3 className="font-[Inter] text-[43px]  font-[900] leading-[40px] uppercase gradientText text-center">HOW DOES IT WORK?</h3>
-                    <h5 className="font-[inter] text-[18px] font-[400] leading-[28px] text-[#fff] text-[white] text-center">
+                    <h3 className="font-[Inter] text-[43px] xs:text-[30px]  font-[900] leading-[40px] uppercase gradientText text-center">HOW DOES IT WORK?</h3>
+                    <h5 className="font-[inter] xs:space-y-3 text-[18px] font-[400] leading-[28px] text-[#fff] text-[white] text-center">
                         Curious about how the Scorpion Casino ecosystem works? Here’s a simplified explanation. <br />
-                        Scorpion Casino is a global Crypto Casino and Sports Betting platform generating daily revenue. This income drives the growth of the $SCORP Token through an integrated daily Buy-Back, Burn and Reward System.</h5>
+                       <h5 className="pt-1"> Scorpion Casino is a global Crypto Casino and Sports Betting platform generating daily revenue. This income drives the growth of the $SCORP Token through an integrated daily Buy-Back, Burn and Reward System.</h5></h5>
 
 
                 </div>
@@ -113,7 +113,7 @@ const HowItWork = () => {
                                 </a>
                         </div>
                         <div className="w-[49%] filterblurbg 2xl:h-[420px] xl:h-[420px] lg:h-[420px] md:h-[420px] sm:h-[270px] h-[270px]  flex justify-center items-end xs:w-[100%] sm:w-[100%] md:w-[100%]">
-                            <img className="h-[470px] 2xl:h-[470px] xl:h-[470px] lg:h-[470px] md:h-[470px] sm:h-[300px] h-[300px] pb-[1rem]" src={Sports} alt="" />
+                            <img className="h-[310px] 2xl:h-[470px] xl:h-[470px] lg:h-[470px] md:h-[470px] sm:h-[300px]  pb-[1rem]" src={Sports} alt="" />
                         </div>
                     </div>
             
@@ -121,7 +121,7 @@ const HowItWork = () => {
                 <div>
                     <div className="flex items-center justify-between xs:flex-col-reverse  sm:flex-col-reverse md:flex-col-reverse ">
                     <div className="w-[49%] filterblurbg 2xl:h-[420px] xl:h-[420px] lg:h-[420px] md:h-[420px] sm:h-[270px] h-[270px]  flex justify-center items-end xs:w-[100%] sm:w-[100%] md:w-[100%]">
-                            <img className="h-[470px] 2xl:h-[470px] xl:h-[470px] lg:h-[470px] md:h-[470px] sm:h-[300px] h-[300px] pb-[1rem]" src={CASINO} alt="" />
+                            <img className="h-[310px] 2xl:h-[470px] xl:h-[470px] lg:h-[470px] md:h-[470px] sm:h-[300px]  pb-[1rem]" src={CASINO} alt="" />
                         </div>
                        
                         

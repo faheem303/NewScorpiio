@@ -60,9 +60,9 @@ function PressRelease() {
     } else if (screenWidth >= 768) {
       setSlidesPerView(2.9);
     } else if (screenWidth >= 640) {
-      setSlidesPerView(2.4);
+      setSlidesPerView(1.2);
     } else if (screenWidth <= 640) {
-      setSlidesPerView(1.3);
+      setSlidesPerView(1.1);
     }
   };
 
@@ -87,6 +87,7 @@ function PressRelease() {
           </div>
           <div className="flex justify-end pr-[20px] py-[40px]">
           <Swiper
+          
                       
                       cssMode={true}
                       slidesPerView={slidesPerView}

@@ -4,7 +4,7 @@ function PressCard({src,href1,href2,title,para}) {
   return (
     <>
     <div className='bg-[#26272C] rounded-[32px] h-[95%]'>
-        <div className=' h-[241px] '>
+        <div className=' 2xl:h-[241px] xl:h-[241px] lg:h-[241px] md:h-[241px] sm:h-auto h-auto  '>
             <img className='w-[100%] h-[100%] rounded-t-[32px]' src={src} alt="" />
         </div>
         <div className='p-[22px] flex flex-col'>

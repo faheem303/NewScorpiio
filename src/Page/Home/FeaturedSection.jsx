@@ -79,7 +79,7 @@ const FeaturedSection = () => {
                     {
                         imgData.map((item, id) => (
                             <a href={item.link} key={id} className="flex justify-center w-[170px] mx-auto md:flex md:justify-center sm:flex sm:justify-center xs:flex xs:justify-center">
-                                <img className=" w-[170px]" src={item.imgName}  alt="" />
+                                <img className=" 2xl:w-[170px] xl:w-[170px] lg:w-[170px] md:w-[170px] sm:w-[125px] w-[125px]" src={item.imgName}  alt="" />
                             </a>
                         ))
                     }

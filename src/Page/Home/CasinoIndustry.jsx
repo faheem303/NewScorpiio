@@ -237,7 +237,7 @@ const CasinoIndustry = () => {
         <div className=" space-y-[95px]" >
             <p style={{ top: "-100px", position: "relative" }} id="howItWork"></p>
             {/* <h5 className="text-[16px] text-center font-[500] text-gray-500 font-[Poppins]">Nothing can compare with us in theScorpion Casino with extremely innovative features.</h5> */}
-            <div className="gambloingbg py-12 xs:py-4 sm:py-6 space-y-4  xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] m-auto   ">
+            <div className="gambloingbg py-12 xs:py-8 sm:py-6 space-y-4  xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] m-auto   ">
             <h3 className="text-[43px] text-center font-[900] leading-[40px] uppercase xs:text-[30px] text-white font-[Inter] gradientText">DISRUPTING THE GAMBLING INDUSTRY </h3>
 
                 <div className="flex w-[87%] mx-auto justify-around items-end ">
@@ -260,7 +260,7 @@ const CasinoIndustry = () => {
 
                                                 <div className="flex items-center flex-col pb-4">
                                                     <img className="h-[40px] xs:h-[20px] sm:h-[30px] sm:h-[35px]" src={item.img} alt="" />
-                                                    <p className="text-white xs:text-[8px] sm:text-[12px] md:text-[12px] ">{item.para}</p>
+                                                    <p className="text-white xs:text-[7px] sm:text-[12px] md:text-[12px] ">{item.para}</p>
                                                 </div>
 
 

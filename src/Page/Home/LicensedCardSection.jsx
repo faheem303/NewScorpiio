@@ -13,9 +13,9 @@ const LicensedCardSection = () => {
     return (
         <div className="" >
             <div className="flex items-center 2xl:space-y-0 xl:space-y-0 lg:space-y-0  md:space-y-5 sm:space-y-5 space-y-5 justify-between gap-[28px] xs:block sm:block md:block">
-                <div className=" rounded-[32px] flex justify-between pl-[32px]  py-[38px] border LicensedCard border-[#FFF89C] h-[218px] max-w-[432px] w-[100%]">
+                <div className=" rounded-[32px] flex justify-between pl-[32px]  py-[38px] border LicensedCard border-[#FFF89C] h-[auto] max-w-[432px] w-[100%]">
                     <div className="w-[300px] space-y-3">
-                        <h3 className="font-[inter] -tracking-[1.7px] text-[26px] 2xl:text-[28px] xl:text-[25px] lg:text-[24px] md:text-[28px] sm:text-[28px] font-[700] leading-[35.064px] text-white">Secured Licensed Platform</h3>
+                        <h3 className="font-[inter] -tracking-[1.7px] text-[24px] 2xl:text-[28px] xl:text-[25px] lg:text-[24px] md:text-[28px] sm:text-[28px] font-[700] leading-[35.064px] text-white">Secured Licensed Platform</h3>
                         <p className=" font-[inter] text-[12px] font-[400] leading-[20.064px] text-white">The SCORPION platform is regulated and licensed by the
                             Curacao EGaming licensing entity.</p>
                     </div>
@@ -23,9 +23,9 @@ const LicensedCardSection = () => {
                         <img className=" w-[163px] h-[110px]" src={licimg1} alt="" />
                     </div>
                 </div>
-                <div className=" rounded-[32px] flex justify-between pl-[32px]  py-[38px] border LicensedCard border-[#FFF89C] h-[218px] max-w-[432px] w-[100%]">
+                <div className=" rounded-[32px] flex justify-between pl-[32px]  py-[38px] border LicensedCard border-[#FFF89C] h-[auto] max-w-[432px] w-[100%]">
                     <div className="w-[300px] space-y-3">
-                        <h3 className="font-[inter] -tracking-[1.7px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[24px] md:text-[28px] sm:text-[28px] font-[700] leading-[35.064px] text-white">Team is KYC Verified</h3>
+                        <h3 className="font-[inter] -tracking-[1.7px] text-[24px] 2xl:text-[32px] xl:text-[26px] lg:text-[24px] md:text-[28px] sm:text-[28px] font-[700] leading-[35.064px] text-white">Team is KYC Verified</h3>
                         <p className=" font-[inter] text-[12px] font-[400] leading-[20.064px] text-white">The Scorpion Team has been successfully verified by
                             Assure DeFi the KYC Gold Standard.</p>
                     </div>
@@ -33,9 +33,9 @@ const LicensedCardSection = () => {
                         <img className=" w-[163px] h-[110px]" src={licimg3} alt="" />
                     </div>
                 </div>
-                <div className=" rounded-[32px] flex justify-between pl-[32px]  py-[38px] border LicensedCard border-[#FFF89C] h-[218px] max-w-[432px] w-[100%]">
+                <div className=" rounded-[32px] flex justify-between pl-[32px]  py-[38px] border LicensedCard border-[#FFF89C] h-[auto] max-w-[432px] w-[100%]">
                     <div className="w-[300px] space-y-3">
-                        <h3 className="font-[inter] -tracking-[1.7px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[24px] md:text-[28px] sm:text-[28px] font-[700] leading-[35.064px] text-white">Audited by Solidproof</h3>
+                        <h3 className="font-[inter] -tracking-[1.7px] text-[24px] 2xl:text-[32px] xl:text-[26px] lg:text-[24px] md:text-[28px] sm:text-[28px] font-[700] leading-[35.064px] text-white">Audited by Solidproof</h3>
                         <p className=" font-[inter] text-[12px] font-[400] leading-[20.064px] text-white">Scorpion Casino has been fully audited by Solidproof
                             and shown to be 100% secure.</p>
                     </div>

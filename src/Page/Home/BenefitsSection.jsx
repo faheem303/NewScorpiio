@@ -50,12 +50,12 @@ const BenefitSection = () => {
                     BenefitData.map((item, id) => (
                         <div key={id} className="text-white text-center z-[2] benefitCardbg px-4 py-6 space-y-3 border border-[#e3c88e3d] rounded-lg">
                            
-                            <div className="2xl:h-[140px] xl:h-[150px] lg:h-[160px] md:h-[200px] sm:h-[200px] h-[200px]">
+                            <div className="2xl:h-[140px] xl:h-[150px] lg:h-[160px] md:h-[200px] sm:h-[200px] h-[139px]">
                             <h3 className="font-[900] font-[Inter] uppercase text-[22px] leading-[30px] gradientText pb-2">{item.title} <br /> {item.title2}</h3>
                             <p id="howtobuy" className="text-center font-[400] font-[Inter] text-[14px] xs:text-[13px] text-[#FFF]">{item.subtitle}</p>
                             </div>
-                            <div className="flex justify-center items-center 2xl:h-[234px] xl:h-[200px] lg:h-[200px] md:h-[200px] sm:h-[200px] h-[200px]">
-                            <img src={item.image} alt=""  className="2xl:h-[234px] xl:h-[200px] lg:h-[200px] md:h-[200px] sm:h-[200px] h-[200px]"/>
+                            <div className="flex justify-center items-center 2xl:h-[234px] xl:h-[200px] lg:h-[200px] md:h-[200px] sm:h-[200px] h-[139px]">
+                            <img src={item.image} alt=""  className="2xl:h-[234px] xl:h-[200px] lg:h-[200px] md:h-[200px] sm:h-[200px] h-[139px]"/>
                             </div>
 
                         </div>

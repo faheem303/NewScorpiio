@@ -11,7 +11,7 @@ import CASINO from "../../assects/images/CASINO.png"
 const WhitepaperSection = () => {
 
     return (
-        <div className="space-y-[6rem] w-[90%] mx-auto" >
+        <div className="space-y-[6rem] w-[90%] mx-auto xs:py-8" >
             <div className="flex items-center justify-between xs:block sm:block md:block xs:space-y-10 sm:space-y-10  md:space-y-10 " >
                 <div className="space-y-[20px] w-[55%] xs:w-[100%] sm:w-[100%] md:w-[100%] xs:text-center sm:text-center ">
                     <h3 className="font-[Inter] text-[38px] font-[900] uppercase leading-[40px] gradientText xs:text-[30px]">SCORPION CASINO WHITEPAPER</h3>

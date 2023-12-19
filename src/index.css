@@ -81,6 +81,18 @@ background: rgba(252, 255, 111, 0.11);
  background-image: url(../src/assects/images/filterbg.png);
  background-size: 100% 100%; 
 }
+.commob{
+  border-radius: 41.976px;
+border: 3.293px solid var(--billionair_com__1920x1080_default-Caribbean-Green, #FFD770);
+background: linear-gradient(142deg, rgba(254, 248, 255, 0.13) 1.8%, rgba(254, 248, 255, 0.00) 99.75%);
+backdrop-filter: blur(45.80482864379883px);
+}
+.commbgmob{
+  border-radius: 44.736px;
+  background: url(../src/assects/images/com.png);
+background-repeat: repeat;  
+  background-blend-mode: multiply; 
+}
 
 
 .gradientText {
@@ -178,6 +190,10 @@ background: rgba(252, 255, 111, 0.11);
   filter: blur(200px);
   right: -15%;
   top: 25%;
+}
+.bgposter {
+  box-shadow: 1px 1px 15px 0px #3f3f3f !important;
+  border-radius: 10px;
 }
 .bg-box9 {
   position: absolute;

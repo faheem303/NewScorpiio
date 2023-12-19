@@ -226,7 +226,7 @@ const RewardSection = () => {
                 </div>
 
             </div  >
-            <div className=" 2xl:w-[52%] xl:w-[52%] lg:w-[52%] md:w-[100%] sm:w-[100%] w-[100%] rewardCard px-10 py-6  ">
+            <div className=" 2xl:w-[52%] xl:w-[52%] lg:w-[52%] md:w-[100%] sm:w-[100%] w-[100%] rewardCard px-10 px-3  py-6  ">
             {
                 listData.map((item, id) => (
 
@@ -246,7 +246,7 @@ const RewardSection = () => {
                 ))
             }
 
-            <p className="text-[13px] text-center font-[400] font-[Segoe UI] leading-[19px] text-[#fff]">(You will get the membership NFT automatically when you purchase $SCORP)</p>
+            <p className="text-[13px] xs:pt-2 text-center font-[400] font-[Segoe UI] leading-[19px] text-[#fff]">(You will get the membership NFT automatically when you purchase $SCORP)</p>
               
 
             </div>

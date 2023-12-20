@@ -178,7 +178,7 @@ function Footer() {
                   Buy SCORP Manually
                 </a>
               </div>
-              <p className="text-[12px] text-[#B4A5A5] font-[400] leading-[18px]">
+              <p className="pt-6 text-[12px] text-[#B4A5A5] font-[400] leading-[18px]">
                 Scorpion Marketing LTD operates the website Scorpion.casino
                 (“Platform”). By using the Platform, you accept our Terms of
                 Service, Privacy Policy, Cookie Policy, and the SCORP Token sale

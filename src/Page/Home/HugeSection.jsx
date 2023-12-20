@@ -22,7 +22,7 @@ const HugeSection = () => {
                         </h3>
                         <p className="text-[16px] pb-[21px] opacity-70 leading-[24px] pb-2 text-white">Since 2017, the crypto casino industry has surged in value, now reaching $250 million. But that's just a tiny bit—0.1%—of the huge $263.3 billion online casino market. That market keeps growing by about 8% each year, meaning it gets even bigger, with more billions rolling in. People love Crypto Casinos because they’re easy to use and keep things private. Scorpion Casino sets itself apart by establishing the most extensive community reward system, giving back more to its community than any other casino. This innovative community incentive program, offering daily staking rewards based on the casino's performance, coupled with the $SCORP token and the burn and buy-back mechanism, has the potential to attract thousands of players daily and might push Scorpion Casino to become one of the market leaders.</p>
                     <a href="#home" className="">
-                    <button className="bgcolor font-[700] w-[250px] h-[56px] text-[16px] rounded-full">BUY $SCORP NOW</button>
+                    <button className="bgcolor font-[700] w-[250px] h-[56px] text-[16px] rounded-full">Buy $SCORP Now</button>
                     </a>
                     </div>
 

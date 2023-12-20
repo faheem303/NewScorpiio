@@ -64,7 +64,7 @@ const ProductDetailsSection = () => {
 
                 <div className="w-[60%] xl:w-[55%] flex flex-col justify-end space-y-[17px] lg:w-[100%]  xs:w-[100%] sm:w-[100%] md:w-[100%]  ">
                     <h5 className="text-[15px] leading-[23px] font-[900] gradientText font-[Inter] text-white uppercase">FAST GROWING CASINO REVEALS ITS NEW TOKEN FEATURING A SHOCKING REWARD SYSTEM</h5>
-                    <h3 className="text-[31px] leading-[32px] font-[Inter] font-[900] gradientText uppercase"> $SCORP IS THE #1 TOKEN WORLDWIDE, PROVIDING DAILY REWARDS TO HOLDERS BASED ON ITS CASINO'S PERFORMANCE</h3>
+                    <h3 className="text-[31px] xs:text-[24px] leading-[32px] font-[Inter] font-[900] gradientText uppercase"> $SCORP IS THE #1 TOKEN WORLDWIDE, PROVIDING DAILY REWARDS TO HOLDERS BASED ON ITS CASINO'S PERFORMANCE</h3>
                     <h5 className="text-[18px] font-[400] leading-[28px] font-[Inter]  text-white ">Start earning today and receive up to 10,000 USDT in daily passive staking income from a licensed and regulated global Casino and Betting Platform, no matter the market conditions.</h5>
                     <button className="herobtnbg rounded-[19px] flex h-[49px] w-[253px] xs:w-[180px] flex justify-center items-center font-[700] text-[21px] xs:text-[14px] text-white">  <img className="mr-2 w-[40px] h-[30px]" src={gc} alt="" /> <a href={Pdf} target="_blank">Verify License</a> </button>
                     <div className="flex items-center">
@@ -82,7 +82,7 @@ const ProductDetailsSection = () => {
 
                     <div className=' py-[30px]  2xl:h-[830px] xl:h-[830px] lg:h-[900px] md:h-[900px] sm:lg:h-[900px] h-[auto]  2xl:px-[52px] xl:px-[45px] lg:px-[32px] md:px-[52px] sm:px-[52px] px-[20px]  bg-filter space-y-4'>
                         <div>
-                            <h3 className="2xl:text-[36px] xl:text-[36px] lg:text-[26px] md:text-[26px] sm:text-[28px] text-[22px] font-[700] text-center font-[Inter] 2xl:leading-[60px] xl:leading-[60px]  lg:leading-[35px] md:leading-[60px] sm:leading-[60px] text-white">$SCORP Pre-Sale</h3>
+                            <h3 className="2xl:text-[36px] xl:text-[36px] lg:text-[26px] md:text-[26px] sm:text-[28px] text-[24px] font-[700] text-center font-[Inter] 2xl:leading-[60px] xl:leading-[60px]  lg:leading-[35px] md:leading-[60px] sm:leading-[60px] text-white">$SCORP Pre-Sale</h3>
                         </div>
                         <div className=' bgposter '>
 

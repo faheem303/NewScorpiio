@@ -206,7 +206,7 @@ const RewardSection = () => {
         <div className=" flex justify-between items-center md:block sm:block xs:block">
             <div className=" xs:text-center sm:text-center w-[45%] space-y-10 pr-2 md:w-[100%] md:py-4  sm:w-[100%] sm:py-4  xs:w-[100%] xs:py-4">
                 <div className="">
-                    <h3 className="text-[43px]  font-[900] font-[Inter] leading-[40px] pb-6 gradientText">GET EXTRA REWARDS STARTING FROM $1,000</h3>
+                    <h3 className="text-[43px] xs:text-[30px] xs:leading-[33px] font-[900] font-[Inter] leading-[40px] pb-6 gradientText">GET EXTRA REWARDS STARTING FROM $1,000</h3>
                     <p className="text-[12.828px] xs:text-[12.828px] sm:text-[12.828px] sm:leading-[20.526px] xs:leading-[20.526px] font-[400] font-Poopins leading-[20.526px] text-white">
                     Not only will you get more SCORP, but you’ll also unlock greater rewards! Enroll in the Elite Scorpion Members Club and enjoy incredible benefits starting from as little as $1000. These advantages are exclusively available during the presale.</p>
                 </div>

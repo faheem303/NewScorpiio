@@ -21,13 +21,16 @@ const ExchangeSection = () => {
 
                <div className="flex justify-between gap-[11px] 2xl:space-y-0 xl:space-y-0 lg:space-y-0  md:space-y-5 sm:space-y-5 space-y-5 items-center justify-between xs:block sm:block md:block">
                <div className="exchnagecolor 2xl:w-[32%] xl:w-[32%] lg:w-[32%] md:w-[80%] sm:w-[80%] w-[100%%]  h-[244px]  xs:h-[196px] flex items-center justify-center rounded-[20px]">
-                    <img className="h-[150px]" src={bit} alt="" />
+                    <img className="h-[185px]" src={bit} alt="" />
                 </div>
-                <div className="exchnagecolor 2xl:w-[32%] xl:w-[32%] lg:w-[32%] md:w-[80%] sm:w-[80%] w-[100%%]  h-[244px]  xs:h-[196px] flex items-center justify-center rounded-[20px]">
+                <div className="exchnagecolor 2xl:w-[32%] xl:w-[32%] lg:w-[32%] md:w-[80%] sm:w-[80%] w-[100%%]  h-[244px]  xs:h-[196px] flex items-center flex-col justify-center rounded-[20px]">
                     <img className="h-[117px]  w-[117.051px]" src={exc} alt="" />
+                    <p className="text-center text-[18px] uppercase text-white font-[400]">Coming soon</p>
                 </div>
-                <div className="exchnagecolor 2xl:w-[32%] xl:w-[32%] lg:w-[32%] md:w-[80%] sm:w-[80%] w-[100%%]  h-[244px] xs:h-[196px] flex items-center justify-center rounded-[20px]">
+                <div className="exchnagecolor 2xl:w-[32%] xl:w-[32%] lg:w-[32%] md:w-[80%] sm:w-[80%] w-[100%%]  h-[244px] xs:h-[196px] flex items-center flex-col justify-center rounded-[20px]">
                     <img className="h-[117px]  w-[117.051px] " src={exc} alt="" />
+                    <p className="text-center text-[18px] uppercase text-white font-[400]">Coming soon</p>
+
                 </div>
                </div>
                <p id='scorpion'></p>

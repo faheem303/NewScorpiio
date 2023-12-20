@@ -104,7 +104,7 @@ const HowItWork = () => {
                     <div className="flex  xs:block sm:block md:block justify-between 2xl:space-y-0 xl:space-y-0 lg:space-y-0 md:space-y-[5rem] sm:space-y-[5rem] space-y-[3rem] items-center">
 
                         <div className="w-[48%] xs:w-[100%] sm:w-[100%] md:w-[100%] space-y-[20px] xs:text-center sm:text-center ">
-                            <h3 className="text-[40px] xs:text-[22px] font-[Inter] leading-[40px] uppercase font-[900] gradientText">35+ DIFFERENT SPORTS</h3>
+                            <h3 className="text-[40px] xs:text-[26px] font-[Inter] leading-[40px] uppercase font-[900] gradientText">35+ DIFFERENT SPORTS</h3>
                             <h5 className="text-[18px] xs:text-[14px] font-[inter] leading-[28px] font-[400] text-white pb-5">SCORPION provides various sporting betting opportunities,
                                 including football, tennis, American football, horse racing,
                                 basketball, golf, boxing, and MMA.</h5>
@@ -133,7 +133,7 @@ const HowItWork = () => {
 
 
                         <div className="w-[44%] 2xl:pb-0 xl:pb-0 lg:pb-0 md:pb-[4rem] sm:pb-[4rem] pb-[4rem] xs:w-[100%] sm:w-[100%] md:w-[100%] space-y-[20px] xs:text-center sm:text-center ">
-                            <h3 className="text-[40px] xs:text-[22px] font-[Inter] leading-[40px] uppercase font-[900] gradientText">200+  CASINO GAMES</h3>
+                            <h3 className="text-[40px] xs:text-[26px] font-[Inter] leading-[40px] uppercase font-[900] gradientText">200+  CASINO GAMES</h3>
                             <h5 className="text-[18px] xs:text-[14px] font-[inter] leading-[28px] font-[400] text-white pb-5">SCORPION offers a complete online casino with over 200+ games
                                 from all major game providers. Casino games include slots,
                                 blackjack, roulette, poker, live casino, and more.</h5>

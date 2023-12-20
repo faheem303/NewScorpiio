@@ -30,7 +30,7 @@ const DailySection = () => {
             
             <div className="  2xl:w-[35%] xl:w-[35%] lg:w-[35%] md:w-[100%] sm:w-[100%] w-[100%] xs:text-center sm:text-center  space-y-[20px]">
                 <h3 className="text-[26px] pr-4 font-[900] font-[Inter] leading-[28px]  gradientText uppercase">DAILY STAKING REWARDS ARE LIVE NOW</h3>
-                <h4 className="text-[18px] font-[600] text-white font-[Inter] leading-[26px]">The earlier you buy $SCORP, the more you’ll have on Launch Day</h4>
+                <h4 className="xs:pr-[2rem] xs:pl-[2.3rem] text-[18px] font-[600] text-white font-[Inter] leading-[26px]">The earlier you buy $SCORP, the more you’ll have on Launch Day</h4>
                 <h5 className="text-[16px] font-[Inter] font-[400] leading-[20.8px] xs:text-[14px] text-white">The earlier and more you purchase $SCORP, the greater your rewards in $SCORP and USDT. You don’t need to do anything; once purchased, the tokens are automatically staked and can be managed from your personal dashboard (just click on the wallet icon in the top right corner). Don’t miss out—be among the first to enjoy truly passive staking rewards.</h5>
                 
             </div>

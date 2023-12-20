@@ -1,12 +1,12 @@
 import React from "react";
 
 
-import Scro from "../../assects/svgs/scro.svg"
-import BB from "../../assects/svgs/BB1.svg"
-import third from "../../assects/svgs/333.svg"
-import fourth from "../../assects/svgs/444.svg"
-import Abc from "../../assects/svgs/abc.svg"
-import Six from "../../assects/svgs/six.svg"
+import Scro from "../../assects/images/gam (1).png"
+import BB from "../../assects/images/gam (2).png"
+import third from "../../assects/images/gam (3).png"
+import fourth from "../../assects/images/gam (4).png"
+import Abc from "../../assects/images/gam (5).png"
+import Six from "../../assects/images/gam (6).png"
 import tbl from "../../assects/svgs/tbl.svg"
 import WhitepaperSection from "./Whitepaper";
 

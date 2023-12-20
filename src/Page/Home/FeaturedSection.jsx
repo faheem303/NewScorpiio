@@ -75,11 +75,11 @@ const FeaturedSection = () => {
                 <div className="text-center">
                     <h2 className="font-[900] font-[inter] color text-[40px] xs:text-[30px] gradientText uppercase">Featured In</h2>
                 </div>
-                <div className="mx-auto px-4 pt-5 grid grid-cols-4 lg:grid-cols-4 md:grid-cols-2 gap-2 xs:grid-cols-2 sm:grid-cols-2 w-full flex 2xl:justify-between xl:justify-between lg:justify-between md:justify-evenly sm:justify-evenly justify-evenly flex-wrap">
+                <div className="mx-auto px-4 xs:px-0 pt-5 grid grid-cols-4 lg:grid-cols-4 md:grid-cols-2 gap-2 xs:grid-cols-2 sm:grid-cols-2 w-full flex 2xl:justify-between xl:justify-between lg:justify-between md:justify-evenly sm:justify-evenly justify-evenly flex-wrap">
                     {
                         imgData.map((item, id) => (
                             <a href={item.link} key={id} className="flex justify-center w-[170px] mx-auto md:flex md:justify-center sm:flex sm:justify-center xs:flex xs:justify-center">
-                                <img className=" 2xl:w-[170px] xl:w-[170px] lg:w-[170px] md:w-[170px] sm:w-[125px] w-[125px]" src={item.imgName}  alt="" />
+                                <img className=" 2xl:w-[170px] xl:w-[170px] lg:w-[170px] md:w-[170px] sm:w-[135px] w-[135px]" src={item.imgName}  alt="" />
                             </a>
                         ))
                     }

@@ -277,8 +277,8 @@ const BiggestSection = () => {
                     </div>
                     {
                     !show &&
-                    <div className="flex justify-center pt-[30px]">
-                        <button onClick={handelShowMore} className="bgcolor text-[18px] font-[600] font-[inter] h-[64px] px-[44px] rounded-full">Load More</button>
+                    <div className="flex justify-center ">
+                        <button onClick={handelShowMore} className="bgcolor text-[18px] font-[600] font-[inter] h-[50px] px-[44px] rounded-full">Load More</button>
                     </div>
                 }
                

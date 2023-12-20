@@ -13,7 +13,7 @@ const CommunitySection = () => {
 
     return (
         <div className="" >
-            <div className="space-y-5">
+            <div className="space-y-[55px]">
                 <div>
                     <h3 className="text-[30px] leading-[32px] uppercase font-[900] gradientText text-center">$scorp community is earning every day</h3>
                 </div>

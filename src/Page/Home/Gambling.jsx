@@ -29,7 +29,7 @@ function Gambling() {
             staking income, and build long-term wealth.
           </p>
           <div className="2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center text-center">
-          <Button link="#hero" text={"Buy $SCORP"} classes="bgcolor 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[18px] text-[black] 2xl:font-[700] xl:font-[700] lg:font-[700] md:font-[700] sm:font-[600] font-[500] 2xl:leading-[24px] xl:leading-[24px] lg:leading-[24px] md:leading-[24px] sm:leading-[24px] leading-[21px] 2xl:h-[48px] xl:h-[48px] lg:h-[48px] md:h-[48px] sm:h-[48px] h-[42px] rounded-[37px] 2xl:w-[225px] xl:w-[225px] lg:w-[225px] md:w-[225px] sm:w-[225px] w-[100%]"/>
+          <Button link="#hero" text={"Buy $SCORP"} classes="bgcolor 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[18px] text-[black] 2xl:font-[700] xl:font-[700] lg:font-[700] md:font-[700] sm:font-[600] font-[700] 2xl:leading-[24px] xl:leading-[24px] lg:leading-[24px] md:leading-[24px] sm:leading-[24px] leading-[21px] 2xl:h-[48px] xl:h-[48px] lg:h-[48px] md:h-[48px] sm:h-[48px] h-[42px] rounded-[37px] 2xl:w-[225px] xl:w-[225px] lg:w-[225px] md:w-[225px] sm:w-[225px] w-[100%]"/>
           </div>
         </div>
       </div>

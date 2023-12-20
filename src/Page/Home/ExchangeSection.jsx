@@ -10,10 +10,11 @@ const ExchangeSection = () => {
     return (
         <div className="" >
             <div className="">
-                <div className="pb-[64px]">
+                <div className="pb-[35px] space-y-[15px]">
                     <h3 className="text-center text-[40px] xs:text-[30px] font-[900] font-[inter]  gradientText uppercase">
-                    Exchange, Partnerships & Listing Media
+                    first top-tier exchange listing reveal
                         </h3>
+                        <h5 className="gradientText text-center text-[24px] font-[900] leading-[40px] font-[Inter] uppercase">15 January 2024 - 4 pm utc</h5>
                   
                     
                 </div>

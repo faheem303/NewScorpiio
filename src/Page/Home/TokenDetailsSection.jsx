@@ -53,9 +53,9 @@ const TokenDetailsSection = () => {
                                 <div className=" w-[100%] 2xl:flex xl:flex lg:flex md:block sm:block block justify-between 2xl:space-x-10 xl:space-x-10 lg:space-x-10 md:space-x-0 sm:space-x-0 space-x-0 ">
                                     <div className=" 2xl:w-[60%] xl:w-[60%] lg:w-[60%] md:w-[100%] sm:w-[100%] w-[100%] space-y-2">
                                         <h3 className="text-[20px] font-[600] font-[Inter] text-white xs:text-[14px]">Token Contract Address</h3>
-                                        <div className="2xl:flex xl:flex lg:flex md:flex sm:block block   ">
+                                        <div className="flex">
                                             {/* <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Inter] text-white mr-2">0x37803ecdcbBF1886CD97A8EAD0DbA4d7291f19A7</p> */}
-                                            <div className="2xl:flex xl:flex lg:flex md:flex sm:block block   ">
+                                            <div className="flex">
                                                 <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Inter] text-white mr-2">0xD77401Aakbcjsibjisbijasb25dEc07615509E7</p>
                                                 <img src={copyIcon} className="cursor-pointer" alt="" onClick={handleCopy} width={14} />
                                                 <ToastContainer />

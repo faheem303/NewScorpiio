@@ -154,7 +154,6 @@ const RoadMap = () => {
         {
             id: 4,
             qa: "Phase 4",
-            comp: "Completed",
             phase: "Exponential Growth",
             paraData: [
 
@@ -236,17 +235,25 @@ const RoadMap = () => {
 
                                     </div>
                                     <div className="flex justify-end">
-                                        {
-                                            item.id == 3 ?
-                                                item.comp &&
-                                                <div className="bgcolor flex items-center py-[8px] px-[20px] rounded-full">
-                                                    <h4 className="  text-[16px] font-[700] font-[Inter]">{item.comp}</h4>
-                                                </div> :
-                                                <div className="bgcolordark flex  items-center py-[8px] px-[20px] rounded-full">
-                                                    <h4 className="  text-[16px] font-[700] font-[Inter]">{item.comp}</h4>
-                                                </div>
 
+                                        {
+                                            item.comp &&
+                                           <>
+                                            {
+                                                item.id == 3 ?
+                                                    item.comp &&
+                                                    <div className="bgcolor flex items-center py-[8px] px-[20px] rounded-full">
+                                                        <h4 className="  text-[16px] font-[700] font-[Inter]">{item.comp}</h4>
+                                                    </div> :
+                                                    <div className="bgcolordark flex  items-center py-[8px] px-[20px] rounded-full">
+                                                        <h4 className="  text-[16px] font-[700] font-[Inter]">{item.comp}</h4>
+                                                    </div>
+
+                                            }
+                                           </>
                                         }
+                                        <div>
+                                        </div>
                                     </div>
                                 </SwiperSlide>
                             ))

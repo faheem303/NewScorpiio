@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import React, {  useState, useEffect, useRef} from 'react';
 import Button from "../../components/Button/button";
 
 
@@ -35,6 +35,22 @@ const Navbar = ({ handelClick }) => {
     const handleNavbarMenuClose = () => {
         setNavBarOpen(false)
     }
+
+    const dropdownRef = useRef(null);
+
+    const handleClickOutside = (event) => {
+        if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+            setLangStatus(false);
+            // Add any other logic to close dropdowns here
+        }
+    };
+
+    useEffect(() => {
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
 
 
 
@@ -95,22 +111,20 @@ const Navbar = ({ handelClick }) => {
                                 {
                                     langStatus &&
                                     <>
-                                    <div id="dropdown" class="absolute w-[1000px] hoverdropbg -right-[203%] top-[181%]   z-10 bg-white divide-y divide-gray-100 rounded-lg shadow " >
-                                        <ul class="text-sm text-black " aria-labelledby="dropdownDefaultButton">
-                                            <div className='relative'>
-                                                <HoverDropDn />
+                                        <div className='relative'>
+                                                
                                                
-                                            </div>
-                                            <div className="pointer-events-none  absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-
-                                            </div>
-
-
-                                        </ul>
-                                    </div>
-                                        <div onClick={handleLangDropdown} className='relative'>
+                                                <div id="dropdown" ref={dropdownRef} className="absolute w-[1000px]   -left-[860%] top-[21px] z-10 ">
+                                                    <HoverDropDn />
+                           
+                        </div>
+                                                </div>
+                        <div onClick={handleLangDropdown} className="relative">
+                            <div className="bg-[#f0f8ff00] !w-[1400px] -top-[2] right-[-513%]  absolute"></div>
+                        </div>
+                                        {/* <div onClick={handleLangDropdown} className='relative'>
                                             <div className='bg-[#faebd700] !w-[1400px] -top-[2] right-[-513%] h-[100vh] absolute '></div>
-                                        </div>
+                                        </div> */}
                                         </>
                                 }
 
@@ -122,17 +136,7 @@ const Navbar = ({ handelClick }) => {
                 </div>
                 <div className='flex items-center '>
                     <button className='bgcolor  2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] text-[12px] font-[Inter] font-[700] rounded-full px-4 h-[40px]'>Connect Wallet</button>
-                 {/* <button className='2xl:hidden xl:hidden lg:hidden md:hidden sm:block block px-3  rounded-full items-center justify-start w-[165px] xs:w-[150px] lg:w-[150px] h-[38px] flex items-center  p-1.5 text-[13px] xs:text-[12px] font-semibold font-[poppins] text-white space-x-1 relative bg-[#3f3f3f]' >
-                                        <div className='absolute bg-white -right-[2.5px] h-[40px] w-[40px] rounded-full border border-[#3f3f3f] flex justify-center items-center'>
-                                            <span className='  '>
-                                                <img className='' src={WalletBlue} alt="" />
-                                            </span>
-                                        </div>
-                                        <span>
-                                            Connect Wallet
-                                        </span>
-
-                                    </button> */}
+               
                 </div>
             </header >
             {

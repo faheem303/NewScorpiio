@@ -24,9 +24,6 @@ import Experts from '../Home/Experts';
 import BlockChain from '../Home/BlockChain';
 import Media from '../Home/Media';
 import PressRelease from '../Home/PressRelease';
-import ExchangeSection from './Exchange';
-import HugeSection from './HugeSection';
-import CommunitySection from './Community';
 
 
 
@@ -44,18 +41,12 @@ const Mobilehome = () => {
             </div>
             <div className='px-20 sm:px-10 xs:px-6  ' >
                 <div className='space-y-[7rem] xs:space-y-[3rem] sm:space-y-[4rem] md:space-y-[5rem]'>
-                    <div>
-                        <ExchangeSection />
-                    </div>
+                  
                     <div>
                         <SecureSection />
                     </div>
-                    <div>
-                        <HugeSection />
-                    </div>
-                    <div>
-                        <CommunitySection />
-                    </div>
+                    
+                    
                     <div>
                         <BetaSection />
                     </div>

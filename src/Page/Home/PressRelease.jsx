@@ -102,7 +102,7 @@ function PressRelease() {
 
               {PressData.map((item, id) => (
                 <SwiperSlide key={id} className="">
-                  <div className="2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[70%] w-[95%] 2xl:h-[500px] xl:h-[500px] lg:h-[510px] md:h-[535px] sm:h-[490px] h-[540px] mx-auto">
+                  <div className="2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[70%] w-[95%] 2xl:h-[500px] xl:h-[500px] lg:h-[510px] md:h-[535px] sm:h-[490px] h-[490px] mx-auto">
                     <PressCard
                       src={item.src}
                       title={item.title}

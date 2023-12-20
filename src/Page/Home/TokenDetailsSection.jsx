@@ -27,7 +27,7 @@ const TokenDetailsSection = () => {
 
                     <div className="">
                         <div className="space-y-[47px]">
-                            <div className=" 2xl:w-[64%] xl:w-[64%] lg:w-[63%] md:w-[90%] sm:w-[90%] w-[90%] mx-auto col-span-4 space-y-3 detailtokenbg py-6 flex justify-between flex-wrap 2xl:px-8 xl:px-8 lg:px-8 md:px-5 sm:px-4 px-4">
+                            <div className=" 2xl:w-[64%] xl:w-[64%] lg:w-[63%] md:w-[100%] sm:w-[100%] w-[100%] mx-auto col-span-4 space-y-3 detailtokenbg py-6 flex justify-between flex-wrap 2xl:px-8 xl:px-8 lg:px-8 md:px-5 sm:px-4 px-4">
                                 <div className="2xl:flex xl:flex lg:flex md:block sm:block block justify-between w-[100%] ">
                                     <div className="pb-2  2xl:w-[34%] xl:w-[34%] lg:w-[32%] md:w-[100%] sm:w-[100%] w-[100%]">
                                         <h3 className="text-[20px]  font-[600] font-[Inter] text-white mb-2">Token Name</h3>
@@ -51,7 +51,7 @@ const TokenDetailsSection = () => {
                                 </div>
 
                                 <div className=" w-[100%] 2xl:flex xl:flex lg:flex md:block sm:block block justify-between 2xl:space-x-10 xl:space-x-10 lg:space-x-10 md:space-x-0 sm:space-x-0 space-x-0 ">
-                                    <div className=" 2xl:w-[60%] xl:w-[60%] lg:w-[60%] md:w-[90%] sm:w-[90%] w-[90%] space-y-2">
+                                    <div className=" 2xl:w-[60%] xl:w-[60%] lg:w-[60%] md:w-[100%] sm:w-[100%] w-[100%] space-y-2">
                                         <h3 className="text-[20px] font-[600] font-[Inter] text-white xs:text-[14px]">Token Contract Address</h3>
                                         <div className="2xl:flex xl:flex lg:flex md:flex sm:block block   ">
                                             {/* <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Inter] text-white mr-2">0x37803ecdcbBF1886CD97A8EAD0DbA4d7291f19A7</p> */}
@@ -71,7 +71,7 @@ const TokenDetailsSection = () => {
 
 
 
-                            <div className="col-span-3 detailtokenbg rounded-[30px] px-[60px]">
+                            <div className="col-span-3 detailtokenbg rounded-[30px] px-[60px] xs:px-[20px]">
 
                                 <div className=" py-8 2xl:flex xl:flex lg:flex md:block sm:block block justify-between items-center">
                                     <div className=" h-[90px] xs:h-[130px] 2xl:w-[35%] xl:w-[35%] lg:w-[35%] md:w-[100%] sm:w-[100%] w-[100%] 2xl:border-r xl:border-r lg:border-r  border-[#F9C333]">

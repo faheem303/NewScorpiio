@@ -4,7 +4,7 @@ import Button from "../../components/Button/button";
 
 function Scorp() {
   return (
-    <div className=" w-[100%]  mx-auto pb-[95px]">
+    <div className=" w-[100%]  mx-auto pb-[75px]">
     <div className="flex items-center flex-wrap 2xl:justify-between xl:justify-between lg:justify-between md:justify-center sm:justify-center justify-center gap-y-[19px] 2xl:border-[1.5px] xl:border-[1.5px] lg:border-[1.5px] md:border-[1.5px] sm:border-[1.5px] border-[0] border-solid border-[#FFFBC8] 2xl:py-[40px] xl:py-[40px] lg:py-[40px] md:py-[40px] sm:py-[40px] py-0 2xl:px-[43px] xl:px-[43px] lg:px-[43px] md:px-[43px] sm:px-[43px] px-0 rounded-[37px]">
       <div className="2xl:w-[49%] xl:w-[49%] lg:w-[45%] md:w-[90%] sm:w-[95%] w-[100%] flex flex-col 2xl:gap-[25px] xl:gap-[25px] lg:gap-[25px] md:gap-[25px] sm:gap-[17px] gap-[17px]">
        <div className='flex flex-col 2xl:gap-[25px] xl:gap-[25px] lg:gap-[25px] md:gap-[25px] sm:gap-[17px] gap-[17px]'>

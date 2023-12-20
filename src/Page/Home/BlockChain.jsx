@@ -30,7 +30,7 @@ function BlockChain() {
             />
              <img
               className="w-[100%] 2xl:h-[480px] xl:h-[480px] lg:h-[480px] md:h-[457px] sm:h-auto h-auto 2xl:hidden xl:hidden lg:hidden md:hidden sm:block block"
-              src={Blockchainmob}
+              src={Blockchain}
               alt=""
             />
           </div>

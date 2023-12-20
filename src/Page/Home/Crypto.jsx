@@ -4,7 +4,7 @@ import CarImg from "../../assects/images/car.png";
 function Crypto() {
   return (
     <>
-    <div className="w-[100%]  mx-auto pb-[95px]">
+    <div className="w-[100%]  mx-auto pb-[70px]">
         <div className="flex  flex-wrap items-center 2xl:justify-between xl:justify-between lg:justify-between md:justify-center sm:justify-center justify-center gap-y-[20px]">
           <div className="2xl:w-[45%]  xl:w-[43%] lg:w-[45%] md:w-[90%] sm:w-[95%] w-[100%] flex flex-col 2xl:gap-[20px] xl:gap-[20px] lg:gap-[20px] md:gap-[20px] sm:gap-[17px] gap-[17px]">
             <h2 className="2xl:text-[40px] xl:mr-[4rem] xl:text-[40px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[30px] 2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center text-center gradientText font-[900] leading-[40px] uppercase">

@@ -41,7 +41,7 @@ const RoadMap = () => {
         {
             id: 1,
             qa: "Phase 1",
-            comp: "COMPLETED",
+            comp: "Completed",
             phase: "Preparation",
             paraData: [
 
@@ -79,7 +79,7 @@ const RoadMap = () => {
         {
             id: 2,
             qa: "Phase 2",
-            comp: "COMPLETED",
+            comp: "Completed",
             phase: "Pre-Launch",
             paraData: [
 
@@ -119,7 +119,7 @@ const RoadMap = () => {
         {
             id: 3,
             qa: "Phase 3",
-            comp: "CURRENT",
+            comp: "Current",
             phase: "Launch",
             paraData: [
 
@@ -154,7 +154,7 @@ const RoadMap = () => {
         {
             id: 4,
             qa: "Phase 4",
-            comp: "COMPLETED",
+            comp: "Completed",
             phase: "Exponential Growth",
             paraData: [
 
@@ -239,11 +239,11 @@ const RoadMap = () => {
                                         {
                                             item.id == 3 ?
                                                 item.comp &&
-                                                <div className="bgcolor flex items-center py-[10px] px-[20px] rounded-full">
-                                                    <h4 className="  text-[16px] font-[700] font-[Inter]">{(item.comp).toUpperCase()}</h4>
+                                                <div className="bgcolor flex items-center py-[8px] px-[20px] rounded-full">
+                                                    <h4 className="  text-[16px] font-[700] font-[Inter]">{item.comp}</h4>
                                                 </div> :
-                                                <div className="bgcolordark flex  items-center py-[10px] px-[20px] rounded-full">
-                                                    <h4 className="  text-[16px] font-[700] font-[Inter]">{(item.comp).toUpperCase()}</h4>
+                                                <div className="bgcolordark flex  items-center py-[8px] px-[20px] rounded-full">
+                                                    <h4 className="  text-[16px] font-[700] font-[Inter]">{item.comp}</h4>
                                                 </div>
 
                                         }

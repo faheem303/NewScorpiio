@@ -4,7 +4,7 @@ import BarriersImg from "../../assects/images/barriers.png";
 function Barriers() {
   return (
     <>
-      <div className="w-[100%]  mx-auto pb-[95px]">
+      <div className="w-[100%]  mx-auto pb-[70px]">
         <div className="flex items-center flex-wrap-reverse 2xl:justify-between xl:justify-between lg:justify-between md:justify-center sm:justify-center justify-center gap-y-[29px]">
           <div className=" relative z-[2] 2xl:w-[49%] xl:w-[49%] lg:w-[49%] md:w-[90%] sm:w-[95%] w-[100%]">
             <img

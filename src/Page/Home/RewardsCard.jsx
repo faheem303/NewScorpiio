@@ -48,7 +48,7 @@ const RewardCard = ({ item, amountRange, handleRange }) => {
             }
         </div>
         <div className="px-5 pt-3">
-              <a href="#" className=""><Button link="#hero" classes="bgcolor rounded-full w-[100%] h-[46px]  sm:h-[30px]  xs:h-[30px] text-[16px] sm:text-[14px] xs:text-[14px] font-Poppins font-[700]  m-auto " text="Buy $Scorp Now" /> </a>
+              <a href="#" className=""><Button link="#hero" classes="bgcolor rounded-full w-[100%] h-[46px]  sm:h-[30px]  xs:h-[30px] text-[16px] sm:text-[14px] xs:text-[14px] font-Poppins font-[700]  m-auto " text="Buy $SCORP Now" /> </a>
             <p id='groth'></p>
               </div>
        </div>

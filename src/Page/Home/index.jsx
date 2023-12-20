@@ -44,6 +44,8 @@ import Media from './Media';
 import PressRelease from './PressRelease';
 import PoweredBy from './PoweredBy';
 import FaqList from './Faq';
+import HugeSection from './HugeSection';
+import CommunitySection from './Community';
 
 
 
@@ -92,25 +94,28 @@ const Home = () => {
                         </div>
                         <div className='relative' >
                             <BuySection />
-                            <div className='bg-box3 xs:hidden'></div>
+                            <div className='bg-box3 2xl:block xl:block lg:block md:hidden sm:hidden hidden'></div>
                             <div className='bg-box4'></div>
                         </div>
                         <div className='relative'>
                             <DailySection />
                             <div className='bg-box6'></div>
                         </div>
+                       <div className='relative z-[2]'>
+                        <CommunitySection />
+                       </div>
 
                         <div className='relative' >
                             <HowItWork />
                             <div className='bg-box7'></div>
-                            <div className='bg-box7left xs:hidden'></div>
+                            <div className='bg-box7left 2xl:block xl:block lg:block md:hidden sm:hidden hidden'></div>
                         </div>
 
                         <div className='relative'>
 
                             <CasinoIndustry />
-                            <div className='bg-box7left xs:hidden'></div>
-                            <div className='bg-box7left xs:hidden'></div>
+                            <div className='bg-box7left 2xl:block xl:block lg:block md:hidden sm:hidden hidden'></div>
+                            <div className='bg-box7left 2xl:block xl:block lg:block md:hidden sm:hidden hidden'></div>
                         </div>
                         <div className='relative'>
                             <TokenomicsSectiion />
@@ -119,8 +124,8 @@ const Home = () => {
                         </div>
                         <div className='relative' >
                             <TokenDetailsSection />
-                            <div className='bg-box7left xs:hidden'></div>
-                            <div className='bg-box7left xs:hidden'></div>
+                            <div className='bg-box7left 2xl:block xl:block lg:block md:hidden sm:hidden hidden'></div>
+                            <div className='bg-box7left 2xl:block xl:block lg:block md:hidden sm:hidden hidden'></div>
 
                         </div>
                     </div>
@@ -131,33 +136,36 @@ const Home = () => {
                 <img src={icon5} className='absolute 2xl:w-[220px] xl:w-[170px] lg:w-[160px] md:w-[130px] sm:w-[100px] xs:w-[90px] top-[9%] -right-[0%] ' alt="" />
                 <img src={icon7} className='absolute 2xl:w-[390px] xl:w-[330px] lg:w-[160px] md:w-[130px] sm:w-[100px] xs:w-[90px] top-[12%] right-[0%] ' alt="" />
                 <img src={icon10} className='absolute 2xl:w-[180px] xl:w-[150px] lg:w-[130px] md:w-[110px] sm:w-[80px] xs:w-[70px] top-[15.5%] -left-[0%] ' alt="" />
-                <img src={icon12} className='absolute xs:hidden 2xl:w-[160px] xl:w-[140px] lg:w-[110px] md:w-[90px] sm:w-[70px] xs:w-[50px] top-[20.5%] left-[3%] ' alt="" />
-                <img src={icon2} className='absolute xs:hidden  2xl:w-[160px] xl:w-[140px] lg:w-[110px] md:w-[90px] sm:w-[70px] xs:w-[50px] top-[20.5%] right-[0%] ' alt="" />
+                <img src={icon12} className='absolute block xl:block lg:block md:hidden sm:hidden xs:hidden 2xl:w-[160px] xl:w-[140px] lg:w-[110px] md:w-[90px] sm:w-[70px] xs:w-[50px] top-[20.5%] left-[3%] ' alt="" />
+                <img src={icon2} className='absoluteblock xl:block lg:block md:hidden sm:hidden xs:hidden  2xl:w-[160px] xl:w-[140px] lg:w-[110px] md:w-[90px] sm:w-[70px] xs:w-[50px] top-[20.5%] right-[0%] ' alt="" />
                 <img src={icon13} className='absolute 2xl:w-[400px] xl:w-[380px] lg:w-[380px] md:w-[300px] sm:w-[280px] xs:w-[250px] top-[26.5%] left-[0%] ' alt="" />
                 <img src={icon14} className='absolute 2xl:w-[130px] xl:w-[130px] lg:w-[110px] md:w-[100px] sm:w-[180px] xs:w-[80px] top-[27.5%] left-[0%] ' alt="" />
                 <img src={icon3} className='absolute 2xl:w-[200px] xl:w-[170px] lg:w-[160px] md:w-[130px] sm:w-[120px] xs:w-[90px] top-[33.5%] right-[0%] ' alt="" />
                 <img src={icon9} className='absolute 2xl:w-[210px] xl:w-[210px] lg:w-[180px] md:w-[150px] sm:w-[130px] xs:w-[80px] top-[39.5%] left-[0%] ' alt="" />
-                <img src={icon11} className='xs:hidden absolute 2xl:w-[110px] xl:w-[110px] lg:w-[110px] md:w-[100px] sm:w-[100px] xs:w-[80px] top-[46.5%] left-[15%] ' alt="" />
+                <img src={icon11} className='block xl:block lg:block md:hidden sm:hidden xs:hidden absolute 2xl:w-[110px] xl:w-[110px] lg:w-[110px] md:w-[100px] sm:w-[100px] xs:w-[80px] top-[46.5%] left-[15%] ' alt="" />
                 <img src={icon8} className='absolute 2xl:w-[110px] xl:w-[110px] lg:w-[110px] md:w-[100px] sm:w-[100px] xs:w-[80px] top-[73.5%] right-[0%] ' alt="" />
                 <img src={icon1} className='absolute 2xl:w-[170px] xl:w-[170px] lg:w-[140px] md:w-[150px] sm:w-[120px] xs:w-[80px] top-[78.5%] left-[0%] ' alt="" />
 
                 <div className='relative  py-[35px]'>
-                    <div className='xl:w-[90%] 2xl:w-[86%] lg:w-[92%] md:w-[92%] sm:-[92%] w-[96%] ml-auto'>
+                    <div className='relative z-[2]  xl:w-[90%] 2xl:w-[86%] lg:w-[92%] md:w-[92%] sm:-[92%] w-[96%] ml-auto'>
                         <Roadmap />
                     </div>
                     <div className='rmapbg -z-[1]'></div>
                 </div>
                 <div className='w-[80%] xs:w-[90%] max-w-[1200px] mx-auto'>
+                <div className='relative z-[2]'>
+                            <HugeSection />
+                        </div>
                     <Barriers />
                     <Crypto />
                     <div className='relative z-[2]'>
                         <Gambling />
-                        <div className='bg-box8left'></div>
+                        <div className='bg-box8left 2xl:block xl:block lg:block md:hidden sm:hidden hidden'></div>
 
                     </div>
                     <div className='relative z-[2]'>
                         <Scorp />
-                        <div className='bg-box8left'></div>
+                        <div className='bg-box8left 2xl:block xl:block lg:block md:hidden sm:hidden hidden'></div>
                     </div>
                     <div className='relative z-[2]'>
                         <Experts />

@@ -16,7 +16,7 @@ function Success() {
       <div className="flex flex-wrap 2xl:justify-between xl:justify-between lg:justify-between md:justify-center sm:justify-center justify-center 2xl:gap-0 xl:gap-0 lg:gap-0 md:gap-[30px] sm:gap-[30px] gap-[50px]">
         <SuccessCards
           src={CityPaper}
-          imgClass={"h-[210px] mx-auto"}
+          imgClass={"h-[210px] xs:h-[180px] mx-auto"}
           title={"Rollbit"}
           para={
             "Rollbit recently launched its token, and by implementing parts of our outlined Burn and Buyback mechanism, as detailed in our whitepaper, the token's value surged remarkably, offering over 500x returns to early $RLB holders."
@@ -24,7 +24,7 @@ function Success() {
         />
        <SuccessCards
           src={CryptoNews}
-          imgClass={"h-[200px] mx-auto"}
+          imgClass={"h-[200px] xs:h-[180px] mx-auto"}
           title={"Funtoken"}
           para={
             "Launched years ago, Funtoken remains consistently ranked in the top 500 on CoinMarketCap. It is listed on top-tier exchanges like Huobi and Binance."

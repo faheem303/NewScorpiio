@@ -1,5 +1,6 @@
 
 import React, { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
 
 import ved from "../../assects/video/course-video.mp4"
 import Bg from "../../assects/images/bg11.png"
@@ -35,12 +36,19 @@ const ProductDetailsSection = () => {
     const handelBonus = () => {
         setShow(!show)
     }
+    const handleCopy = () => {
+        navigator.clipboard.writeText("0xD77401A76d6cDB7Ac3bb031Bf25dEc07615509E7");
+        toast("Copied!");
+    }
 
     return (
         <div className='b-[#111010]  space-y-4 pt-[2.5rem]' id="hero">
-            <div className="flex  justify-end space-x-3 md:hidden sm:hidden xs:hidden z-[2]">
+            <div className="flex items-center justify-end space-x-3 md:hidden sm:hidden xs:hidden z-[2]">
 
-                <Button classes=" flex items-center justify-center rounded-md  text-[9px] w-[32px] h-[32px]" wallet={Link} />
+               <div>
+               <Button onClick={handleCopy} classes=" flex items-center justify-center rounded-md  text-[9px] w-[30px] h-[30px]" wallet={Link} />
+                <ToastContainer />
+               </div>
 
                 <a href='https://www.instagram.com/scorpion.casino/' target="_blank">
                     <Button classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={Tree}
@@ -51,12 +59,12 @@ const ProductDetailsSection = () => {
                     <Button classes=" flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={tei}
                     />
                 </a>
-                <a href='https://t.me/scorpioncasino' target="_blank">
+                <a href='https://t.me/scorpioncasino_official' target="_blank">
 
                     <Button classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={tel}
                     />
                 </a>
-                <a href='https://t.me/scorpioncasino' target="_blank">
+                <a href='https://www.instagram.com/scorpion.casino/' target="_blank">
 
                     <Button classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={igrm}
                     />
@@ -67,15 +75,15 @@ const ProductDetailsSection = () => {
             <div className='flex justify-between lg:space-y-4 xs:space-y-3 sm:space-y-3 md:space-y-3 lg:block xs:block md:block sm:block'>
 
                 <div className="w-[60%] xl:w-[55%] flex flex-col justify-end space-y-[17px] lg:w-[100%]  xs:w-[100%] sm:w-[100%] md:w-[100%]  ">
-                    <h5 className="text-[13px] leading-[18px] font-[900] gradientText font-[Inter] text-white uppercase">FAST GROWING CASINO REVEALS ITS NEW TOKEN FEATURING A SHOCKING REWARD SYSTEM</h5>
-                    <h3 className="text-[30px] xs:text-[22px] xs:leading-[28px] leading-[32px] font-[Inter] font-[900] gradientText uppercase"> $SCORP IS THE #1 TOKEN WORLDWIDE, PROVIDING DAILY REWARDS TO HOLDERS BASED ON ITS CASINO'S PERFORMANCE</h3>
+                    <h5 className="text-[15.5px] leading-[18px] font-[900] gradientText font-[Inter] text-white uppercase">FAST-GROWING CASINO REVEALS NEW TOKEN WITH SHOCKING REWARD SYSTEM</h5>
+                    <h3 className="text-[30px] xs:text-[22px] xs:leading-[28px] leading-[32px] font-[Inter] font-[900] gradientText uppercase"> $SCORP IS THE #1 TOKEN WORLDWIDE PROVIDING DAILY REWARDS TO HOLDERS BASED ON ITS CASINO'S PERFORMANCE</h3>
                     <h5 className="text-[18px] font-[400] leading-[28px] font-[Inter]  text-white ">Start earning today and receive up to 10,000 USDT in daily passive staking income from a licensed and regulated global Casino and Betting Platform, no matter the market conditions.</h5>
                     <button className="herobtnbg rounded-[19px] flex h-[49px] w-[253px] xs:w-[180px] flex justify-center items-center font-[700] text-[21px] xs:text-[14px] text-white">  <img className="mr-2 w-[40px] h-[30px]" src={gc} alt="" /> <a href={Pdf} target="_blank">Verify License</a> </button>
                     <div className="flex items-center">
                         <p className="text-[19px] font-[400] font-[Inter] underline text-white">Audited & KYC | 100% Secure & Verified</p>
                         <img className="max-w-[146.38px] ml-2" src={Solid} alt="" />
                     </div>
-                    <div className="pt-[2.2rem] ">
+                    <div className="pt-[2.2rem] xs:py-[0.8rem] ">
                         <video controls preload="metadata" poster={poster} playsinline className="bg-filterved rounded-[20px] bgposter max-h-[458px] xs:h-[280px] sm:h-[330px] md:h-[420px] " height="100px" width="100%" >
                             <source src={ved} type="video/mp4" />
                         </video>

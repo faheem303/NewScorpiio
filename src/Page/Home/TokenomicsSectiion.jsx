@@ -11,7 +11,7 @@ import tokens from "../../assects/images/tokens.png"
 const TokenomicsSectiion= () => {
 
     return (
-        <div className="   space-y-[6rem]  xs:space-y-[2rem] sm:space-y-[2rem]" >
+        <div className="space-y-[6rem] xs:pt-4 xs:space-y-[2rem] sm:space-y-[2rem]" >
             <div className="">
                 <div className="space-y-12 ">
                     <h3 className="font-[Inter] text-center text-[40px] xs:text-[30px] font-[900] text-[white] gradientText uppercase">TOKEN ALLOCATION</h3>

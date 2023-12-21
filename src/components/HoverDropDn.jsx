@@ -28,26 +28,18 @@ import fg14 from "../assects/svgs/fg (14).svg"
 
 const HoverDropDn = () => {
     return (
-        <div className="relative hoverdropbg h-[500px] xs:h-[600px] pt-12 flex flex-col justify-between" >
-            <img className="w-[40px] absolute -top-[3.5%] right-[19%]" src={ret} alt="" />
+        <div className="relative hoverdropbg h-[500px] xs:h-[160px] xs:overflow-scroll pt-12 flex flex-col justify-between" >
+            <img className="xs:hidden w-[40px] absolute -top-[3.5%] right-[19%]" src={ret} alt="" />
             <div className=" px-12 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden justify-between ">
                 <div className="space-y-[35px]">
                     <div>
                         <h3 className="text-[20px] font-[Inter] uppercase font-[700] text-[#fff]">Straight forward & simple</h3>
                     </div>
                     <div className="flex space-x-4 items-center">
-                        <img src={HDicon2} alt="" />
-                        <div className="space-y-[35px">
-                            <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">how to buy $scorp</h3>
-                            <p className="text-white">We make it super easy</p>
-                        </div>
-
-                    </div>
-                    <div className="flex space-x-4 items-center">
                         <img src={HDicon} alt="" />
                         <div className="space-y-[35px">
                             <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">how to buy $scorp</h3>
-                            <p className="text-white">We make it super easy</p>
+                            <p className="text-white">With Trust Wallet</p>
                         </div>
 
                     </div>
@@ -55,7 +47,15 @@ const HoverDropDn = () => {
                         <img src={HDicon3} alt="" />
                         <div className="space-y-[35px">
                             <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">how to buy $scorp</h3>
-                            <p className="text-white">We make it super easy</p>
+                            <p className="text-white">With Matamask</p>
+                        </div>
+
+                    </div>
+                    <div className="flex space-x-4 items-center">
+                        <img src={HDicon2} alt="" />
+                        <div className="space-y-[35px">
+                            <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">how to buy $scorp</h3>
+                            <p className="text-white">Manually</p>
                         </div>
 
                     </div>
@@ -65,27 +65,39 @@ const HoverDropDn = () => {
                     <div>
                         <h3 className="text-[20px] font-[Inter] font-[700] uppercase text-[#fff]">where to find us</h3>
                     </div>
-                    <div className="space-y-[22px]">
-                        <div className="flex items-center space-x-4">
+                    <div className="">
+                        <a  href="">  
+                        <div className="pb-[22px] flex items-center space-x-4">
                             <img src={Xicon4} alt="" />
                             <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">X.com</p>
                         </div>
-                        <div className="flex items-center space-x-4">
+                        </a>
+                        <a  href="">
+                        <div className="pb-[22px] flex items-center space-x-4">
                             <img src={Xicon3} alt="" />
                             <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Youtube</p>
                         </div>
-                        <div className="flex items-center space-x-4">
-                            <img src={Xicon2} alt="" />
+                        </a>
+                      
+                        <a  href="https://www.instagram.com/scorpion.casino/">
+                        <div className="pb-[22px] flex items-center space-x-4">
+                             <img src={Xicon2} alt="" />
                             <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Instagram</p>
                         </div>
-                        <div className="flex items-center space-x-4">
+                        </a>
+                        <a  href="https://t.me/scorpioncasino_official"> 
+                        <div className="pb-[22px] flex items-center space-x-4">
                             <img src={Xicon1} alt="" />
                             <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Telegram</p>
                         </div>
+                        </a>
+                        <a  href="">
                         <div className="flex items-center space-x-4">
                             <img src={Xicon5} alt="" />
                             <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Linktree</p>
                         </div>
+                        </a>
+                        
                     </div>
 
                 </div>
@@ -162,7 +174,7 @@ const HoverDropDn = () => {
             <div className="block xs:hidden sm:hidden py-5 rounded-b-[17.81px] bg-[#6F612F] px-[40px]">
                 <div className="flex justify-between items-center">
                     <h3 className="text-[18px] font-[Inter] text-white font-[700]">Need support?</h3>
-                    <a href="" className="underline font-[Inter] text-white font-[400] text-[18px]">Join our 24/7 Live Chat Support on Telegram</a>
+                    <a href="https://t.me/scorpioncasino_official" className="underline font-[Inter] text-white font-[400] text-[18px]">Join our 24/7 Live Chat Support on Telegram</a>
                 </div>
             </div>
             <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block space-y-2 px-4  ">

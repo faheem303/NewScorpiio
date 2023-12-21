@@ -151,7 +151,7 @@ const BiggestSection = () => {
                                         <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >2</li>
                                         <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >$25,350.69</li>
                                         <li className="text-[#fff] w-[180px] text-center py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >Platinum</li>
-                                        <li className="text-[#fff] w-[120px] text-end py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >$1,500</li>
+                                        <li  className="text-[#fff] w-[120px] text-end py-2 text-[18px] font-[400] leading-[28px] font-[inter]" >$1,500</li>
                                     </ul>
                                 </div>
                             </>
@@ -163,13 +163,13 @@ const BiggestSection = () => {
 
 
                 </div>
+                
                 {
                     !show &&
-                    <div className="flex justify-center pt-[30px]">
+                    <div  className="flex justify-center pt-[30px]">
                         <button onClick={handelShowMore} className="bgcolor text-[18px] font-[600] font-[inter] h-[64px] px-[44px] rounded-full">Load More</button>
                     </div>
                 }
-
               
             </div>
             <div className=" 2xl:hidden xl:hidden lg:hidden md:block sm:block block space-y-8">
@@ -223,7 +223,7 @@ const BiggestSection = () => {
                                 <li className="text-[#fff] w-[120px] text-center py-2 text-[12px] font-[400] leading-[28px] font-[inter]" >5th</li>
                                 <li className="text-[#fff] w-[180px] text-center py-2 text-[12px] font-[400] leading-[28px] font-[inter]" >0x112...950a6</li>
                                 <li className="text-[#fff] w-[180px] text-center py-2 text-[12px] font-[400] leading-[28px] font-[inter]" >$25,350.69</li>
-                                <li className="text-[#fff] w-[120px] text-center py-2 text-[12px] font-[400] leading-[28px] font-[inter]" >$1,500</li>
+                                <li  className="text-[#fff] w-[120px] text-center py-2 text-[12px] font-[400] leading-[28px] font-[inter]" >$1,500</li>
                             </ul>
                         </div>
                         {
@@ -275,17 +275,16 @@ const BiggestSection = () => {
                         }
 
                     </div>
-               
-                    
+                 
                     {
                     !show &&
-                    <div className="flex justify-center ">
-                        <button onClick={handelShowMore} className="bgcolor text-[18px] font-[600] font-[inter] h-[50px] px-[44px] rounded-full">Load More</button>
+                    <div  className="flex justify-center ">
+                        <button  onClick={handelShowMore} className="bgcolor text-[18px] font-[600] font-[inter] h-[50px] px-[44px] rounded-full">Load More</button>
                     </div>
                 }
-               
+              
             </div>
-            <p id='howto'></p>
+         
         </div>
     )
 }

@@ -24,12 +24,12 @@ const WhitepaperSection = () => {
                 </div>
 
                 <div className=" w-[45%] xs:w-[100%] sm:w-[100%] md:w-[70%] md:m-auto flex justify-end xs:justify-center sm:justify-center md:justify-center space-y-3" >
-                    <img className="w-[auto] h-[600px] xs:h-[300px] sm:h-[400px] md:h-[400px] " src={Whitepaper} alt="" />
+                    <img  className="w-[auto] h-[600px] xs:h-[300px] sm:h-[400px] md:h-[400px] " src={Whitepaper} alt="" />
                 </div>
+                    
+
 
             </div>
-
-
         </div>
     )
 }

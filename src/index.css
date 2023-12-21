@@ -446,19 +446,19 @@ background: rgba(252, 255, 111, 0.11);
 
 .buybackbg{
   border-radius: 16px;
-border: 1px solid #FFF89C;
+border: 1px solid #fff;
 background: var(--billionair-com-1920-x-1080-default-nero-10, rgba(255, 255, 255, 0.10));
 backdrop-filter: blur(16.75px);
 }
 .buybackbg2{
   border-radius: 16px;
-  border: 1px solid #FFB2B2;
+  border: 1px solid #fff;
 background: var(--billionair-com-1920-x-1080-default-nero-10, rgba(255, 255, 255, 0.10));
 backdrop-filter: blur(16.75px);
 }
 .buybackbg3{
   border-radius: 16px;
-  border: 1px solid #4FFF6B;
+  border: 1px solid #fff;
 background: var(--billionair-com-1920-x-1080-default-nero-10, rgba(255, 255, 255, 0.10));
 backdrop-filter: blur(16.75px);
 }

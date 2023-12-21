@@ -56,7 +56,7 @@ const TokenDetailsSection = () => {
                                         <div className="flex">
                                             {/* <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Inter] text-white mr-2">0x37803ecdcbBF1886CD97A8EAD0DbA4d7291f19A7</p> */}
                                             <div className="flex">
-                                                <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Inter] text-white mr-2">0xD77401Aakbcjsibjisbijasb25dEc07615509E7</p>
+                                                <p className="text-[15px] sm:text-[13px] xs:text-[13px] md:text-[13px] lg:text-[13px] font-[400] font-[Inter] text-white mr-2">0x37803ecdcb.........0DbA4d7291f19A7</p>
                                                 <img src={copyIcon} className="cursor-pointer" alt="" onClick={handleCopy} width={14} />
                                                 <ToastContainer />
                                             </div>
@@ -74,7 +74,7 @@ const TokenDetailsSection = () => {
                             <div className="col-span-3 detailtokenbg rounded-[30px] px-[60px] xs:px-[20px]">
 
                                 <div className=" py-8 2xl:flex xl:flex lg:flex md:block sm:block block justify-between items-center">
-                                    <div className=" h-[90px] xs:h-[92px] 2xl:w-[35%] xl:w-[35%] lg:w-[35%] md:w-[100%] sm:w-[100%] w-[100%] 2xl:border-r xl:border-r lg:border-r  border-[#F9C333]">
+                                    <div className=" h-[90px] xs:h-[103px] 2xl:w-[35%] xl:w-[35%] lg:w-[35%] md:w-[100%] sm:w-[100%] w-[100%] 2xl:border-r xl:border-r lg:border-r  border-[#F9C333]">
                                         <h3 className="text-[20px]  font-[800] font-[Inter] text-white mb-2">Pre-Sale Details</h3>
                                         <div className="pr-[6rem] xs:pr-[0px]">
                                             <h3 className="text-[16px] font-[400] font-[Inter] text-white mb-2">480,000,000 $SCORP tokens will be
@@ -83,7 +83,7 @@ const TokenDetailsSection = () => {
                                         </div>
                                     </div>
 
-                                    <div className="h-[90px] xs:h-[68px] 2xl:w-[30%] xl:w-[30%] flex flex-col justify-start lg:w-[30%] md:w-[100%] sm:w-[100%] w-[100%] 2xl:border-r xl:border-r lg:border-r  border-[#F9C333]" >
+                                    <div className="h-[90px] xs:h-[78px] 2xl:w-[30%] xl:w-[30%] flex flex-col justify-start lg:w-[30%] md:w-[100%] sm:w-[100%] w-[100%] 2xl:border-r xl:border-r lg:border-r  border-[#F9C333]" >
                                         <h3 className="text-[20px] font-[600] font-[Inter] text-white mb-2">Current Stage Price</h3>
                                         <p className="text-[15px] font-[400] font-[Inter] text-white mr-2">1 SCORP = $0.022</p>
                                     </div>

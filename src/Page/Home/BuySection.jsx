@@ -40,7 +40,8 @@ const BuySection = () => {
                            <a href="#hero">
                            <button className="bgcolor xs:text-[14px]  text-[#1C1D23] rounded-full flex justify-center items-center text-[16px] 2xl:h-[54px]  xl:h-[54px]  lg:h-[45px] md:h-[45px] sm:h-[45px] h-[45px]   font-[700] font-[inter] w-[210px] space-x-3 mr-4" >Buy $SCORP NOW</button>
                            </a>
-                           <button className="stepbtnbg text-white w-[140px] justify-center xs:text-[16px]  rounded-full flex items-center 2xl:h-[54px]  xl:h-[54px]  lg:h-[45px] md:h-[45px] sm:h-[45px] h-[45px]   space-x-3 text-[16px] font-[700] font-[inter]" >Need Help?</button>
+                           <a href="https://t.me/scorpioncasino_official" target="_blank"> 
+                           <button className="stepbtnbg text-white w-[140px] justify-center xs:text-[16px]  rounded-full flex items-center 2xl:h-[54px]  xl:h-[54px]  lg:h-[45px] md:h-[45px] sm:h-[45px] h-[45px]   space-x-3 text-[16px] font-[700] font-[inter]" >Need Help?</button></a>
                         </div>
                 </div>
                 <div className="2xl:w-[72%]    xl:w-[68%]  lg:w-[61%] md:w-[100%] sm:w-full w-full">
@@ -51,7 +52,8 @@ const BuySection = () => {
                            <a href="#hero">
                            <button className="bgcolor xs:text-[14px] xs:w-[170px]  text-[#1C1D23] rounded-full flex justify-center items-center text-[16px] 2xl:h-[54px]  xl:h-[54px]  lg:h-[45px] md:h-[45px] sm:h-[45px] h-[45px]   font-[700] font-[inter] w-[210px] space-x-3 mr-4" >Buy $SCORP NOW</button>
                            </a>
-                           <button className="stepbtnbg text-white w-[140px] justify-center xs:text-[16px]  rounded-full flex items-center 2xl:h-[54px]  xl:h-[54px]  lg:h-[45px] md:h-[45px] sm:h-[45px] h-[45px]   space-x-3 text-[16px] font-[700] font-[inter]" >Need Help?</button>
+                           <a href="https://t.me/scorpioncasino_official" target="_blank"> 
+                           <button className="stepbtnbg text-white w-[140px] justify-center xs:text-[16px]  rounded-full flex items-center 2xl:h-[54px]  xl:h-[54px]  lg:h-[45px] md:h-[45px] sm:h-[45px] h-[45px]   space-x-3 text-[16px] font-[700] font-[inter]" > Need Help?</button></a>
                         </div>
                
 

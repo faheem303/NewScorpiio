@@ -117,20 +117,7 @@ function Footer() {
            <h3 className="mb-[5px] text-[20px] text-white font-[700] leading-[30px]">
               Join the Winning Team
             </h3>
-            <div className="flex flex justify-center gap-[12px] my-[21px]">
-              <a href="#">
-                <img className="w-[18px]"  src={Link} alt="" />
-              </a>
-              <a href="#">
-                <img className="w-[18px]"  src={Twitter} alt="" />
-              </a>
-              <a href="#">
-                <img className="w-[18px]"  src={Telegram} alt="" />
-              </a>
-              <a href="#">
-                <img className="w-[18px]"  src={Insta} alt="" />
-              </a>
-            </div>
+          
            </div>
             <p className=" text-[12px] text-white font-[400] leading-[18px]">
               Step into the world of casinos, high stakes, and incredible
@@ -138,8 +125,22 @@ function Footer() {
               unmatched privileges and benefits of being part of the world’s
               first social online gambling ecosystem powered by $SCORP.
             </p>
+            <div className="flex  gap-[12px] my-[21px]">
+              <a href="#">
+                <img className="w-[28px]"  src={Link} alt="" />
+              </a>
+              <a href="#">
+                <img className="w-[28px]"  src={Twitter} alt="" />
+              </a>
+              <a href="#">
+                <img className="w-[28px]"  src={Telegram} alt="" />
+              </a>
+              <a href="#">
+                <img className="w-[28px]"  src={Insta} alt="" />
+              </a>
+            </div>
            
-            <div className="pt-[20px]">
+            <div className="">
               <h2 className="text-[20px] text-white font-[700] leading-[30px]">
                 Scorpion Casino
               </h2>

@@ -62,7 +62,7 @@ const Home = () => {
             <div className="herobgbox2"></div>
             <div className="herobgbox1"></div>
             </div>
-            <div className='py-[60px]'>
+            <div className='py-[60px] xs:py-[30px]'>
                 <FeaturedSection />
             </div>
             <div className='bg-element relative'>
@@ -91,6 +91,7 @@ const Home = () => {
                         </div>
                         <div>
                             <BiggestSection />
+                            <p className="pb-8 " id='howto' ></p>
                         </div>
                         <div className='relative' >
                             <BuySection />

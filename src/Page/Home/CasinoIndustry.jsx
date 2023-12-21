@@ -240,7 +240,7 @@ const CasinoIndustry = () => {
             <div className="gambloingbg py-12 xs:py-8 sm:py-6 space-y-4  xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] m-auto   ">
             <h3 className="text-[43px] text-center font-[900] leading-[40px] uppercase xs:text-[30px] text-white font-[Inter] gradientText">DISRUPTING THE GAMBLING INDUSTRY </h3>
 
-                <div className="flex w-[87%] mx-auto justify-around items-end ">
+                <div className="pt-5 flex w-[87%] mx-auto justify-around items-end ">
                     <div className="2xl:w-[25%] xl:[25%]  xs:w-[30%] sm:w-[30%] md:w-[30%] lg:w-[30%] mr-4 xs:mr-1">
                         {
                             TableData.map((item, id) => (
@@ -288,8 +288,8 @@ const CasinoIndustry = () => {
             <div  className="gambloingbg   m-auto md:w-[100%] sm:w-[100%] xs:w-[100%] lg:w-[100%]">
                 <WhitepaperSection />
                 <p id="token"></p>
-
             </div>
+           
         </div>
     )
 }

@@ -15,7 +15,7 @@ const CommunitySection = () => {
         <div className="" >
             <div className="space-y-[55px]">
                 <div>
-                    <h3 className="text-[30px] xs:text-[26px] xs:leading-[30px] leading-[32px] uppercase font-[900] gradientText text-center">The $scorp community is earning every day</h3>
+                    <h3 className="text-[43px] xs:text-[26px] xs:leading-[30px] leading-[32px] uppercase font-[900] gradientText text-center">The $scorp community is earning every day</h3>
                 </div>
               <div className="2xl:flex xl:flex lg:flex md:block sm:block block 2xl:space-y-0 xl:space-y-0 lg:space-y-0 md:space-y-6 sm:space-y-6 space-y-6 justify-between">
               <div className="commob 2xl:w-[31%] xl:w-[31%] lg:w-[31%] md:w-[100%] sm:w-[100%] w-[100%]  ">

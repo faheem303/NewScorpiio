@@ -56,7 +56,7 @@ const Navbar = ({ handelClick }) => {
 
 
     return (
-        <nav className=" z-10 bg-[#111010] fixed  top-0 2xl:px-[90px] xl:px-[90px] lg:px-[90px] md:px-[90px] sm:px-4 xs:px-4  py-3 sm:py-0 xs:py-3 w-full " >
+        <nav className=" z-10 bg-[#111010] fixed  top-0 2xl:px-[90px] xl:px-[90px] lg:px-[90px] md:px-[90px] sm:px-4 xs:px-4  py-3 sm:py-0 xs:py-0 w-full " >
             <header className="flex justify-between">
                 <div
                     className="flex items-center space-x-10 h-16 max-w-screen-2xl sm:px-0 xs:px-0 lg:px- "
@@ -166,7 +166,7 @@ const Navbar = ({ handelClick }) => {
                                         <div className='relative'>
                                                 
                                                
-                                                <div id="dropdown" ref={dropdownRef} className="absolute xs:w-[200px] xs:mx-auto w-[1000px] x   xs:left-[10%] -left-[860%] top-[21px] z-10 ">
+                                                <div id="dropdown" ref={dropdownRef} className="absolute xs:w-[200px] xs:mx-auto w-[1000px] x   xs:left-[10%] -left-[860%] top-[3px] z-10 ">
                                                     <HoverDropDn />
                            
                         </div>

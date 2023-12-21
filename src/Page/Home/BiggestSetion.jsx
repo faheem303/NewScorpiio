@@ -170,7 +170,7 @@ const BiggestSection = () => {
                     </div>
                 }
 
-                <p id='howto'></p>
+              
             </div>
             <div className=" 2xl:hidden xl:hidden lg:hidden md:block sm:block block space-y-8">
                 <div className="text-center space-y-5">
@@ -275,6 +275,8 @@ const BiggestSection = () => {
                         }
 
                     </div>
+               
+                    
                     {
                     !show &&
                     <div className="flex justify-center ">
@@ -283,6 +285,7 @@ const BiggestSection = () => {
                 }
                
             </div>
+            <p id='howto'></p>
         </div>
     )
 }

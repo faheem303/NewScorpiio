@@ -139,7 +139,7 @@ function Footer() {
               first social online gambling ecosystem powered by $SCORP.
             </p>
            
-            <div className="">
+            <div className="pt-[20px]">
               <h2 className="text-[20px] text-white font-[700] leading-[30px]">
                 Scorpion Casino
               </h2>

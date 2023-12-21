@@ -42,7 +42,7 @@ const BenefitSection = () => {
     return (
         <div className="" >
             <div className="text-center pb-[48px]">
-                <h2 className="font-[900] font-[Inter] leading-[40px] text-[40px] xs:text-[30px] gradientText uppercase">BENEFITS OF BUYING $SCORP IN THE PRE-SALE</h2>
+                <h2 className="font-[900] font-[Inter] leading-[40px] text-[40px] xs:leading-[30px] xs:text-[26px] gradientText uppercase">BENEFITS OF BUYING $SCORP IN THE PRE-SALE</h2>
             </div>
             <div className="2xl:grid 2xl:grid-cols-4 xl:grid xl:grid-cols-4 lg:grid lg:grid-cols-4 md:grid md:grid-cols-2
              sm:grid sm:grid-cols-2 grid grid-cols-1 gap-y-4 gap-x-5 ">

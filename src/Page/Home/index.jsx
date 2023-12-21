@@ -132,7 +132,8 @@ const Home = () => {
 
 
                 </div>
-                <img src={icon6} className='absolute 2xl:w-[220px] xl:w-[170px] lg:w-[160px] md:w-[130px] sm:w-[100px] xs:w-[90px] top-[6.5%] -left-[0%] ' alt="" />
+               <div className='h-1'>
+               <img src={icon6} className='absolute 2xl:w-[220px] xl:w-[170px] lg:w-[160px] md:w-[130px] sm:w-[100px] xs:w-[90px] top-[6.5%] -left-[0%] ' alt="" />
                 <img src={icon5} className='absolute 2xl:w-[220px] xl:w-[170px] lg:w-[160px] md:w-[130px] sm:w-[100px] xs:w-[90px] top-[9%] -right-[0%] ' alt="" />
                 <img src={icon7} className='absolute 2xl:w-[390px] xl:w-[330px] lg:w-[160px] md:w-[130px] sm:w-[100px] xs:w-[90px] top-[12%] right-[0%] ' alt="" />
                 <img src={icon10} className='absolute 2xl:w-[180px] xl:w-[150px] lg:w-[130px] md:w-[110px] sm:w-[80px] xs:w-[70px] top-[15.5%] -left-[0%] ' alt="" />
@@ -145,6 +146,7 @@ const Home = () => {
                 <img src={icon11} className='block xl:block lg:block md:hidden sm:hidden xs:hidden absolute 2xl:w-[110px] xl:w-[110px] lg:w-[110px] md:w-[100px] sm:w-[100px] xs:w-[80px] top-[46.5%] left-[15%] ' alt="" />
                 <img src={icon8} className='absolute 2xl:w-[110px] xl:w-[110px] lg:w-[110px] md:w-[100px] sm:w-[100px] xs:w-[80px] top-[73.5%] right-[0%] ' alt="" />
                 <img src={icon1} className='absolute 2xl:w-[170px] xl:w-[170px] lg:w-[140px] md:w-[150px] sm:w-[120px] xs:w-[80px] top-[78.5%] left-[0%] ' alt="" />
+               </div>
 
                 <div className='relative  py-[35px]'>
                     <div className='relative z-[2]  xl:w-[90%] 2xl:w-[86%] lg:w-[92%] md:w-[92%] sm:-[92%] w-[96%] ml-auto'>
@@ -172,11 +174,12 @@ const Home = () => {
                         <div className='bg-box9'></div>
                         <div className='bg-box9left'></div>
                     </div>
-                    <BlockChain />
+                  
                     <div className='relative z-[2]'>
                         <Success />
                         <div className='bg-box10left'></div>
                     </div>
+                    <BlockChain />
                     <div className='relative z-[2]'>
                         <Media />
                         <div className='bg-box10'></div>

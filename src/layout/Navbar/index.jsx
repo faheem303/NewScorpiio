@@ -143,13 +143,49 @@ const Navbar = ({ handelClick }) => {
                 navBarOpen &&
                 <div className='' >
 
-                    <div className=' relative  space-y-8 py-12 px-6 2xl:hidden xl:hidden lg:hidden h-[990px] bg-[#111010] w-full left-0 absolute'>
-                        <button className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose}  >What is Scorpion Casino?</button>
-                        <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose} > Growth Potential </h4>
-                        <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose} > Whitepaper </h4>
-                        <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose} > Tokenomics </h4>
-                       
-                        <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose}>FAQ</h4>
+                    <div className=' relative  space-y-8 py-12 px-6 2xl:hidden xl:hidden lg:hidden h-[1800px] bg-[#111010] w-full left-0 absolute'>
+                        
+                        <button className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose}  ><a href="#scorpion">What is Scorpion Casino?</a></button>
+                        <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose} ><a href="#howto">How to Buy</a></h4>
+                        <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose} > <a href="#whitepaper">Whitepaper</a> </h4>
+                        <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose} > <a href="#token">Tokenomics</a></h4>   <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose} >  <a href="#success">Growth Potential</a></h4>
+                        <h4 className='text-white font-[Inter] text-[16px] font-[400] hover:text-[#a0a0a0]' onClick={handleNavbarMenuClose}><a href="#faqs">FAQ</a></h4>
+                        <li className='flex items-center '>
+                            <div className='relative '>
+
+                                <button onClick={handleLangDropdown} id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white font-medium rounded-lg text-sm w-[full]  py-2.5 text-center inline-flex items-center px-2"
+                                    style={{
+                                    }} type="button" >
+                                    <img src={flg} width={20} className=" mr-2" />
+                                    {lang}
+                                    <svg className={`fill-current text-white h-4 w-4 transform ${langStatus ? "rotate-180" : ""}`} aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+
+                                {
+                                    langStatus &&
+                                    <>
+                                        <div className='relative'>
+                                                
+                                               
+                                                <div id="dropdown" ref={dropdownRef} className="absolute xs:w-[200px] xs:mx-auto w-[1000px] x   xs:left-[10%] -left-[860%] top-[21px] z-10 ">
+                                                    <HoverDropDn />
+                           
+                        </div>
+                                                </div>
+                        <div onClick={handleLangDropdown} className="relative">
+                            <div className="bg-[#f0f8ff00] w-[1400px]  -top-[2] right-[-513%]  absolute"></div>
+                        </div>
+                                        {/* <div onClick={handleLangDropdown} className='relative'>
+                                            <div className='bg-[#faebd700] !w-[1400px] -top-[2] right-[-513%] h-[100vh] absolute '></div>
+                                        </div> */}
+                                        </>
+                                }
+
+                            </div>
+
+                        </li>
+                        
+                     
+                      
                      
 
                     </div>

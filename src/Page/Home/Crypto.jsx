@@ -10,7 +10,7 @@ function Crypto() {
             <h2 className="2xl:text-[40px] xl:mr-[4rem] xl:text-[40px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[30px] 2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center text-center gradientText font-[900] leading-[40px] xs:px-3 uppercase">
             CRYPTO CASINO CASE STUDY
             </h2>
-            <p className="text-white pb-3 text-[18px] xl:text-[16px] lg:text-[16px] font-[400] leading-[28.80px] 2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center text-center">
+            <p className="text-white pb-3 text-[18px] xl:text-[16px] lg:text-[16px] font-[600] leading-[28.80px] 2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center text-center">
             26-year-old Crypto Casino Owner Buys a Villa for $80 Million.
             </p>
             <p className="text-white text-[18px] font-[400] xl:text-[16px] lg:text-[16px] leading-[28.80px] 2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center text-center">

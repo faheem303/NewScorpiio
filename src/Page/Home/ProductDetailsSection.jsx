@@ -28,9 +28,13 @@ import { useTranslation } from 'react-i18next';
 
 const ProductDetailsSection = () => {
 
-    const { t, i18n } = useTranslation();
     const [pop2, setPop2] = useState(false);
     const [pop1, setPop1] = useState(false);
+    const [show, setShow] = useState(false);
+
+    const handelBonus = () => {
+        setShow(!show)
+    }
 
     return (
         <div className='b-[#111010]  space-y-4 pt-[2.5rem]' id="hero">
@@ -59,20 +63,20 @@ const ProductDetailsSection = () => {
                 </a>
 
             </div>
-          
+
             <div className='flex justify-between lg:space-y-4 xs:space-y-3 sm:space-y-3 md:space-y-3 lg:block xs:block md:block sm:block'>
 
                 <div className="w-[60%] xl:w-[55%] flex flex-col justify-end space-y-[17px] lg:w-[100%]  xs:w-[100%] sm:w-[100%] md:w-[100%]  ">
-                    <h5 className="text-[15px] leading-[23px] font-[900] gradientText font-[Inter] text-white uppercase">FAST GROWING CASINO REVEALS ITS NEW TOKEN FEATURING A SHOCKING REWARD SYSTEM</h5>
-                    <h3 className="text-[30px] xs:text-[24px] leading-[32px] font-[Inter] font-[900] gradientText uppercase"> $SCORP IS THE #1 TOKEN WORLDWIDE, PROVIDING DAILY REWARDS TO HOLDERS BASED ON ITS CASINO'S PERFORMANCE</h3>
+                    <h5 className="text-[13px] leading-[18px] font-[900] gradientText font-[Inter] text-white uppercase">FAST GROWING CASINO REVEALS ITS NEW TOKEN FEATURING A SHOCKING REWARD SYSTEM</h5>
+                    <h3 className="text-[30px] xs:text-[22px] xs:leading-[28px] leading-[32px] font-[Inter] font-[900] gradientText uppercase"> $SCORP IS THE #1 TOKEN WORLDWIDE, PROVIDING DAILY REWARDS TO HOLDERS BASED ON ITS CASINO'S PERFORMANCE</h3>
                     <h5 className="text-[18px] font-[400] leading-[28px] font-[Inter]  text-white ">Start earning today and receive up to 10,000 USDT in daily passive staking income from a licensed and regulated global Casino and Betting Platform, no matter the market conditions.</h5>
                     <button className="herobtnbg rounded-[19px] flex h-[49px] w-[253px] xs:w-[180px] flex justify-center items-center font-[700] text-[21px] xs:text-[14px] text-white">  <img className="mr-2 w-[40px] h-[30px]" src={gc} alt="" /> <a href={Pdf} target="_blank">Verify License</a> </button>
                     <div className="flex items-center">
                         <p className="text-[19px] font-[400] font-[Inter] underline text-white">Audited & KYC | 100% Secure & Verified</p>
                         <img className="max-w-[146.38px] ml-2" src={Solid} alt="" />
                     </div>
-                    <div className="pt-[2.2rem]">
-                        <video controls preload="metadata" poster={poster} playsinline className="bg-filter rounded-[20px] bgposter max-h-[458px] xs:h-[280px] sm:h-[330px] md:h-[420px] " height="100px" width="100%" >
+                    <div className="pt-[2.2rem] ">
+                        <video controls preload="metadata" poster={poster} playsinline className="bg-filterved rounded-[20px] bgposter max-h-[458px] xs:h-[280px] sm:h-[330px] md:h-[420px] " height="100px" width="100%" >
                             <source src={ved} type="video/mp4" />
                         </video>
                     </div>
@@ -80,7 +84,7 @@ const ProductDetailsSection = () => {
                 <div className='w-[38%] xl:w-[42%] lg:w-[65%] lg:mx-auto flex flex-col justify-end  xs:w-[100%] sm:w-[100%] md:w-[100%] z-[2]'>
 
 
-                    <div className=' py-[30px]  2xl:h-[830px] xl:h-[830px] lg:h-[900px] md:h-[900px] sm:lg:h-[900px] h-[auto]  2xl:px-[52px] xl:px-[45px] lg:px-[32px] md:px-[52px] sm:px-[52px] px-[20px]  bg-filter space-y-4'>
+                    <div className=' py-[30px]   2xl:px-[52px] xl:px-[45px] lg:px-[32px] md:px-[52px] sm:px-[52px] px-[20px]  bg-filter space-y-4'>
                         <div>
                             <h3 className="2xl:text-[36px] xl:text-[36px] lg:text-[26px] md:text-[26px] sm:text-[28px] text-[24px] font-[700] text-center font-[Inter] 2xl:leading-[60px] xl:leading-[60px]  lg:leading-[35px] md:leading-[60px] sm:leading-[60px] text-white">$SCORP Pre-Sale</h3>
                         </div>
@@ -165,19 +169,32 @@ const ProductDetailsSection = () => {
                                     <div className="w-[100%]">
                                         <Button classes="bgcolor font-[600] w-[100%] py-3 rounded xs:text-[14px]" text="Connect Wallet" />
                                     </div>
+                                    {
+                                        show &&
+                                        <div className="flex">
+                                            <input type="text" className="w-[100%] py-1 px-2 outline-none rounded-l " placeholder="10" />
+                                            <button className="flex items-center text-white rounded-r space-y-3 px-5 py-3 border-l bgcolor">
+                                                <p className="text-[12px] text-black font-[700]">Apply</p>
+                                            </button>
+                                        </div>
+                                    }
                                 </div>
                             </div>
 
                         </div>
                         <div>
-                            <div className="flex justify-between w-[90%] mx-auto gap-[15px] pt-[1rem]">
-                                <button className="text-[14px] xs:text-[11px] font-[500] font-[Inter] leading-[21px] flex w-[278px] h-[28px] items-center justify-center text-white  rounded-[10px] bg-[#3F3F3F]"> <img className="pr-1 w-[22px] h-[22px]" src={que} alt="" /> How to buy</button>
-                                <button className="text-[14px] xs:text-[11px] font-[500] font-[Inter] leading-[21px] flex w-[278px] h-[28px] items-center justify-center text-white  rounded-[10px] bg-[#3F3F3F]"> <img className="pr-1 w-[22px] h-[22px]" src={refe} alt="" />5% Referral Link</button>
+                            <div className="flex justify-between gap-[15px] pt-[1rem]">
+                                <button className="text-[14px] xs:text-[11px] font-[500] font-[Inter] leading-[21px] flex w-[278px] h-[30px] items-center justify-center text-white  rounded-[10px] bg-[#3F3F3F]"> <img className="pr-1 w-[22px] h-[22px]" src={que} alt="" /> How to buy</button>
+                                <button className="text-[14px] xs:text-[11px] font-[500] font-[Inter] leading-[21px] flex w-[278px] h-[30px] items-center justify-center text-white  rounded-[10px] bg-[#3F3F3F]"> <img className="pr-1 w-[22px] h-[22px]" src={refe} alt="" />5% Referral Link</button>
 
                             </div>
-                            <div className="py-[1rem]">
-                                <p className="text-[#DDD] underline text-center font-[Inter] text-[13px] font-[500] leading-[7px]">Bonus code?</p>
-                            </div>
+
+                            {
+                                !show &&
+                                <div className="py-[1rem]">
+                                    <p onClick={handelBonus} className="cursor-pointer text-[#DDD] underline text-center font-[Inter] text-[13px] font-[500] leading-[7px]">Bonus code?</p>
+                                </div>
+                            }
                         </div>
                     </div>
 

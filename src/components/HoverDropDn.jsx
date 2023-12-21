@@ -28,9 +28,9 @@ import fg14 from "../assects/svgs/fg (14).svg"
 
 const HoverDropDn = () => {
     return (
-        <div className="relative hoverdropbg h-[500px] pt-12 flex flex-col justify-between" >
+        <div className="relative hoverdropbg h-[500px] xs:h-[600px] pt-12 flex flex-col justify-between" >
             <img className="w-[40px] absolute -top-[3.5%] right-[19%]" src={ret} alt="" />
-            <div className=" px-12 2xl:flex xl:flex lg:flex md:flex sm:block block justify-between ">
+            <div className=" px-12 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden justify-between ">
                 <div className="space-y-[35px]">
                     <div>
                         <h3 className="text-[20px] font-[Inter] uppercase font-[700] text-[#fff]">Straight forward & simple</h3>
@@ -159,12 +159,74 @@ const HoverDropDn = () => {
 
                 </div>
             </div>
-            <div className="py-5 rounded-b-[17.81px] bg-[#6F612F] px-[40px]">
+            <div className="block xs:hidden sm:hidden py-5 rounded-b-[17.81px] bg-[#6F612F] px-[40px]">
                 <div className="flex justify-between items-center">
                     <h3 className="text-[18px] font-[Inter] text-white font-[700]">Need support?</h3>
                     <a href="" className="underline font-[Inter] text-white font-[400] text-[18px]">Join our 24/7 Live Chat Support on Telegram</a>
                 </div>
             </div>
+            <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block space-y-2 px-4  ">
+                        <div className="space-y-1">
+                            <div className="flex items-center space-x-4">
+                                <img src={fg13} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">English</p>
+                            </div>
+                            <div className="flex items-center space-x-4">
+                                <img src={fg12} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">German</p>
+                            </div>
+                            <div className="flex items-center space-x-4">
+                                <img src={fg3} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">French</p>
+                            </div>
+                            <div className="flex items-center space-x-4">
+                                <img src={fg4} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Spanish</p>
+                            </div>
+                            <div className="flex items-center space-x-4">
+                                <img src={fg5} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Italian</p>
+                            </div>
+                            <div className="flex items-center space-x-4">
+                                <img src={fg6} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Dutch</p>
+                            </div>
+                            <div className="flex items-center space-x-4">
+                                <img src={fg7} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Turkey</p>
+                            </div>
+                        </div>
+                        <div className="space-y-1">
+                            <div className="flex items-center space-x-4">
+                                <img src={fg8} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Japan</p>
+                            </div>
+                            <div className="flex items-center space-x-4">
+                                <img src={fg9} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Korean</p>
+                            </div>
+                            <div className="flex items-center space-x-4">
+                                <img src={fg10} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Norwegian</p>
+                            </div>
+                            <div className="flex items-center space-x-4">
+                                <img src={fg11} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Russian</p>
+                            </div>
+                            <div className="flex items-center space-x-4">
+                                <img src={fg2} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Chinese</p>
+                            </div>
+                            <div className="flex items-center space-x-4">
+                                <img src={fg1} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Portugese</p>
+                            </div>
+                            <div className="flex items-center space-x-4">
+                                <img src={fg14} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Vietnamese</p>
+                            </div>
+                        </div>
+                    </div>
 
         </div>
     )

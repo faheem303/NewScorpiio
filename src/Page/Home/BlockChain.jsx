@@ -35,7 +35,6 @@ function BlockChain() {
             />
           </div>
         </div>
-        <p id='success'></p>
       </div>
     </>
   )

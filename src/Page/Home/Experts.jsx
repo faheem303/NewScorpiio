@@ -37,6 +37,8 @@ function Experts() {
         <div className="">
           <CryptoExperts container={"flex flex-row-reverse flex-wrap-reverse 2xl:justify-between xl:justify-between lg:justify-between md:justify-center sm:justify-center justify-center gap-y-[23px]"} title={"I really like SCORPION CASINO. they have a big shot of becoming a huge success"} para={"The UI (Design) of the Casino is very nice, and they have a ton of different Partnerships that will make this casino truly exceptional."} smallContainer={"flex-row-reverse justify-end"} btnLarge={"Crypto Panda"} followerslarge={"Youtuber | 15k Followers"} srcLarge={Panda} srcSmall={SmallPanda} name={"Crypto Panda"} btnFollowers={"Youtuber | 15k Followers"} lastSrc={""}/>
         </div>
+        <p id='success'></p>
+
       </div>
     </>
   );

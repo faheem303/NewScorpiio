@@ -17,7 +17,7 @@ function Barriers() {
             <h2 className="2xl:text-[40px] xl:text-[40px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[30px] 2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center text-center gradientText font-[900] leading-[40px] uppercase">
               BREAKING DOWN THE BARRIERS TO THE CASINO INDUSTRY
             </h2>
-            <p className="text-white text-[18px] font-[400] leading-[28.80px] 2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center text-center">
+            <p className="text-white text-[18px] font-[700] leading-[23.80px] 2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center text-center">
               $SCORP Delivers Exclusive Insider Access to the world of Online
               Gambling.
             </p>

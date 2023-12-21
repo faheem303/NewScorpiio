@@ -172,9 +172,9 @@ const ProductDetailsSection = () => {
                                     {
                                         show &&
                                         <div className="flex">
-                                            <input type="text" className="w-[100%] py-1 px-2 outline-none rounded-l " placeholder="10" />
-                                            <button className="flex items-center text-white rounded-r space-y-3 px-5 py-3 border-l bgcolor">
-                                                <p className="text-[12px] text-black font-[700]">Apply</p>
+                                            <input type="text" className="w-[100%] py-1 px-2 outline-none rounded-l " placeholder="Bonus code" />
+                                            <button className="flex items-center text-white rounded-r space-y-3 px-5 py-3 border-l bg-black">
+                                                <p className="text-[12px] text-whites font-[700]">Apply</p>
                                             </button>
                                         </div>
                                     }

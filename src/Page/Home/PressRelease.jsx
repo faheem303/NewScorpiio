@@ -85,7 +85,7 @@ function PressRelease() {
               Latest articles and updates about Scorpion Casino
             </p>
           </div>
-          <div className="flex justify-end pr-[20px] py-[40px]">
+          <div className="flex justify-end pr-[20px] py-[40px] xs:py-[20px]">
           <Swiper
           
                       

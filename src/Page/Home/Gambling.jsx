@@ -17,7 +17,7 @@ function Gambling() {
           <h2 className="2xl:text-[32px] xl:text-[32px] lg:text-[32px] md:text-[32px] sm:text-[30px] text-[30px] 2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center text-center gradientText font-[900] leading-[40px] uppercase">
             ONLINE GAMBLING IS THE FUTURE
           </h2>
-          <p className="text-white text-[18px] font-[600] leading-[27px] 2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center text-center">
+          <p className="text-white text-[18px] font-[700] leading-[24px] 2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center text-center">
             Gambling is one of the oldest and most lucrative industries in the
             history of mankind and digitization is just the next logical step.
           </p>

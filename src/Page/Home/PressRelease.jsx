@@ -17,34 +17,34 @@ const PressData = [
     src: Img1,
     title:
       "Scorpion Casino: The Crypto-Based Gambling Revolution that’s Taking Hold of Crypto With One Day to Go",
-    href1: "",
+    href1: "https://coinpedia.org/press-release/scorpion-casino-the-crypto-based-gambling-revolution/",
     para: "Scorpion Casino ($SCORP) continues to take hold of the crypto world as its presale closes in on the $1.5 million fundraising milestone.",
-    href2: "",
+    href2: "https://coinpedia.org/press-release/scorpion-casino-the-crypto-based-gambling-revolution/",
   },
   {
     id: uuidv4(),
     src: Img2,
     title:
       "Scorpion Casino is The Ultimate Destination for Licensed and Regulated Online Gambling",
-    href1: "",
+    href1: "https://finbold.com/scorpion-casino-is-the-ultimate-destination-for-licensed-and-regulated-online-gambling/",
     para: "Scorpion Casino (SCORP) has emerged to become one of the top destinations for online gambling, casino games, sports betting...",
-    href2: "",
+    href2: "https://finbold.com/scorpion-casino-is-the-ultimate-destination-for-licensed-and-regulated-online-gambling/",
   },
   {
     id: uuidv4(),
     src: Img3,
     title: "Could Scorpion Casino Token Dethrone Dogecoin? Unlocking Daily Earnings of $10,000 and Beyond",
-    href1: "",
+    href1: "https://www.bsc.news/post/could-scorpion-casino-token-dethrone-dogecoin-unlocking-daily-earnings-of-10-000-and-beyond",
     para: "Scorpion's growing reputation and diverse earning opportunities make it a potential rival to Dogecoin in the crypto market.",
-    href2: "",
+    href2: "https://www.bsc.news/post/could-scorpion-casino-token-dethrone-dogecoin-unlocking-daily-earnings-of-10-000-and-beyond",
   },
   {
     id: uuidv4(),
     src: Img4,
     title: "Price Predictions For Ethereum, XRP, and Scorpion Casino Token",
-    href1: "",
+    href1: "https://www.analyticsinsight.net/price-predictions-for-ethereum-xrp-and-scorpion-casino-token/",
     para: "The crypto landscape is ever-evolving, and as more individuals and institutions dive into the world of digital assets, the quest for solid price ",
-    href2: "",
+    href2: "https://www.analyticsinsight.net/price-predictions-for-ethereum-xrp-and-scorpion-casino-token/",
   },
   
 ];

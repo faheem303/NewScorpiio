@@ -66,32 +66,32 @@ const HoverDropDn = () => {
                         <h3 className="text-[20px] font-[Inter] font-[700] uppercase text-[#fff]">where to find us</h3>
                     </div>
                     <div className="">
-                        <a  href="">  
+                        <a target="_blank" href="https://twitter.com/ScorpionCasino">  
                         <div className="pb-[22px] flex items-center space-x-4">
                             <img src={Xicon4} alt="" />
                             <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">X.com</p>
                         </div>
                         </a>
-                        <a  href="">
+                        <a target="_blank" href="">
                         <div className="pb-[22px] flex items-center space-x-4">
                             <img src={Xicon3} alt="" />
                             <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Youtube</p>
                         </div>
                         </a>
                       
-                        <a  href="https://www.instagram.com/scorpion.casino/">
+                        <a target="_blank" href="https://www.instagram.com/scorpion.casino/">
                         <div className="pb-[22px] flex items-center space-x-4">
                              <img src={Xicon2} alt="" />
                             <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Instagram</p>
                         </div>
                         </a>
-                        <a  href="https://t.me/scorpioncasino_official"> 
+                        <a target="_blank" href="https://t.me/scorpioncasino_official"> 
                         <div className="pb-[22px] flex items-center space-x-4">
                             <img src={Xicon1} alt="" />
                             <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Telegram</p>
                         </div>
                         </a>
-                        <a  href="">
+                        <a target="_blank" href="">
                         <div className="flex items-center space-x-4">
                             <img src={Xicon5} alt="" />
                             <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Linktree</p>

@@ -203,7 +203,7 @@ const RewardSection = () => {
         }
     ]
     return (
-        <div className=" flex justify-between items-center md:block sm:block xs:block">
+        <div className="relative z-[2] flex justify-between items-center md:block sm:block xs:block">
             <div className=" xs:text-center sm:text-center w-[45%] space-y-10 pr-2 md:w-[100%] md:py-4  sm:w-[100%] sm:py-4  xs:w-[100%] xs:py-4">
                 <div className="">
                     <h3 className="text-[43px] xs:text-[30px] xs:leading-[33px] font-[900] font-[Inter] leading-[40px] pb-6 gradientText">GET EXTRA REWARDS STARTING FROM $1,000</h3>

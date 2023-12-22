@@ -50,25 +50,17 @@ const ProductDetailsSection = () => {
                 <ToastContainer />
                </div>
 
-                <a href='https://www.instagram.com/scorpion.casino/' target="_blank">
-                    <Button classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={Tree}
+                
+                    <Button link="https://linkin.bio/scorpioncasino" classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={Tree}
                     />
-                </a>
-                <a href='https://twitter.com/ScorpionCasino' target="_blank">
-
-                    <Button classes=" flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={tei}
+              
+                    <Button link="https://twitter.com/ScorpionCasino" classes=" flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={tei}
                     />
-                </a>
-                <a href='https://t.me/scorpioncasino_official' target="_blank">
-
-                    <Button classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={tel}
+              
+                    <Button link="https://t.me/scorpioncasino_official" classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={tel}
                     />
-                </a>
-                <a href='https://www.instagram.com/scorpion.casino/' target="_blank">
-
-                    <Button classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={igrm}
+                    <Button link="https://www.instagram.com/scorpion.casino/" classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={igrm}
                     />
-                </a>
 
             </div>
 
@@ -99,7 +91,7 @@ const ProductDetailsSection = () => {
                         <div className=' bgposter '>
 
                             <div className="bg-[#090909] max-w-[703px] rounded-t-[13px] px-8 xs:px-10  sm:px-16 md:px-16 py-6 xs:pt-5 sm:pt-5 md:pt-8 ">
-                                <h3 className='2xl:text-[50px] xl:text-[38px] lg:text-[34px] md:text-[32px] sm:text-[28px] xs:text-[32px] font-[800] text-center font-[Inter] gradientText'>$284,545.09</h3>
+                                <h3 className='2xl:text-[50px] xl:text-[44px] lg:text-[34px] md:text-[32px] sm:text-[28px] xs:text-[32px] font-[800] text-center font-[Inter] gradientText'>$284,545.09</h3>
                                 <div className='flex items-center justify-between space-x-2 '>
                                     <h5 className=' text-center 2xl:text-[16px] xl:text-[14px] lg:text-[13px] md:text-[13px] sm:xs:text-[13px] xs:text-[13px] font-[Inter] text-[#929292]'>2846% of minimum goal raised</h5>
                                     <span className="relative">

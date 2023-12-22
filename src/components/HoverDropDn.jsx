@@ -36,7 +36,7 @@ const HoverDropDn = () => {
                         <h3 className="text-[20px] font-[Inter] uppercase font-[700] text-[#fff]">Straight forward & simple</h3>
                     </div>
                     <div className="flex space-x-4 items-center">
-                        <img src={HDicon} alt="" />
+                        <img className="w-[30px] h-[30px]" src={HDicon} alt="" />
                         <div className="space-y-[35px">
                             <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">how to buy $scorp</h3>
                             <p className="text-white">With Trust Wallet</p>
@@ -44,7 +44,7 @@ const HoverDropDn = () => {
 
                     </div>
                     <div className="flex space-x-4 items-center">
-                        <img src={HDicon3} alt="" />
+                        <img className="w-[30px] h-[30px]" src={HDicon3} alt="" />
                         <div className="space-y-[35px">
                             <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">how to buy $scorp</h3>
                             <p className="text-white">With Metamask</p>
@@ -52,7 +52,7 @@ const HoverDropDn = () => {
 
                     </div>
                     <div className="flex space-x-4 items-center">
-                        <img src={HDicon2} alt="" />
+                        <img className="w-[30px] h-[30px]" src={HDicon2} alt="" />
                         <div className="space-y-[35px">
                             <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">how to buy $scorp</h3>
                             <p className="text-white">Manually</p>
@@ -91,7 +91,7 @@ const HoverDropDn = () => {
                             <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Telegram</p>
                         </div>
                         </a>
-                        <a target="_blank" href="">
+                        <a target="_blank" href="https://linkin.bio/scorpioncasino">
                         <div className="flex items-center space-x-4">
                             <img src={Xicon5} alt="" />
                             <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Linktree</p>

@@ -27,7 +27,7 @@ const CommunitySection = () => {
                     <div className="flex relative justify-center flex-col items-center">
                         <img className="border-2 rounded-full border-[#FFD770] h-[53px] w-[52px]" src={smit} alt="" />
                         <h4 className="uppercase gradientText text-[15px] font-[900] font-[Inter]">CryptoLord</h4>
-                        <p className="text-[#B6BCCC] text-[13px] font-[400] font-[Inter]">Wallet Address</p>
+                        <p className="text-[#B6BCCC] text-[13px] font-[400] font-[Inter] underline courser-pointer ">View Review</p>
                         <img className="absolute h-[56px] -right-[10%] -bottom-[25%]" src={tel} alt="" />
                     </div>
                   </div>
@@ -39,7 +39,7 @@ const CommunitySection = () => {
                     <div className="flex relative justify-center flex-col items-center">
                         <img className="border-2 rounded-full border-[#FFD770] h-[53px] w-[52px]" src={smit2} alt="" />
                         <h4 className="uppercase gradientText text-[15px] font-[900] font-[Inter]">MFX</h4>
-                        <p className="text-[#B6BCCC] text-[13px] font-[400] font-[Inter]">Wallet Address</p>
+                        <p className="text-[#B6BCCC] text-[13px] font-[400] font-[Inter] underline courser-pointer ">View Review</p>
                         <img className="absolute h-[56px] -right-[10%] -bottom-[25%]" src={tel} alt="" />
 
                     </div>
@@ -52,7 +52,7 @@ const CommunitySection = () => {
                     <div className="flex relative justify-center flex-col items-center">
                         <img className="border-2 rounded-full border-[#FFD770] h-[53px] w-[52px]" src={smit3} alt="" />
                         <h4 className="uppercase gradientText text-[15px] font-[900] font-[Inter]">Kylian</h4>
-                        <p className="text-[#B6BCCC] text-[13px] font-[400] font-[Inter]">Wallet Address</p>
+                        <p className="text-[#B6BCCC] text-[13px] font-[400] font-[Inter] underline courser-pointer ">View Review</p>
                         <img className="absolute -right-[10%] h-[56px] -bottom-[25%]" src={tel} alt="" />
 
                     </div>

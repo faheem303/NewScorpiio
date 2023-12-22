@@ -37,16 +37,23 @@ const ProductDetailsSection = () => {
         setShow(!show)
     }
     const handleCopy = () => {
-        navigator.clipboard.writeText("0xD77401A76d6cDB7Ac3bb031Bf25dEc07615509E7");
-        toast("Copied!");
-    }
+        navigator.clipboard.writeText("https://lucent-caramel-6be687.netlify.app/")
+          .then(() => {
+            toast.success('Copied!');
+          })
+          .catch((error) => {
+            console.error('Error copying:', error);
+            toast.error('Failed to copy.');
+          });
+      };
 
     return (
         <div className='b-[#111010]  space-y-4 pt-[2.5rem]' id="hero">
             <div className="flex items-center justify-end space-x-3 md:hidden sm:hidden xs:hidden z-[2]">
 
                <div>
-               <Button onClick={handleCopy} classes=" flex items-center justify-center rounded-md  text-[9px] w-[30px] h-[30px]" wallet={Link} />
+              
+               <button className="flex items-center justify-center w-[29px] h-[29px]" onClick={handleCopy}><img className=" rounded-md h-[100%]  text-[9px] " src={Link} alt="" /></button>
                 <ToastContainer />
                </div>
 

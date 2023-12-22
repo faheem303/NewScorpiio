@@ -137,7 +137,7 @@ const Home = () => {
                <img src={icon6} className='absolute 2xl:w-[220px] xl:w-[170px] lg:w-[160px] md:w-[130px] sm:w-[100px] xs:w-[50px] top-[6.5%] -left-[0%] ' alt="" />
                 <img src={icon5} className='absolute 2xl:w-[220px] xl:w-[170px] lg:w-[160px] md:w-[130px] sm:w-[100px] xs:w-[45px] top-[9%] -right-[0%] ' alt="" />
                 <img src={icon7} className='absolute 2xl:w-[390px] xl:w-[330px] lg:w-[160px] md:w-[130px] sm:w-[100px] xs:w-[90px] top-[12%] right-[0%] ' alt="" />
-                <img src={icon10} className='absolute 2xl:w-[180px] xl:w-[150px] lg:w-[130px] md:w-[110px] sm:w-[80px] xs:w-[45px] top-[15.5%] xs:top-[15.3%] -left-[0%] ' alt="" />
+                <img src={icon10} className='xs:hidden absolute 2xl:w-[180px] xl:w-[150px] lg:w-[130px] md:w-[110px] sm:w-[80px] xs:w-[45px] top-[15.5%] xs:top-[15.3%] -left-[0%] ' alt="" />
                 <img src={icon12} className='absolute block xl:block lg:block md:hidden sm:hidden xs:hidden 2xl:w-[160px] xl:w-[140px] lg:w-[110px] md:w-[90px] sm:w-[70px] xs:w-[50px] top-[20.5%] left-[3%] ' alt="" />
                 <img src={icon2} className='absoluteblock xl:block lg:block md:hidden sm:hidden xs:hidden  2xl:w-[160px] xl:w-[140px] lg:w-[110px] md:w-[90px] sm:w-[70px] xs:w-[50px] top-[20.5%] right-[0%] ' alt="" />
                 <img src={icon13} className='absolute 2xl:w-[400px] xl:w-[380px] lg:w-[380px] md:w-[300px] sm:w-[280px] xs:w-[250px] top-[26.5%] left-[0%] ' alt="" />

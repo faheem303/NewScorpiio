@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa6";
 
-const FaqItem = ({ question, answer, isOpen, toggleItem,answer2 }) => {
+const FaqItem = ({ question, answer, isOpen, toggleItem,answer2,table }) => {
   const createMarkup = () => ({ __html: answer });
   const contentStyles = {
     maxHeight: isOpen ? "1000px" : "0",
@@ -38,6 +38,66 @@ const FaqItem = ({ question, answer, isOpen, toggleItem,answer2 }) => {
             <p className="pb-[30px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] text-[#fff] font-[400] pt-[16px]"> {answer2}</p>
           }
         </div>
+        {
+          table&&
+          <div className="px-4 pb-12">
+            <div className="flex justify-between border border-white bg-[#E5E7EB] p-[15px]">
+              <div className="w-[40%]"><h3 className="text-[16px] xs:text-[10px] font-[600] font-[Inter]">Claims</h3></div>
+              <div className="w-[30%]"><h3 className="text-[16px] xs:text-[10px] font-[600] font-[Inter]">Percentage</h3></div>
+              <div className="w-[30%]"><h3 className="text-end text-[16px] xs:text-[10px] font-[600] font-[Inter]">Unlock Period</h3></div>
+            </div>
+            <div className="flex justify-between border-t border-l border-r border-white py-[10px] px-[25px]">
+            <div className="w-[40%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">1st claim</h3></div>
+              <div className="w-[30%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">10%</h3></div>
+              <div className="w-[30%]"><h3 className="text-end text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">24 hours after Launch</h3></div>
+            </div>
+            <div className="flex justify-between border-t border-l border-r border-white py-[10px] px-[25px]">
+            <div className="w-[40%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">2nd claim</h3></div>
+              <div className="w-[30%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">10%</h3></div>
+              <div className="w-[30%]"><h3 className="text-end text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">after 10 days</h3></div>
+            </div>
+            <div className="flex justify-between border-t border-l border-r border-white py-[10px] px-[25px]">
+            <div className="w-[40%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">3rd claim</h3></div>
+              <div className="w-[30%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">10%</h3></div>
+              <div className="w-[30%]"><h3 className="text-end text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">after 10 days</h3></div>
+            </div>
+            <div className="flex justify-between border-t border-l border-r border-white py-[10px] px-[25px]">
+            <div className="w-[40%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">4th claim</h3></div>
+              <div className="w-[30%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">10%</h3></div>
+              <div className="w-[30%]"><h3 className="text-end text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">after 10 days</h3></div>
+            </div>
+            <div className="flex justify-between border-t border-l border-r border-white py-[10px] px-[25px]">
+            <div className="w-[40%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">5th claim</h3></div>
+              <div className="w-[30%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">10%</h3></div>
+              <div className="w-[30%]"><h3 className="text-end text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">after 10 days</h3></div>
+            </div>
+            <div className="flex justify-between border-t border-l border-r border-white py-[10px] px-[25px]">
+            <div className="w-[40%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">6th claim</h3></div>
+              <div className="w-[30%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">10%</h3></div>
+              <div className="w-[30%]"><h3 className="text-end text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">after 10 days</h3></div>
+            </div>
+            <div className="flex justify-between border-t border-l border-r border-white py-[10px] px-[25px]">
+            <div className="w-[40%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">7th claim</h3></div>
+              <div className="w-[30%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">10%</h3></div>
+              <div className="w-[30%]"><h3 className="text-end text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">after 10 days</h3></div>
+            </div>
+            <div className="flex justify-between border-t border-l border-r border-white py-[10px] px-[25px]">
+            <div className="w-[40%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">8th claim</h3></div>
+              <div className="w-[30%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">10%</h3></div>
+              <div className="w-[30%]"><h3 className="text-end text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">after 10 days</h3></div>
+            </div>
+            <div className="flex justify-between border-t border-l border-r border-white py-[10px] px-[25px]">
+            <div className="w-[40%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">9th claim</h3></div>
+              <div className="w-[30%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">10%</h3></div>
+              <div className="w-[30%]"><h3 className="text-end text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">after 10 days</h3></div>
+            </div>
+            <div className="flex justify-between border border-white py-[10px] px-[25px]">
+            <div className="w-[40%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">10th claim</h3></div>
+              <div className="w-[30%]"><h3 className="text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">10%</h3></div>
+              <div className="w-[30%]"><h3 className="text-end text-[16px] xs:text-[10px] font-[400] text-white font-[Inter]">after 10 days</h3></div>
+            </div>
+          </div>
+        }
       {/* )} */}
       </div>
     </div>
@@ -72,8 +132,7 @@ const FaqList = () => {
           },
           {
             question: "Does it have a vesting period?",
-            answer:
-              "Yes, please refer to our Vesting plan below.",
+            tableitem:true,
           },
           {
             question: "What is the $SCORP Listing Price?",
@@ -118,6 +177,7 @@ const FaqList = () => {
                   question={faq.question}
                   answer={faq.answer}
                   answer2={faq.answer2}
+                  table={faq.tableitem}
                   isOpen={openItems.includes(index)}
                   toggleItem={() => toggleItem(index)}
                 />

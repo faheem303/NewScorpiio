@@ -47,7 +47,7 @@ const HoverDropDn = () => {
                         <img src={HDicon3} alt="" />
                         <div className="space-y-[35px">
                             <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">how to buy $scorp</h3>
-                            <p className="text-white">With Matamask</p>
+                            <p className="text-white">With Metamask</p>
                         </div>
 
                     </div>

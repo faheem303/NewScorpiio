@@ -124,11 +124,8 @@ const FaqList = () => {
           {
             question: "Why are we doing a pre-sale?",
             answer:
-            "We’re having a pre-sale to build a strong community of $SCORP holders, improve our platform and get players to join our ecosystem. Our main targets are getting 100,000 people signed up for the casino and having 500 to 1000 players wagering every day consistently. These achievements will lead to significant profits and ensure the long-term success of the $SCORP token.",
-            answer2:
-            "Be a part of the future of online gambling by contributing to the development of Scorpion Casino’s global community-based gambling ecosystem! Your support will help us enhance our platform’s development and execute our go-to-market strategy. The $SCORP token will be listed on centralized and decentralized exchanges, driving further growth for the SCORPION ecosystem.",
-            answer3:
-            "Join the Scorpion Casino public pre-sale now and gain early access to our platform, plus receive up to 40% free credits to play with. Don’t miss your chance to be a part of the future of online gambling - Join the Winning Team today!"
+            "Be a part of the future of online gambling by contributing to the development of Scorpion Casino's global, community-based gambling ecosystem! The funds raised during the pre-sale will be continuously reinvested in building the betting platform, introducing new features, and expanding the user base through marketing activities. This will enable us to enhance our platform's capabilities and effectively execute our go-to-market strategy before the launch of the $SCORP token. As a bonus, the $SCORP token will be listed on top centralized and decentralized exchanges, further accelerating growth for the SCORPION ecosystem. Join the Scorpion Casino public presale now to gain early access to our platform and receive 100% free credits to play with. Don't miss your chance to be a part of the future of online gambling—join the Scorpion Casino community today!",
+          
           },
           {
             question: "What is the $SCORP token?",

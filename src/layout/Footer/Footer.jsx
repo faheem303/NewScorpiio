@@ -1,4 +1,7 @@
 import React from "react";
+import { ToastContainer, toast } from 'react-toastify';
+
+
 import Link from "../../assects/svgs/linkf.svg";
 import Twitter from "../../assects/svgs/twitter.svg";
 import Telegram from "../../assects/svgs/telegram.svg";
@@ -7,6 +10,16 @@ import Play from "../../assects/svgs/play.svg";
 import Scorpion from "../../assects/svgs/ScorpionCasino.svg";
 
 function Footer() {
+  const handleCopy = () => {
+    navigator.clipboard.writeText("https://lucent-caramel-6be687.netlify.app/")
+      .then(() => {
+        toast.success('Copied!');
+      })
+      .catch((error) => {
+        console.error('Error copying:', error);
+        toast.error('Failed to copy.');
+      });
+  };
   return (
     <>
       <div className="bg-[#000000]">
@@ -18,16 +31,17 @@ function Footer() {
                 Join the Winning Team
               </h3>
               <div className="flex gap-[12px]">
-                <a href="#">
+                <button onClick={handleCopy}>
                   <img src={Link} alt="" />
-                </a>
-                <a href="#">
+                </button>
+               
+                <a href="https://twitter.com/ScorpionCasino" target="_blank">
                   <img src={Twitter} alt="" />
                 </a>
-                <a href="#">
+                <a href="https://t.me/scorpioncasino_official" target="_blank">
                   <img src={Telegram} alt="" />
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/scorpion.casino/" target="_blank">
                   <img src={Insta} alt="" />
                 </a>
               </div>
@@ -55,31 +69,31 @@ function Footer() {
               </p>
               <div className="flex gap-[16px] pb-[12px]">
                 <a
-                  href="#"
+                  href="https://presale.scorpion.casino/static/media/TOS.2f18aa7fff3ccb4d9a47.pdf"
                   className="text-[12px] text-white font-[400] leading-[18px] underline"
                 >
                   Terms of Service
                 </a>
                 <a
-                  href="#"
+                  href="https://presale.scorpion.casino/static/media/Privacy.7dcb0b5d78cf5111dc73.pdf"
                   className="text-[12px] text-white font-[400] leading-[18px] underline"
                 >
                   Privacy Policy
                 </a>
                 <a
-                  href="#"
+                  href="https://t.me/scorpioncasino_official" target="_blank"
                   className="text-[12px] text-white font-[400] leading-[18px] underline"
                 >
                   Contact Us
                 </a>
                 <a
-                  href="#"
+                  href="https://presale.scorpion.casino/static/media/TokenSaleAgreement.9eb934d231e742f9bcbf.pdf"
                   className="text-[12px] text-white font-[400] leading-[18px] underline"
                 >
                   Token Sale Agreement
                 </a>
                 <a
-                  href="#"
+                  href="https://scorpioncasino.co/pay.php?checkout_id=custom-123&price=0&external_reference=ABC"
                   className="text-[12px] text-white font-[400] leading-[18px] underline"
                 >
                   Buy SCORP Manually
@@ -126,16 +140,17 @@ function Footer() {
               first social online gambling ecosystem powered by $SCORP.
             </p>
             <div className="flex  gap-[12px] my-[21px]">
-              <a href="#">
+              <button onClick={handleCopy}>
                 <img className="w-[28px]"  src={Link} alt="" />
-              </a>
-              <a href="#">
+                </button>
+            
+              <a href="https://twitter.com/ScorpionCasino" target="_blank">
                 <img className="w-[28px]"  src={Twitter} alt="" />
               </a>
-              <a href="#">
+              <a href="https://t.me/scorpioncasino_official" target="_blank">
                 <img className="w-[28px]"  src={Telegram} alt="" />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/scorpion.casino/" target="_blank">
                 <img className="w-[28px]"  src={Insta} alt="" />
               </a>
             </div>
@@ -149,31 +164,31 @@ function Footer() {
               </p>
               <div className="flex flex-col gap-[5px] pb-[5px]">
                 <a
-                  href="#"
+                  href="#" target="_blank"
                   className="text-[12px] text-white font-[400] leading-[18px] underline"
                 >
                   Terms of Service
                 </a>
                 <a
-                  href="#"
+                  href="#" target="_blank"
                   className="text-[12px] text-white font-[400] leading-[18px] underline"
                 >
                   Privacy Policy
                 </a>
                 <a
-                  href="#"
+                  href="#" target="_blank"
                   className="text-[12px] text-white font-[400] leading-[18px] underline"
                 >
                   Contact Us
                 </a>
                 <a
-                  href="#"
+                  href="#" target="_blank"
                   className="text-[12px] text-white font-[400] leading-[18px] underline"
                 >
                   Token Sale Agreement
                 </a>
                 <a
-                  href="#"
+                  href="#" target="_blank"
                   className="text-[12px] text-white font-[400] leading-[18px] underline"
                 >
                   Buy SCORP Manually

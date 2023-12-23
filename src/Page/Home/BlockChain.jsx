@@ -13,8 +13,8 @@ function BlockChain() {
             COLLABORATION WITH A LEADING BLOCKCHAIN INCUBATOR
             </h2>
             <p className="text-white text-[18px] font-[400] leading-[28.80px] 2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center text-center">
-            Scorpion Casino has joined forces with Tenset, the incubator and masterminds behind Metahero (100x return from launch) and Everdome (80x return from launch). <br />
-            Tenset's Infinity Program and success-driven approach, sky-high returns on (previous) collaborations and cutting-edge solutions is making them the perfect partner to elevate Scorpion Casino to new heights.
+            Scorpion Casino is partnering with Tenset, the masterminds behind the success stories of Meta Hero (100x return from its pre-sale) and Everdome (80x return from its pre-sale). <br />
+            Tenset’s Infinity Program has an impressive track record in working with new cryptocurrencies and delivering high returns to early supporters. This partnership required months to establish and is set to take $SCORP to the next level.
             </p>
              <div className='w-[100%] '>
               <a href="#hero">

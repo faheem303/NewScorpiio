@@ -3,7 +3,6 @@ import React from 'react';
 import Home from '../Page/Home';
 import Footer from './Footer/Footer';
 import Navbar from './Navbar';
-import Mobilehome from '../Page/MobileHome';
 
 
 
@@ -16,10 +15,7 @@ const Layout = ({handelClick}) => {
             </div>
             <div className=''>
             <Home className="" />
-            </div>
-            {/* <div className='2xl:hidden xl:hidden lg:hidden md:hidden sm:block xs:block'>
-                <Mobilehome />
-            </div> */}
+            </div>       
             <div>
             <Footer className="bg-[#111010]" />
             </div>

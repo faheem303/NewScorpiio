@@ -50,34 +50,34 @@ function Media() {
       >
 
         <SwiperSlide className="wrap"  >
+        <MediaCards
+          cardContainer={"cardclr3"}
+          src={CoinMarket}
+          imgClass={""}
+          para={
+            "This gaming-related project’s inviting atmosphere and excellent rewards make it a success. As such, many analysts think it could be the next billion-dollar crypto."
+          }
+        />
+        </SwiperSlide>
+        <SwiperSlide className="wrap"  >
+          <MediaCards
+            cardContainer={"cardbgclr2"}
+            src={CryptoNews}
+            imgClass={""}
+            para={
+              "Overall, Scorpion Casino is one of the only projects that can provide a sustainable passive income to holders - regardless of the overall market conditions."
+            }
+          />
+        </SwiperSlide>
+        <SwiperSlide className="wrap"  >
           <MediaCards
             cardContainer={"cardbgclr"}
             src={CityPaper}
             imgClass={""}
             para={
-              "The simple and intuitive Scorpion Casino platform offers the average person the ability to invest in income-generating properties around the world starting with as little as $100 USD."
+              "Scorpion Casino is on a mission to create the world’s leading crypto-based online casino, where holders of its token can earn a daily yield based on the casino’s performance."
             }
           />
-        </SwiperSlide>
-        <SwiperSlide className="wrap"  >
-          <MediaCards
-            cardContainer={"cardbgclr2"}
-            src={CoinMarket}
-            imgClass={""}
-            para={
-              "Scorpion Casino will revolutionize the real estate market by giving retail investors a simple platform to build truly passive income and long- term value appreciation."
-            }
-          />
-        </SwiperSlide>
-        <SwiperSlide className="wrap"  >
-        <MediaCards
-          cardContainer={"cardclr3"}
-          src={CryptoNews}
-          imgClass={""}
-          para={
-            "Scorpion Casino’s power play in disrupting the real estate market is fractional investment. NFTs are used to represent NFT ownership in properties and all NFTS are 100% backed by real-world properties."
-          }
-        />
         </SwiperSlide>
 
       </Swiper>

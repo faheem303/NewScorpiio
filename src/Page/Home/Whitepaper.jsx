@@ -18,7 +18,7 @@ const WhitepaperSection = () => {
                     <h5 className="font-[Inter] text-[18px] font-[400] leading-[28px] text-[white] xs:text-[14px] ">
                     200+ CASINO GAMESSCORPION offers a complete online casino with over 200+ games from all major game providers. Casino games include slots, blackjack, roulette, poker, live casino, and more.Buy $SCORP
                     </h5>
-                    <Button text="Read the Whitepaper" classes="rounded-[40px] bgcolor text-[18px]  px-[60px] py-4 font-[700]" />
+                    <Button link="https://presale.scorpion.casino/static/media/Whitepaper.ad227e4e0cc75136ca54.pdf" text="Read the Whitepaper" classes="rounded-[40px] bgcolor text-[18px]  px-[60px] py-4 font-[700]" />
 
 
                 </div>

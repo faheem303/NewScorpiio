@@ -39,7 +39,9 @@ const HoverDropDn = () => {
                         <img className="w-[30px] h-[30px]" src={HDicon} alt="" />
                         <div className="space-y-[35px">
                             <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">how to buy $scorp</h3>
+                            <a href="https://master--legendary-gaufre-d9fd23.netlify.app/" >
                             <p className="text-white">With Trust Wallet</p>
+                            </a>
                         </div>
 
                     </div>
@@ -47,15 +49,19 @@ const HoverDropDn = () => {
                         <img className="w-[30px] h-[30px]" src={HDicon3} alt="" />
                         <div className="space-y-[35px">
                             <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">how to buy $scorp</h3>
+                            <a href="https://master--legendary-gaufre-d9fd23.netlify.app/" >
                             <p className="text-white">With Metamask</p>
+                            </a>
                         </div>
 
                     </div>
                     <div className="flex space-x-4 items-center">
                         <img className="w-[30px] h-[30px]" src={HDicon2} alt="" />
                         <div className="space-y-[35px">
-                            <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">how to buy $scorp</h3>
-                            <p className="text-white">Manually</p>
+                            <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">you can't buy</h3>
+                            <a href="https://scorpioncasino.co/pay.php?checkout_id=custom-123&price=0&external_reference=ABC">
+                            <p className="text-white">Buy $SCORP Manually</p>
+                            </a>
                         </div>
 
                     </div>

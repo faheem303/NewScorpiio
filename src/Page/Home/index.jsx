@@ -1,23 +1,6 @@
 
 import React from 'react';
 
-import icon1 from "../../assects/bgicons/v1.png"
-import icon2 from "../../assects/bgicons/v2.png"
-import icon3 from "../../assects/bgicons/v3.png"
-import icon4 from "../../assects/bgicons/v4.png"
-import icon5 from "../../assects/bgicons/v5.png"
-import icon6 from "../../assects/bgicons/v6.png"
-import icon7 from "../../assects/bgicons/v7.png"
-import icon8 from "../../assects/bgicons/v8.png"
-import icon9 from "../../assects/bgicons/v9.png"
-import icon10 from "../../assects/bgicons/v10.png"
-import icon11 from "../../assects/bgicons/v11.png"
-import icon12 from "../../assects/bgicons/v12.png"
-import icon13 from "../../assects/bgicons/v13.png"
-import icon14 from "../../assects/bgicons/v14.png"
-
-
-
 import RewardSection from './RewardsSection';
 import BenefitSection from './BenefitsSection';
 import BetaSection from './BetaSection';
@@ -46,6 +29,20 @@ import PoweredBy from './PoweredBy';
 import FaqList from './Faq';
 import HugeSection from './HugeSection';
 import CommunitySection from './Community';
+
+import icon1 from "../../assects/bgicons/v1.png"
+import icon2 from "../../assects/bgicons/v2.png"
+import icon3 from "../../assects/bgicons/v3.png"
+import icon5 from "../../assects/bgicons/v5.png"
+import icon6 from "../../assects/bgicons/v6.png"
+import icon7 from "../../assects/bgicons/v7.png"
+import icon8 from "../../assects/bgicons/v8.png"
+import icon9 from "../../assects/bgicons/v9.png"
+import icon10 from "../../assects/bgicons/v10.png"
+import icon11 from "../../assects/bgicons/v11.png"
+import icon12 from "../../assects/bgicons/v12.png"
+import icon13 from "../../assects/bgicons/v13.png"
+import icon14 from "../../assects/bgicons/v14.png"
 
 
 

@@ -58,15 +58,15 @@ const ProductDetailsSection = () => {
                </div>
 
                 
-                    <Button link="https://linkin.bio/scorpioncasino" classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={Tree}
+                    <Button target="_blank" link="https://linkin.bio/scorpioncasino" classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={Tree}
                     />
               
-                    <Button link="https://twitter.com/ScorpionCasino" classes=" flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={tei}
+                    <Button target="_blank" link="https://twitter.com/ScorpionCasino" classes=" flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={tei}
                     />
               
-                    <Button link="https://t.me/scorpioncasino_official" classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={tel}
+                    <Button target="_blank" link="https://t.me/scorpioncasino_official" classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={tel}
                     />
-                    <Button link="https://www.instagram.com/scorpion.casino/" classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={igrm}
+                    <Button target="_blank" link="https://www.instagram.com/scorpion.casino/" classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={igrm}
                     />
 
             </div>
@@ -80,7 +80,7 @@ const ProductDetailsSection = () => {
                     <button className="herobtnbg rounded-[19px] flex h-[49px] w-[253px] xs:w-[180px] flex justify-center items-center font-[700] text-[21px] xs:text-[14px] text-white">  <img className="mr-2 w-[40px] h-[30px]" src={gc} alt="" /> <a href={Pdf} target="_blank">Verify License</a> </button>
                     <div className="flex items-center">
                         <p className="text-[19px] font-[400] font-[Inter] underline text-white">Audited & KYC | 100% Secure & Verified</p>
-                        <img className="max-w-[146.38px] ml-2" src={Solid} alt="" />
+                        <img className="h-[45px] ml-2" src={Solid} alt="" />
                     </div>
                     <div className="pt-[2.2rem] xs:py-[0.8rem] ">
                         <video controls preload="metadata" poster={poster} playsinline className="bg-filterved rounded-[20px] bgposter max-h-[458px] xs:h-[280px] sm:h-[330px] md:h-[420px] " height="100px" width="100%" >
@@ -190,9 +190,10 @@ const ProductDetailsSection = () => {
 
                         </div>
                         <div>
-                            <div className="flex justify-between gap-[15px] pt-[1rem]">
-                                <button className="text-[14px] xs:text-[11px] font-[500] font-[Inter] leading-[21px] flex w-[278px] h-[30px] items-center justify-center text-white  rounded-[10px] bg-[#3F3F3F]"> <img className="pr-1 w-[22px] h-[22px]" src={que} alt="" /> How to buy</button>
-                                <button className="text-[14px] xs:text-[11px] font-[500] font-[Inter] leading-[21px] flex w-[278px] h-[30px] items-center justify-center text-white  rounded-[10px] bg-[#3F3F3F]"> <img className="pr-1 w-[22px] h-[22px]" src={refe} alt="" />5% Referral Link</button>
+                            <div className="flex justify-between space-x-[15px] pt-[1rem]">
+                                
+                                <a href="https://master--legendary-gaufre-d9fd23.netlify.app/" className="cursor-pointer text-[14px] xs:text-[11px] font-[500] font-[Inter] leading-[21px] flex w-[278px] h-[30px] items-center justify-center text-white  rounded-[10px] bg-[#3F3F3F]"> <img className="pr-1 w-[22px] h-[22px]" src={que} alt="" /> How to buy</a>
+                                <button className="cursor-pointer text-[14px] xs:text-[11px] font-[500] font-[Inter] leading-[21px] flex w-[278px] h-[30px] items-center justify-center text-white  rounded-[10px] bg-[#3F3F3F]"> <img className="pr-1 w-[22px] h-[22px]" src={refe} alt="" />5% Referral Link</button>
 
                             </div>
 

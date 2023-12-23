@@ -19,7 +19,7 @@ const BetaSection = () => {
                     <h5 className="text-[18px] font-[inter] leading-[28.8px] xs:text-[14px] text-white">The $SCORP token is empowering the SCORPION ecosystem, offering over 30,000 betting opportunities monthly, 210 casino games, and 160 live games on a licensed, transparent, and provably fair platform. Don’t wait – come check us out now!</h5>
 
                     <div className="pt-[2rem]  ">
-                        <Button text="Visit Casino" classes="font-[700] bgcolor px-[100px] py-[12px] xs:text-[14px] rounded-full" />
+                        <Button link="https://scorpion.casino/" text="Visit Casino" classes="font-[700] bgcolor px-[100px] py-[12px] xs:text-[14px] rounded-full" />
                     </div>
                     
                 </div>

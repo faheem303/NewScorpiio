@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa6";
 
-const FaqItem = ({ question, answer, isOpen, toggleItem,answer2,table }) => {
+const FaqItem = ({ question,answer3, answer,isOpen, toggleItem,answer2,table }) => {
   const createMarkup = () => ({ __html: answer });
   const contentStyles = {
     maxHeight: isOpen ? "1000px" : "0",
@@ -35,7 +35,11 @@ const FaqItem = ({ question, answer, isOpen, toggleItem,answer2,table }) => {
           />
           {
             answer2 &&
-            <p className="pb-[30px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] text-[#fff] font-[400] pt-[16px]"> {answer2}</p>
+            <p className="pb-[10px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] text-[#fff] font-[400] pt-[16px]"> {answer2}</p>
+          }
+          {
+            answer3 &&
+            <p className="pb-[30px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] text-[#fff] font-[400] pt-[16px]"> {answer3}</p>
           }
         </div>
         {
@@ -109,26 +113,36 @@ const FaqList = () => {
         {
             question: "What is a pre-sale?",
             answer:
-              "During a presale, a limited number of tokens are sold at a lower price to people who want to get involved early. This is a great chance for people to be a part of a new project before an actual coin/token launch takes place in which the general public can participate. It’s kind of like being part of a secret club, where you get access to something before anyone else does. By participating in a presale, you can purchase a token at an early-bird price before it goes public. Therefore, presale can be considered a potential opportunity to buy tokens or coins before they are released into circulation and listed on exchanges.",
+              "During a pre-sale, a limited number of tokens are sold at a lower price to people who want to get involved early. This is a great chance for people to be a part of a new project before an actual coin/token launch takes place in which the general public can participate.",
+              answer2:
+              "It’s kind of like being part of a secret club, where you get access to something before anyone else does. By participating in a pre-sale, you can purchase a token at an early-bird price before it goes public. Therefore, pre-sale can be considered a potential opportunity to buy tokens or coins before they are released into circulation and listed on exchanges.",
           },
           {
             question: "What is SCORPION CASINO?",
-            answer:"The SCORPION ecosystem is your one-stop-shop for decentralized gambling, powered by the $SCORP token. With over 30,000 monthly betting opportunities, 210 casino games, and 160 live games, there's no shortage of thrilling options. Plus, our licensed, transparent, and provably fair platform ensures a secure and trustworthy gaming experience for all."
+            answer:"The SCORPION ecosystem is your one-stop-shop for online gambling, powered by the $SCORP token. With over 30,000 monthly betting opportunities, 210 casino games, and 160 live games, there’s no shortage of thrilling options. Plus, our licensed, transparent, and provably fair platform ensures a secure and trustworthy gaming experience for all."
           },
           {
             question: "Why are we doing a pre-sale?",
             answer:
-            "Be a part of the future of online gambling by contributing to the development of Scorpion Casino's global community-based gambling ecosystem! Your support will help us enhance our platform's capabilities and execute our go-to-market strategy. As a bonus, the $SCORP token will be listed on top centralized and decentralized exchanges, driving further growth for the SCORPION ecosystem. Join the Scorpion Casino public presale now and gain early access to our platform, plus receive 100% free credits to play with. Don't miss your chance to be a part of the future of online gambling - join the Scorpion Casino community today!",
+            "We’re having a pre-sale to build a strong community of $SCORP holders, improve our platform and get players to join our ecosystem. Our main targets are getting 100,000 people signed up for the casino and having 500 to 1000 players wagering every day consistently. These achievements will lead to significant profits and ensure the long-term success of the $SCORP token.",
+            answer2:
+            "Be a part of the future of online gambling by contributing to the development of Scorpion Casino’s global community-based gambling ecosystem! Your support will help us enhance our platform’s development and execute our go-to-market strategy. The $SCORP token will be listed on centralized and decentralized exchanges, driving further growth for the SCORPION ecosystem.",
+            answer3:
+            "Join the Scorpion Casino public pre-sale now and gain early access to our platform, plus receive up to 40% free credits to play with. Don’t miss your chance to be a part of the future of online gambling - Join the Winning Team today!"
           },
           {
             question: "What is the $SCORP token?",
             answer:
-              "The $SCORP token is the all-in-one solution for gaming on a licensed, transparent, and provably fair crypto platform. With a variety of benefits and use cases, you can be part of the booming crypto casino industry.<br/> • Use as main payment method for the SCORPION Ecosystem <br/>  • Earn passive income for holding $SCORP <br/>  • Receive weekly bonuses and free games <br/>  • Participate in our affiliate reward system <br/>  • Plus many more exciting features! <br/>  Get in on the action and experience the benefits of the $SCORP token for yourself. Join the SCORPION community today!",
+              "The $SCORP token is an all-in-one solution for becoming a part of a licensed, transparent, and provably fair Scorpion Casino iGaming platform. With a large range of benefits and use cases.<br/><br/> • Play with $SCORP on Scorpion Casino <br/>  • Earn passive income for holding $SCORP <br/>  • Receive weekly bonuses and free games <br/>  • Participate in our affiliate reward system <br/>  • Plus many more exciting features! <br/><br/> Get in on the action and experience the benefits of the $SCORP token for yourself. Join the SCORPION community today!",
           },
           {
             question: "Are my tokens protected?",
             answer:
-              "To ensure the safety and security of the $SCORP token and its holders, Scorpion Casino has undergone a rigorous security audit by Solidproof, a leading blockchain security company. The audit thoroughly examined our platform's specifications, smart contracts, and team to ensure that they meet the highest Web3 standards. Solidproof's skilled team utilized advanced methods to identify any errors or potential risks, ensuring the safe use of the $SCORP token. <br/> At Scorpion Casino, we prioritize the security of our platform and our users. By undergoing a comprehensive security audit, we are committed to providing a secure and trustworthy gaming experience for all.",
+              "Scorpion Casino has taken strong measurements to ensure the safety and security of the $SCORP token and its holders. We partnered with Solidproof, a leading blockchain security company, to conduct a complete security audit. This audit carefully examined the $SCORP smart contract to identify any potential risks or mistakes.",
+              answer2:
+              "Solidproof’s skilled team used advanced techniques to ensure the $SCORP token can be used safely. Additionally, the Scorpion Casino team has been verified by Assure DeFi, the KYC Gold Standard, to meet the highest Web3 standards.",
+              answer3:
+              "At Scorpion Casino, the security of our platform and users is our top priority. By completing comprehensive security audits, we are making sure that we provide an experience that is secure and trustworthy for everyone.",
           },
           {
             question: "Does it have a vesting period?",
@@ -142,7 +156,7 @@ const FaqList = () => {
           {
             question: "When will $SCORP launch?",
             answer:
-              "The launch of our cryptocurrency SCORP is just around the corner. <br/> The launch will take place after the presale is sold out.",
+              "The launch of our cryptocurrency $SCORP is just around the corner. <br/> The $SCORP launch will take place after the pre-sale is sold out.",
           },
         // Add more FAQ items as needed
       ];
@@ -177,6 +191,7 @@ const FaqList = () => {
                   question={faq.question}
                   answer={faq.answer}
                   answer2={faq.answer2}
+                  answer3={faq.answer3}
                   table={faq.tableitem}
                   isOpen={openItems.includes(index)}
                   toggleItem={() => toggleItem(index)}

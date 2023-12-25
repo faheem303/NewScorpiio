@@ -36,7 +36,7 @@ const HoverDropDn = ({onLanguageChange, locales }) => {
                     </div>
                     <div className="flex space-x-4 items-center">
                         <img className="w-[30px] h-[30px]" src={HDicon} alt="" />
-                        <div className="space-y-[35px]">
+                        <div className="">
                             <a  href="https://master--legendary-gaufre-d9fd23.netlify.app/" >
                             <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">{t('main.hoverDropDn-subTitle1')}</h3>
                                 <p className="text-white">{t('main.hoverDropDn-para1')}</p>
@@ -46,7 +46,7 @@ const HoverDropDn = ({onLanguageChange, locales }) => {
                     </div>
                     <div className="flex space-x-4 items-center">
                         <img className="w-[30px] h-[30px]" src={HDicon3} alt="" />
-                        <div className="space-y-[35px">
+                        <div className="">
                             <a  href="https://master--legendary-gaufre-d9fd23.netlify.app/" >
                             <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">{t('main.hoverDropDn-subTitle1')}</h3>
                                 <p className="text-white">{t('main.hoverDropDn-para2')}</p>
@@ -56,9 +56,9 @@ const HoverDropDn = ({onLanguageChange, locales }) => {
                     </div>
                     <div className="flex space-x-4 items-center">
                         <img className="w-[30px] h-[30px]" src={HDicon2} alt="" />
-                        <div className="space-y-[35px">
-                            <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">{t('main.hoverDropDn-subTitle2')}</h3>
+                        <div className="">
                             <a href="https://scorpioncasino.co/pay.php?checkout_id=custom-123&price=0&external_reference=ABC">
+                            <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">{t('main.hoverDropDn-subTitle2')}</h3>
                                 <p className="text-white">{t('main.hoverDropDn-para3')}</p>
                             </a>
                         </div>

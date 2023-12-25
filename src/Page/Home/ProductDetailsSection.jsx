@@ -98,10 +98,10 @@ const ProductDetailsSection = () => {
                         </div>
                         <div className=' bgposter '>
 
-                            <div className="bg-[#090909] max-w-[703px] rounded-t-[13px] px-8 xs:px-10  sm:px-16 md:px-16 py-6 xs:pt-5 sm:pt-5 md:pt-8 ">
+                            <div className="bg-[#090909] max-w-[703px] rounded-t-[13px] px-8 xs:px-6  sm:px-16 md:px-16 py-6 xs:pt-5 sm:pt-5 md:pt-8 ">
                                 <h3 className='2xl:text-[50px] xl:text-[44px] lg:text-[34px] md:text-[32px] sm:text-[36px] xs:text-[36px] font-[800] text-center font-[Inter] gradientText'>{t('ProductDetails.card-main-amount')}</h3>
                                 <div className='flex items-center justify-between space-x-2 '>
-                                    <h5 className=' text-center 2xl:text-[16px] xl:text-[14px] lg:text-[13px] md:text-[13px] sm:xs:text-[13px] xs:text-[13px] font-[Inter] text-[#929292]'>{t('ProductDetails.card-goal-raised')}</h5>
+                                    <h5 className=' text-center 2xl:text-[16px] xl:text-[14px] lg:text-[13px] md:text-[13px] sm:text-[13px] xs:text-[12px] font-[Inter] text-[#929292]'>{t('ProductDetails.card-goal-raised')}</h5>
                                     <span className="relative">
                                         <button onMouseEnter={() => setPop1(true)} onMouseOut={() => setPop1(false)} type="button" className={`cursor-pointer `}>
                                             <img src={Iicon} alt="" style={{ marginBottom: "-8px", width: "20px" }} />
@@ -130,7 +130,7 @@ const ProductDetailsSection = () => {
 
                                 </div>
                             </div>
-                            <div className='bg-[#3F3F3F] rounded-b-[10px] p-4 xs:pb-5 sm:pb-5 md:pb-8  xs:px-8 sm:px-14 md:px-10 '>
+                            <div className='bg-[#3F3F3F] rounded-b-[10px] p-4 xs:pb-5 sm:pb-5 md:pb-8  xs:px-6 sm:px-14 md:px-10 '>
                                 <div className="flex justify-between">
 
 

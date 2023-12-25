@@ -191,7 +191,9 @@ const Home = () => {
                 </div>
 
                 <div className='relative z-[2]'>
-                    <FaqList />
+                   <div className='relative z-[10]'>
+                   <FaqList />
+                   </div>
                     <div className='bg-box10'></div>
                 </div>
 

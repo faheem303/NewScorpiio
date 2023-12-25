@@ -10,37 +10,36 @@ import Xicon2 from "../assects/svgs/xicon (2).svg"
 import Xicon3 from "../assects/svgs/xicon (3).svg"
 import Xicon4 from "../assects/svgs/xicon (4).svg"
 import Xicon5 from "../assects/svgs/xicon (5).svg"
-import fg1 from "../assects/svgs/fg (1).svg"
-import fg2 from "../assects/svgs/fg (2).svg"
-import fg3 from "../assects/svgs/fg (3).svg"
-import fg4 from "../assects/svgs/fg (4).svg"
-import fg5 from "../assects/svgs/fg (5).svg"
-import fg6 from "../assects/svgs/fg (6).svg"
-import fg7 from "../assects/svgs/fg (7).svg"
-import fg8 from "../assects/svgs/fg (8).svg"
-import fg9 from "../assects/svgs/fg (9).svg"
-import fg10 from "../assects/svgs/fg (10).svg"
-import fg11 from "../assects/svgs/fg (11).svg"
-import fg12 from "../assects/svgs/fg (12).svg"
-import fg13 from "../assects/svgs/fg (13).svg"
-import fg14 from "../assects/svgs/fg (14).svg"
+
+import { useTranslation } from "react-i18next";
+import i18n from "i18next";
 
 
-const HoverDropDn = () => {
+
+const HoverDropDn = ({onLanguageChange, locales }) => {
+    const { t, i18n } = useTranslation();
+    const handleClick = (lang) => {
+        i18n.changeLanguage(lang);
+    };
+    const handleLangSelection = (locale) => {
+        // When a language is selected, pass its data to the parent component
+        const selectedLang = locales[locale];
+        onLanguageChange(locale); 
+    };
     return (
         <div className="relative hoverdropbg h-[500px] xs:h-[160px] xs:overflow-scroll pt-12 flex flex-col justify-between" >
             <img className="xs:hidden w-[40px] absolute -top-[3.5%] right-[19%]" src={ret} alt="" />
             <div className=" px-12 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden justify-between ">
                 <div className="space-y-[35px]">
                     <div>
-                        <h3 className="text-[20px] font-[Inter] uppercase font-[700] text-[#fff]">Straight forward & simple</h3>
+                        <h3 className="text-[20px] font-[Inter] uppercase font-[700] text-[#fff]">{t('main.hoverDropDn-title1')}</h3>
                     </div>
                     <div className="flex space-x-4 items-center">
                         <img className="w-[30px] h-[30px]" src={HDicon} alt="" />
-                        <div className="space-y-[35px">
-                            <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">how to buy $scorp</h3>
-                            <a href="https://master--legendary-gaufre-d9fd23.netlify.app/" >
-                            <p className="text-white">With Trust Wallet</p>
+                        <div className="space-y-[35px]">
+                            <a  href="https://master--legendary-gaufre-d9fd23.netlify.app/" >
+                            <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">{t('main.hoverDropDn-subTitle1')}</h3>
+                                <p className="text-white">{t('main.hoverDropDn-para1')}</p>
                             </a>
                         </div>
 
@@ -48,9 +47,9 @@ const HoverDropDn = () => {
                     <div className="flex space-x-4 items-center">
                         <img className="w-[30px] h-[30px]" src={HDicon3} alt="" />
                         <div className="space-y-[35px">
-                            <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">how to buy $scorp</h3>
-                            <a href="https://master--legendary-gaufre-d9fd23.netlify.app/" >
-                            <p className="text-white">With Metamask</p>
+                            <a  href="https://master--legendary-gaufre-d9fd23.netlify.app/" >
+                            <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">{t('main.hoverDropDn-subTitle1')}</h3>
+                                <p className="text-white">{t('main.hoverDropDn-para2')}</p>
                             </a>
                         </div>
 
@@ -58,9 +57,9 @@ const HoverDropDn = () => {
                     <div className="flex space-x-4 items-center">
                         <img className="w-[30px] h-[30px]" src={HDicon2} alt="" />
                         <div className="space-y-[35px">
-                            <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">you can't buy</h3>
+                            <h3 className="font-[Inter] text-[22px] gradientText uppercase leading-[20px] font-[900]">{t('main.hoverDropDn-subTitle2')}</h3>
                             <a href="https://scorpioncasino.co/pay.php?checkout_id=custom-123&price=0&external_reference=ABC">
-                            <p className="text-white">Buy $SCORP Manually</p>
+                                <p className="text-white">{t('main.hoverDropDn-para3')}</p>
                             </a>
                         </div>
 
@@ -69,110 +68,64 @@ const HoverDropDn = () => {
                 </div>
                 <div className="space-y-[35px]">
                     <div>
-                        <h3 className="text-[20px] font-[Inter] font-[700] uppercase text-[#fff]">where to find us</h3>
+                        <h3 className="text-[20px] font-[Inter] font-[700] uppercase text-[#fff]">{t('main.hoverDropDn-title2')}</h3>
                     </div>
                     <div className="">
-                        <a target="_blank" href="https://twitter.com/ScorpionCasino">  
-                        <div className="pb-[22px] flex items-center space-x-4">
-                            <img src={Xicon4} alt="" />
-                            <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">X.com</p>
-                        </div>
+                        <a target="_blank" href="https://twitter.com/ScorpionCasino">
+                            <div className="pb-[22px] flex items-center space-x-4">
+                                <img src={Xicon4} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">{t('main.hoverDropDn-title2-para1')}</p>
+                            </div>
                         </a>
                         <a target="_blank" href="">
-                        <div className="pb-[22px] flex items-center space-x-4">
-                            <img src={Xicon3} alt="" />
-                            <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Youtube</p>
-                        </div>
+                            <div className="pb-[22px] flex items-center space-x-4">
+                                <img src={Xicon3} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]"> {t('main.hoverDropDn-title2-para2')}</p>
+                            </div>
                         </a>
-                      
+
                         <a target="_blank" href="https://www.instagram.com/scorpion.casino/">
-                        <div className="pb-[22px] flex items-center space-x-4">
-                             <img src={Xicon2} alt="" />
-                            <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Instagram</p>
-                        </div>
+                            <div className="pb-[22px] flex items-center space-x-4">
+                                <img src={Xicon2} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">{t('main.hoverDropDn-title2-para3')}</p>
+                            </div>
                         </a>
-                        <a target="_blank" href="https://t.me/scorpioncasino_official"> 
-                        <div className="pb-[22px] flex items-center space-x-4">
-                            <img src={Xicon1} alt="" />
-                            <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Telegram</p>
-                        </div>
+                        <a target="_blank" href="https://t.me/scorpioncasino_official">
+                            <div className="pb-[22px] flex items-center space-x-4">
+                                <img src={Xicon1} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">{t('main.hoverDropDn-title2-para4')}</p>
+                            </div>
                         </a>
                         <a target="_blank" href="https://linkin.bio/scorpioncasino">
-                        <div className="flex items-center space-x-4">
-                            <img src={Xicon5} alt="" />
-                            <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Linktree</p>
-                        </div>
+                            <div className="flex items-center space-x-4">
+                                <img src={Xicon5} alt="" />
+                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]"> {t('main.hoverDropDn-title2-para5')}</p>
+                            </div>
                         </a>
-                        
+
                     </div>
 
                 </div>
                 <div className="space-y-[35px]">
                     <div>
-                        <h3 className="text-[20px] font-[Inter] font-[700] uppercase text-[#fff]">we’re international</h3>
+                        <h3 className="text-[20px] font-[Inter] font-[700] uppercase text-[#fff]">{t('main.hoverDropDn-title3')}</h3>
                     </div>
                     <div className="flex flex-wrap space-x-4 justify-between">
-                        <div className="space-y-1">
-                            <div className="flex items-center space-x-4">
-                                <img src={fg13} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">English</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg12} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">German</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg3} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">French</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg4} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Spanish</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg5} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Italian</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg6} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Dutch</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg7} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Turkey</p>
-                            </div>
+                        <div className="space-y-[5px] grid grid-cols-2">
+                            {Object.keys(locales).map((locale) => (
+                                <div
+                                    key={locale}
+                                    className="flex items-center space-x-4 cursor-pointer"
+                                    onClick={() => handleLangSelection(locale)}
+                                >
+                                    <img src={locales[locale].img} alt="" />
+                                    <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">
+                                        {locales[locale].title}
+                                    </p>
+                                </div>
+                            ))}
                         </div>
-                        <div className="space-y-1">
-                            <div className="flex items-center space-x-4">
-                                <img src={fg8} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Japan</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg9} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Korean</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg10} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Norwegian</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg11} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Russian</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg2} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Chinese</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg1} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Portugese</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg14} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Vietnamese</p>
-                            </div>
-                            
-                        </div>
+                      
                     </div>
 
 
@@ -185,67 +138,22 @@ const HoverDropDn = () => {
                 </div>
             </div>
             <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block space-y-2 px-4  ">
-                        <div className="space-y-1">
-                            <div className="flex items-center space-x-4">
-                                <img src={fg13} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">English</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg12} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">German</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg3} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">French</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg4} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Spanish</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg5} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Italian</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg6} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Dutch</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg7} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Turkey</p>
-                            </div>
-                        </div>
-                        <div className="space-y-1">
-                            <div className="flex items-center space-x-4">
-                                <img src={fg8} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Japan</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg9} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Korean</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg10} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Norwegian</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg11} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Russian</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg2} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Chinese</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg1} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Portugese</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <img src={fg14} alt="" />
-                                <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">Vietnamese</p>
-                            </div>
-                        </div>
-                    </div>
+                <div className="space-y-1">
+                {Object.keys(locales).map((locale) => (
+                                <div
+                                    key={locale}
+                                    className="flex items-center space-x-4 cursor-pointer"
+                                    onClick={() => handleLangSelection(locale)}
+                                >
+                                    <img src={locales[locale].img} alt="" />
+                                    <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">
+                                        {locales[locale].title}
+                                    </p>
+                                </div>
+                            ))}
+                </div>
+              
+            </div>
 
         </div>
     )

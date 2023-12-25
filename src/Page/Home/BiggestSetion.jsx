@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
+
 import Button from "../../components/Button/button";
 import Beta from "../../assects/images/beta.png"
 
@@ -6,6 +8,7 @@ import Beta from "../../assects/images/beta.png"
 
 
 const BiggestSection = () => {
+    const { t } = useTranslation();
 
     const [show, setShow] = useState(false);
     const [showmob, setShowmob] = useState(false);
@@ -24,20 +27,20 @@ const BiggestSection = () => {
                 <div className="Biggestbg relative z-[2] w-[100%] min-w-[900px]" >
                     <div className="flex items-center px-[29px] py-[40px] justify-between xs:block sm:block md:block">
                         <div className=" flex ">
-                            <h3 className="w-[100%] max-w-[26%] text-[32px] gradientText uppercase font-[900] font-[Inter] leading-[45px] text-white border-r ">BIGGEST BUY-IN COMPETITION</h3>
-                            <p className="w-[80%] text-white text-[18px] font-[inter] pl-5 font-[400] leading-[28px]">We’ve established a Top 10 Biggest Buy-in competition for all pre-sale participants, with a prize pool of 25,000 USD (in $SCORP). This is our way of rewarding those who recognize the immense potential before others and have made a significant contribution to the success of the Scorpion Casino ecosystem.</p>
+                            <h3 className="w-[100%] max-w-[26%] text-[32px] gradientText uppercase font-[900] font-[Inter] leading-[45px] text-white border-r ">{t('BiggestSection.title')}</h3>
+                            <p className="w-[80%] text-white text-[18px] font-[inter] pl-5 font-[400] leading-[28px]">{t('BiggestSection.para')}</p>
                         </div>
                     </div>
                     <div className="px-[20px] pb-[40px] 2xl:block xl:block lg:block md:hidden sm:hidden hidden space-y-3">
                         <div className="px-6">
                             <ul className="flex justify-between ">
-                                <li className="text-[#F9C333] w-[120px]  text-[18px] font-[800] leading-[28px] font-[inter]" >Rank</li>
-                                <li className="text-[#F9C333] w-[180px] text-center  text-[18px] font-[800] leading-[28px] font-[inter]" >Wallet</li>
-                                <li className="text-[#F9C333] w-[180px] text-center  text-[18px] font-[800] leading-[28px] font-[inter]" >Date</li>
-                                <li className="text-[#F9C333] w-[180px] text-center  text-[18px] font-[800] leading-[28px] font-[inter]" >No. of TX</li>
-                                <li className="text-[#F9C333] w-[180px] text-center  text-[18px] font-[800] leading-[28px] font-[inter]" >Total Buy</li>
-                                <li className="text-[#F9C333] w-[180px] text-center  text-[18px] font-[800] leading-[28px] font-[inter]" >NFT</li>
-                                <li className="text-[#F9C333] w-[120px] text-end  text-[18px] font-[800] leading-[28px] font-[inter]" >Prize</li>
+                                <li className="text-[#F9C333] w-[120px]  text-[18px] font-[800] leading-[28px] font-[inter]" >{t('BiggestSection.rank')}</li>
+                                <li className="text-[#F9C333] w-[180px] text-center  text-[18px] font-[800] leading-[28px] font-[inter]" >{t('BiggestSection.wallet')}</li>
+                                <li className="text-[#F9C333] w-[180px] text-center  text-[18px] font-[800] leading-[28px] font-[inter]" >{t('BiggestSection.date')}</li>
+                                <li className="text-[#F9C333] w-[180px] text-center  text-[18px] font-[800] leading-[28px] font-[inter]" >{t('BiggestSection.tx')}</li>
+                                <li className="text-[#F9C333] w-[180px] text-center  text-[18px] font-[800] leading-[28px] font-[inter]" >{t('BiggestSection.totalBuy')}</li>
+                                <li className="text-[#F9C333] w-[180px] text-center  text-[18px] font-[800] leading-[28px] font-[inter]" >{t('BiggestSection.nft')}</li>
+                                <li className="text-[#F9C333] w-[120px] text-end  text-[18px] font-[800] leading-[28px] font-[inter]" >{t('BiggestSection.price')}</li>
                             </ul>
                         </div>
                         <div className="px-6 tablerow">
@@ -167,23 +170,23 @@ const BiggestSection = () => {
                 {
                     !show &&
                     <div  className="flex justify-center pt-[30px]">
-                        <button onClick={handelShowMore} className="bgcolor text-[18px] font-[600] font-[inter] h-[64px] px-[44px] rounded-full">Load More</button>
+                        <button onClick={handelShowMore} className="bgcolor text-[18px] font-[600] font-[inter] h-[64px] px-[44px] rounded-full">{t('BiggestSection.btn')}</button>
                     </div>
                 }
               
             </div>
             <div className=" 2xl:hidden xl:hidden lg:hidden md:block sm:block block space-y-8">
                 <div className="text-center space-y-5">
-                    <h3 className="gradientText text-[30px] font-[900]">BIGGEST BUY-IN COMPETITION</h3>
-                    <p className="text-[14px] text-white">We’ve established a Top 10 Biggest Buy-in competition for all pre-sale participants, with a prize pool of 25,000 USD (in $SCORP). This is our way of rewarding those who recognize the immense potential before others and have made a significant contribution to the success of the Scorpion Casino ecosystem.</p>
+                    <h3 className="gradientText text-[30px] font-[900]">{t('BiggestSection.title')}</h3>
+                    <p className="text-[18px] text-white">{t('BiggestSection.para')}</p>
                 </div>
                 <div className="Biggestbg px-[15px] py-[40px] space-y-3 2xl:hidden xl:hidden lg:hidden md:block sm:block hidblockace-y-3">
                         <div className="px-6">
                             <ul className="flex justify-between ">
-                                <li className="text-[#F9C333] w-[120px] text-center text-[12px] font-[800] leading-[28px] font-[inter]" >Rank</li>
-                                <li className="text-[#F9C333] w-[180px] text-center  text-[12px] font-[800] leading-[28px] font-[inter]" >Wallet</li>
-                                <li className="text-[#F9C333] w-[180px] text-center  text-[12px] font-[800] leading-[28px] font-[inter]" >Total Buy</li>
-                                <li className="text-[#F9C333] w-[120px] text-center  text-[12px] font-[800] leading-[28px] font-[inter]" >Prize</li>
+                                <li className="text-[#F9C333] w-[120px] text-center text-[12px] font-[800] leading-[28px] font-[inter]" >{t('BiggestSection.rank')}</li>
+                                <li className="text-[#F9C333] w-[180px] text-center  text-[12px] font-[800] leading-[28px] font-[inter]" >{t('BiggestSection.wallet')}</li>
+                                <li className="text-[#F9C333] w-[180px] text-center  text-[12px] font-[800] leading-[28px] font-[inter]" >{t('BiggestSection.totalBuy')}</li>
+                                <li className="text-[#F9C333] w-[120px] text-center  text-[12px] font-[800] leading-[28px] font-[inter]" >{t('BiggestSection.price')}</li>
                             </ul>
                         </div>
                         <div className="px-6 tablerow">
@@ -279,7 +282,7 @@ const BiggestSection = () => {
                     {
                     !show &&
                     <div  className="flex justify-center ">
-                        <button  onClick={handelShowMore} className="bgcolor text-[18px] font-[600] font-[inter] h-[50px] px-[44px] rounded-full">Load More</button>
+                        <button  onClick={handelShowMore} className="bgcolor text-[18px] font-[600] font-[inter] h-[50px] px-[44px] rounded-full">{t('BiggestSection.btn')}</button>
                     </div>
                 }
               

@@ -1,4 +1,7 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+
+
 import MediaCards from "../../components/MediaCards";
 import CityPaper from "../../assects/images/citypaper.png";
 import CoinMarket from "../../assects/images/coinMarket.png";
@@ -9,11 +12,13 @@ import "swiper/css/navigation";
 import { Navigation, Mousewheel,Pagination, Keyboard } from "swiper/modules";
 
 function Media() {
+  const { t } = useTranslation();
+
   return (
     <div className="w-[100%]  mx-auto pb-[95px]">
       <div>
         <h2 className="2xl:text-[40px] xl:text-[40px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[30px] text-center gradientText font-[900] leading-[40px] uppercase  2xl:pb-[39px] xl:pb-[39px] lg:pb-[39px] md:pb-[39px] sm:pb-[30px] pb-[25px]">
-          press and media
+        {t('Media.title')}
         </h2>
       </div>
       <Swiper
@@ -54,9 +59,7 @@ function Media() {
           cardContainer={"cardclr3"}
           src={CoinMarket}
           imgClass={""}
-          para={
-            "This gaming-related project’s inviting atmosphere and excellent rewards make it a success. As such, many analysts think it could be the next billion-dollar crypto."
-          }
+          para={`${t('Media.para1')}`}
         />
         </SwiperSlide>
         <SwiperSlide className="wrap"  >
@@ -64,9 +67,7 @@ function Media() {
             cardContainer={"cardbgclr2"}
             src={CryptoNews}
             imgClass={""}
-            para={
-              "Overall, Scorpion Casino is one of the only projects that can provide a sustainable passive income to holders - regardless of the overall market conditions."
-            }
+            para={`${t('Media.para2')}`}
           />
         </SwiperSlide>
         <SwiperSlide className="wrap"  >
@@ -74,9 +75,7 @@ function Media() {
             cardContainer={"cardbgclr"}
             src={CityPaper}
             imgClass={""}
-            para={
-              "Scorpion Casino is on a mission to create the world’s leading crypto-based online casino, where holders of its token can earn a daily yield based on the casino’s performance."
-            }
+            para={`${t('Media.para3')}`}
           />
         </SwiperSlide>
 

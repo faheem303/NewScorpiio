@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
+
+
 import { v4 as uuidv4 } from 'uuid';
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
@@ -15,6 +18,7 @@ import Tick2 from "../../assects/images/icont.png"
 const RoadMap = () => {
     const [slidesPerView, setSlidesPerView] = useState(5);
     const [selectedSlide, setSelectedSlide] = useState(null);
+    const { t } = useTranslation();
 
     const updateSlidesPerView = () => {
         const screenWidth = window.innerWidth;
@@ -40,35 +44,35 @@ const RoadMap = () => {
     const cardData = [
         {
             id: 1,
-            qa: "Phase 1",
-            comp: "Completed",
-            phase: "Preparation",
+            qa: "RoadMap.phase1",
+            comp: "RoadMap.btn1",
+            phase: "RoadMap.swiperTitle1",
             paraData: [
 
                 {
                     id: uuidv4(),
                     tickIcon: Tick1,
-                    para: "Idea conception",
+                    para: "RoadMap.swiperpara11",
                 },
                 {
                     id: uuidv4(),
                     tickIcon: Tick1,
-                    para: "Team onboarding",
+                    para: "RoadMap.swiperpara12",
                 },
                 {
                     id: uuidv4(),
                     tickIcon: Tick1,
-                    para: "Integrating Coinspaid",
+                    para: "RoadMap.swiperpara13",
                 },
                 {
                     id: uuidv4(),
                     tickIcon: Tick1,
-                    para: "Developing the Ecosystem",
+                    para: "RoadMap.swiperpara14",
                 },
                 {
                     id: uuidv4(),
                     tickIcon: Tick1,
-                    para: "Applying for an eGambling License",
+                    para: "RoadMap.swiperpara15",
                 },
 
             ]
@@ -78,104 +82,104 @@ const RoadMap = () => {
         },
         {
             id: 2,
-            qa: "Phase 2",
-            comp: "Completed",
-            phase: "Pre-Launch",
+            qa: "RoadMap.phase2",
+            comp: "RoadMap.btn1",
+            phase: "RoadMap.swiperTitle2",
             paraData: [
 
                 {
                     id: uuidv4(),
                     tickIcon: Tick1,
-                    para: "SCORP Token creation",
+                    para: "RoadMap.swiperpara21",
                 },
                 {
                     id: uuidv4(),
                     tickIcon: Tick1,
-                    para: "Whitepaper Release ",
+                    para: "RoadMap.swiperpara22",
                 },
                 {
                     id: uuidv4(),
                     tickIcon: Tick1,
-                    para: "Integrating Betradar ",
+                    para: "RoadMap.swiperpara23",
                 },
                 {
                     id: uuidv4(),
                     tickIcon: Tick1,
-                    para: "Scorpion.casino Release ",
+                    para: "RoadMap.swiperpara24",
                 },
                 {
                     id: uuidv4(),
                     tickIcon: Tick1,
-                    para: "$SCORP Token Audit ",
+                    para: "RoadMap.swiperpara25 ",
                 },
                 {
                     id: uuidv4(),
                     tickIcon: Tick1,
-                    para: "Pre Sale start ",
+                    para: "RoadMap.swiperpara26 ",
                 },
 
             ]
         },
         {
             id: 3,
-            qa: "Phase 3",
-            comp: "Current",
-            phase: "Launch",
+            qa: "RoadMap.phase3",
+            comp: "RoadMap.btn2",
+            phase: "RoadMap.swiperTitle3",
             paraData: [
 
                 {
                     id: uuidv4(),
                     tickIcon: Tick1,
-                    para: "Launching Affiliate Program ",
+                    para: "RoadMap.swiperpara31",
                 },
                 {
                     id: uuidv4(),
                     tickIcon: Tick1,
-                    para: "Integrating the Level System",
+                    para: "RoadMap.swiperpara32",
                 },
                 {
                     id: uuidv4(),
                     tickIcon: Tick1,
-                    para: "Listing on CEX ",
+                    para: "RoadMap.swiperpara33",
                 },
                 {
                     id: uuidv4(),
                     tickIcon: Tick2,
-                    para: "Further Casino Development",
+                    para: "RoadMap.swiperpara34",
                 },
                 {
                     id: uuidv4(),
                     tickIcon: Tick2,
-                    para: "Community Events ",
+                    para: "RoadMap.swiperpara35",
                 },
 
             ]
         },
         {
             id: 4,
-            qa: "Phase 4",
-            phase: "Exponential Growth",
+            qa: "RoadMap.phase4",
+            phase: "RoadMap.swiperTitle4",
             paraData: [
 
                 {
                     id: uuidv4(),
-                    para: "Live Affiliate Events ",
+                    para: "RoadMap.swiperpara41 ",
                 },
                 {
                     id: uuidv4(),
-                    para: "Partner Up with Softswiss ",
+                    para: "RoadMap.swiperpara42",
                 },
                 {
                     id: uuidv4(),
-                    para: "Influencer Marketing ",
+                    para: "RoadMap.swiperpara43 ",
                 },
                 {
                     id: uuidv4(),
-                    para: "Collaborations with Athletes ",
+                    para: "RoadMap.swiperpara44",
                 },
                 {
                     id: uuidv4(),
-                    para: "More to come ",
+                    para: "RoadMap.swiperpara45",
                 },
 
             ]
@@ -189,8 +193,8 @@ const RoadMap = () => {
         <div className=" " >
 
             <div className="relative z-[2]">
-                <h2 className="uppercase font-[900] font-[Inter] text-[40px] xs:text-[30px] gradientText z-[2]">Roadmap</h2>
-                <p className="text-[18px] text-[#fff] font-[Inter] font-[400] leading-[28px]">This is the SCORPION Casino Roadmap</p>
+                <h2 className="uppercase font-[900] font-[Inter] text-[40px] xs:text-[30px] gradientText z-[2]"> {t('RoadMap.title')}</h2>
+                <p className="text-[18px] text-[#fff] font-[Inter] font-[400] leading-[28px]">{t('RoadMap.para')}</p>
             </div>
             <div className=" pt-6 w-[100%]" style={{ paddingBottom: "-30px" }}>
                 <div style={{ height: "", position: "relative" }}>
@@ -214,10 +218,10 @@ const RoadMap = () => {
                                     onClick={() => handleSlideClick(id)} >
                                     <div className=" space-y-2  ">
                                         <div className=" " >
-                                            <h4 className="gradientText text-[18px] font-[900] font-[Inter]">{item.qa}</h4>
+                                            <h4 className="gradientText text-[18px] font-[900] font-[Inter]">{t(item.qa)}</h4>
 
                                         </div>
-                                        <h3 className="font-[700] pb-2 gradientText font-[Inter] text-[32px] leading-[29px]">{item.phase} </h3>
+                                        <h3 className="font-[700] pb-2 gradientText font-[Inter] text-[32px] leading-[29px]">{t(item.phase)}</h3>
                                         <div className="">
                                             {
                                                 item.paraData.map((i, k) => (
@@ -226,7 +230,7 @@ const RoadMap = () => {
                                                         {i.tickIcon &&
                                                             <img className="w-[18px] h-[18px] mr-2" src={i.tickIcon} alt="" />
                                                         }
-                                                        <span key={k} className="font-[400] mb-4 text-gray-300 font-[Inter] text-[16px] leading-[18px]">{i.para}</span>
+                                                        <span key={k} className="font-[400] mb-4 text-gray-300 font-[Inter] text-[16px] leading-[18px]">{t(i.para)}</span>
                                                     </div>
                                                 ))
                                             }
@@ -243,10 +247,10 @@ const RoadMap = () => {
                                                 item.id == 3 ?
                                                     item.comp &&
                                                     <div className="bgcolor flex items-center py-[8px] px-[20px] rounded-full">
-                                                        <h4 className="  text-[16px] font-[700] font-[Inter]">{item.comp}</h4>
+                                                        <h4 className="  text-[16px] font-[700] font-[Inter]">{t(item.comp)}</h4>
                                                     </div> :
                                                     <div className="bgcolordark flex  items-center py-[8px] px-[20px] rounded-full">
-                                                        <h4 className="  text-[16px] font-[700] font-[Inter]">{item.comp}</h4>
+                                                        <h4 className="  text-[16px] font-[700] font-[Inter]">{t(item.comp)}</h4>
                                                     </div>
 
                                             }

@@ -1,4 +1,7 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+
+
 import Button from "../../components/Button/button";
 import Beta from "../../assects/images/beta.png"
 import Whitepaper from "../../assects/images/Whitepaper1.png"
@@ -9,16 +12,18 @@ import CASINO from "../../assects/images/CASINO.png"
 
 
 const WhitepaperSection = () => {
+    const { t } = useTranslation();
+
 
     return (
         <div className="space-y-[6rem] w-[90%] mx-auto xs:py-8" >
             <div className="flex items-center justify-between xs:block sm:block md:block xs:space-y-10 sm:space-y-10  md:space-y-10 " >
                 <div className="space-y-[20px] w-[55%] xs:w-[100%] sm:w-[100%] md:w-[100%] xs:text-center sm:text-center ">
-                    <h3 className="font-[Inter] text-[38px] font-[900] uppercase leading-[40px] gradientText xs:text-[30px]">SCORPION CASINO WHITEPAPER</h3>
-                    <h5 className="font-[Inter] text-[18px] font-[400] leading-[28px] text-[white] xs:text-[14px] ">
-                    200+ CASINO GAMESSCORPION offers a complete online casino with over 200+ games from all major game providers. Casino games include slots, blackjack, roulette, poker, live casino, and more.Buy $SCORP
+                    <h3 className="font-[Inter] text-[38px] font-[900] uppercase leading-[40px] gradientText xs:text-[30px]">{t('CasinoIndustry.title2')}</h3>
+                    <h5 className="font-[Inter] text-[18px] font-[400] leading-[28px] text-[white]  ">
+                    {t('CasinoIndustry.para')}
                     </h5>
-                    <Button link="https://presale.scorpion.casino/static/media/Whitepaper.ad227e4e0cc75136ca54.pdf" text="Read the Whitepaper" classes="rounded-[40px] bgcolor text-[18px]  px-[60px] py-4 font-[700]" />
+                    <Button link="https://presale.scorpion.casino/static/media/Whitepaper.ad227e4e0cc75136ca54.pdf" text={`${t('CasinoIndustry.btn')}`} classes="rounded-[40px] bgcolor text-[18px]  px-[60px] py-4 font-[700]" />
 
 
                 </div>

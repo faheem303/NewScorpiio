@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 
 import Scro from "../../assects/images/gam (1).png"
@@ -13,32 +14,33 @@ import WhitepaperSection from "./Whitepaper";
 
 
 const CasinoIndustry = () => {
+    const { t } = useTranslation();
 
 
     const TableData = [
         {
             id: 1,
-            title: "Accept Crypto"
+            title: "CasinoIndustry.tableText1"
         },
         {
             id: 1,
-            title: "Live Bets"
+            title: "CasinoIndustry.tableText2"
         },
         {
             id: 1,
-            title: "Affiliate System"
+            title: "CasinoIndustry.tableText3"
         },
         {
             id: 1,
-            title: "Own Token"
+            title: "CasinoIndustry.tableText4"
         },
         {
             id: 1,
-            title: "Staking"
+            title: "CasinoIndustry.tableText5"
         },
         {
             id: 1,
-            title: "Passive Income"
+            title: "CasinoIndustry.tableText6"
         }
     ]
 
@@ -47,7 +49,7 @@ const CasinoIndustry = () => {
         {
             id: 1,
             img: Scro,
-            para: "Scorpion",
+            para: "CasinoIndustry.tableCol1",
             TableDataCol: [
                 {
                     id: 1,
@@ -79,7 +81,7 @@ const CasinoIndustry = () => {
         {
             id: 2,
             img: BB,
-            para: "Bc.Games",
+            para: "CasinoIndustry.tableCol2",
             TableDataCol: [
                 {
                     id: 1,
@@ -108,7 +110,7 @@ const CasinoIndustry = () => {
         {
             id: 3,
             img: third,
-            para: "Roobit",
+            para: "CasinoIndustry.tableCol3",
             TableDataCol: [
                 {
                     id: 1,
@@ -137,7 +139,7 @@ const CasinoIndustry = () => {
         {
             id: 4,
             img: fourth,
-            para: "Roobit",
+            para: "CasinoIndustry.tableCol4",
             TableDataCol: [
                 {
                     id: 1,
@@ -168,7 +170,7 @@ const CasinoIndustry = () => {
         {
             id: 5,
             img: Abc,
-            para: "owl games",
+            para: "CasinoIndustry.tableCol5",
             TableDataCol: [
                 {
                     id: 1,
@@ -199,7 +201,7 @@ const CasinoIndustry = () => {
         {
             id: 6,
             img: Six,
-            para: "Stake",
+            para: "CasinoIndustry.tableCol6",
             TableDataCol: [
                 {
                     id: 1,
@@ -238,14 +240,14 @@ const CasinoIndustry = () => {
             <p style={{ top: "-100px", position: "relative" }} id="howItWork"></p>
             {/* <h5 className="text-[16px] text-center font-[500] text-gray-500 font-[Poppins]">Nothing can compare with us in theScorpion Casino with extremely innovative features.</h5> */}
             <div className="gambloingbg py-12 xs:py-8 sm:py-6 space-y-4  xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] m-auto   ">
-            <h3 className="text-[43px] text-center font-[900] leading-[40px] uppercase xs:text-[30px] text-white font-[Inter] gradientText">DISRUPTING THE GAMBLING INDUSTRY </h3>
+            <h3 className="text-[43px] text-center font-[900] leading-[40px] uppercase xs:text-[30px] text-white font-[Inter] gradientText">{t('CasinoIndustry.title')} </h3>
 
                 <div className="pt-5 flex w-[87%] mx-auto justify-around items-end ">
                     <div className="2xl:w-[25%] xl:[25%]  xs:w-[30%] sm:w-[30%] md:w-[30%] lg:w-[30%] mr-4 xs:mr-1">
                         {
                             TableData.map((item, id) => (
 
-                                <div className="text-start xs:text-[8px] xs:font-[500] sm:text-[12px] w-[240px] xs:w-[100%] sm:w-[100%] md:w-[100%] font-[inter]  font-[700]  px-3 xs:px-1  xs:py-2 py-3  text-white"><h5>{item.title}</h5></div>
+                                <div className="text-start xs:text-[8px] xs:font-[500] sm:text-[12px] w-[240px] xs:w-[100%] sm:w-[100%] md:w-[100%] font-[inter]  font-[700]  px-3 xs:px-1  xs:py-2 py-3  text-white"><h5>{t(item.title)}</h5></div>
                             ))
                         }
 
@@ -260,7 +262,7 @@ const CasinoIndustry = () => {
 
                                                 <div className="flex items-center flex-col pb-4">
                                                     <img className="h-[40px] xs:h-[20px] sm:h-[30px] sm:h-[35px]" src={item.img} alt="" />
-                                                    <p className="text-white xs:text-[7px] sm:text-[12px] md:text-[12px] ">{item.para}</p>
+                                                    <p className="text-white xs:text-[7px] sm:text-[12px] md:text-[12px] ">{t(item.para)}</p>
                                                 </div>
 
 

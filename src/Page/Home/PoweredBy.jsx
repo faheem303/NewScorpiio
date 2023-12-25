@@ -1,4 +1,7 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+
+
 import img1 from "../../assects/svgs/evo.e50f73eb35beb77cc2ea.png.svg"
 import img2 from "../../assects/svgs/image (2).svg"
 import img3 from "../../assects/svgs/image (3).svg"
@@ -87,11 +90,13 @@ const imgData = [
 ]
 
 function PoweredBy() {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className=" 2xl:w-[85%] xl:w-[85%] lg:w-[85%] md:w-[90%] sm:w-[90%] w-[90%]  mx-auto pb-[95px]">
         <h2 className="2xl:text-[40px] gradientText xl:text-[40px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[30px] text-center  font-[900] leading-[40px] uppercase pb-[47px]">
-        POWERED BY
+        {t('PoweredBy.title')}
         </h2>
         <div className="flex flex-wrap justify-between gap-y-[36px]">
             {

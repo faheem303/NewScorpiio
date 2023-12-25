@@ -19,7 +19,7 @@ const RewardCard = ({ item, amountRange, handleRange }) => {
                     <div className="space-y-4 w-[56%] xs:w-[58%] md:w-[100%] sm:w-full xs:w-full pr-2">
                         <div className="flex items-center">
                           
-                            <h3 className="text-[18px] text-white sm:text-[18px] xs:text-[16px] font-[600] font-Inter pt-2 ">{item.packageType}</h3>
+                            <h3 className="text-[18px] text-white sm:text-[18px] xs:text-[16px] font-[600] font-Inter pt-2 ">{t(item.packageType)}</h3>
                         </div>
                         <div className="space-y-2 ">
                             {item.packageList.map((j, id) => (
@@ -34,7 +34,7 @@ const RewardCard = ({ item, amountRange, handleRange }) => {
                     <div className="space-y-2  w-[42%] xs:w-[42%]">
                         <div className="tracking-wide xs:pt-3 text-center text-[#292A36] font-bold font-Inter">
                             <h5 className="text-[14px] xs:text-[10px] text-white ">{t("When you spend")}</h5>
-                            <h3 className="text-[16px] sm:text-[14px] text-white xs:text-[10px] ">{`$${Number(item.spendPrice).toLocaleString('en-US')} ${t("or more")}`}</h3>
+                            <h3 className="text-[16px] sm:text-[14px] text-white xs:text-[10px] ">{`$${Number(item.spendPrice).toLocaleString('en-US')} ${t("RewardSection.more")}`}</h3>
                         </div>
                         <div className=" pb-3">
                             <img className=" m-auto  xs:w-[150px]" src={item.spendImage} alt="" />
@@ -48,7 +48,7 @@ const RewardCard = ({ item, amountRange, handleRange }) => {
             }
         </div>
         <div className="px-5 pt-3">
-              <a href="#" className=""><Button link="#hero" classes="bgcolor rounded-full w-[100%] h-[46px]  sm:h-[30px]  xs:h-[30px] text-[16px] sm:text-[14px] xs:text-[14px] font-Poppins font-[700]  m-auto " text="Buy $SCORP Now" /> </a>
+              <a href="#" className=""><Button link="#hero" classes="bgcolor rounded-full w-[100%] h-[46px]  sm:h-[30px]  xs:h-[30px] text-[16px] sm:text-[14px] xs:text-[14px] font-Poppins font-[700]  m-auto " text={`${t("RewardSection.btn")}`} /> </a>
             <p id='groth'></p>
               </div>
        </div>

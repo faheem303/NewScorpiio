@@ -1,4 +1,6 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+
 
 import img1 from "../../assects/icons/fe (9).png"
 import img2 from "../../assects/icons/fe (12).png"
@@ -69,11 +71,13 @@ const imgData = [
 
 
 const FeaturedSection = () => {
+  const { t } = useTranslation();
+
     return (
         <>
             <div className="w-ful   px-10  bg-[#090909] py-12" >
                 <div className="text-center">
-                    <h2 className="font-[900] font-[inter] color text-[40px] xs:text-[30px] gradientText uppercase">Featured In</h2>
+                    <h2 className="font-[900] font-[inter] color text-[40px] xs:text-[30px] gradientText uppercase">{t('FeaturedSection.mainTitle')}</h2>
                 </div>
                 <div className="mx-auto px-4 xs:px-0 pt-5 grid grid-cols-4 lg:grid-cols-4 md:grid-cols-2 gap-2 xs:grid-cols-2 sm:grid-cols-2 w-full flex 2xl:justify-between xl:justify-between lg:justify-between md:justify-evenly sm:justify-evenly justify-evenly flex-wrap">
                     {

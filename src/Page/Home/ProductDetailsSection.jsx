@@ -81,7 +81,7 @@ const ProductDetailsSection = () => {
                     <h5 className="text-[18px] font-[400] leading-[28px] font-[Inter]  text-white ">{t('ProductDetails.para2')}</h5>
                     <button className="herobtnbg rounded-[19px] flex h-[49px] w-[253px] xs:w-[180px] flex justify-center items-center font-[700] text-[21px] xs:text-[14px] text-white">  <img className="mr-2 w-[40px] h-[30px]" src={gc} alt="" /> <a href={Pdf} target="_blank">{t('ProductDetails.verifyBtn')}</a> </button>
                     <div className="flex items-center">
-                        <p className="text-[19px] text-[11px] font-[400] font-[Inter] underline text-white">{t('ProductDetails.para3')}</p>
+                        <p className="text-[19px] xs:text-[11px] font-[400] font-[Inter] underline text-white">{t('ProductDetails.para3')}</p>
                         <img className="h-[45px] xs:h-[22px] ml-2" src={Solid} alt="" />
                     </div>
                     <div className="pt-[2.2rem] xs:py-[0.8rem] ">

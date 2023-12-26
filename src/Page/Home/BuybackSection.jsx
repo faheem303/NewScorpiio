@@ -33,7 +33,7 @@ const BuyBackSectionCard = () => {
                 </div>
               </div>
               <div className="buybackbg3  px-[22px] 2xl:w-[33%] xl:w-[33%] lg:w-[33%] md:w-[100%] sm:w-[100%] w-[100%]  pt-[33px] pb-[40px]">
-                <h3 className="xs:pb-3 font-[inter]  text-[28px] font-[600] leading-[36px] gradientText  text-center">{t('HowItWork.cardTitle2')}</h3>
+                <h3 className="xs:pb-3 font-[inter]  text-[28px] font-[600] leading-[36px] gradientText  text-center">{t('HowItWork.cardTitle3')}</h3>
                 <p className="text-[16px] pt-[0.6rem] h-[185px] font-[400] text-[#fff] leading-[20px] text-center">{t('HowItWork.cardPara3')}</p>
                 <div className="flex justify-center ">
                   <img className="h-[50px]" src={buyimg3} alt="" />

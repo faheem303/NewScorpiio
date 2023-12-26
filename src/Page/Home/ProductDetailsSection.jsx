@@ -143,17 +143,23 @@ const ProductDetailsSection = () => {
                                         <hr className="text-white w-[20%]" />
                                     </div>
                                     <div className="2xl:flex justify-between xl:flex lg:block md:block block sm:block xs:space-y-2 sm:space-y-2 md:space-y-2 lg:space-y-2 ">
-                                        <button className="flex items-center xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7 xs:px-2 xs:py-1  py-2 border hover:border-gray-400">
-                                            <img src={eth} className="pr-2 h-[22px]" alt="" />
-                                            ETH
+                                        <button className="flex items-center xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7  xs:py-1  py-2 border hover:border-gray-400">
+                                            <div className="flex w-[60px]">
+                                            <img src={eth} className="h-[22px] mr-2" alt="" />
+                                           <span className="mt-0 contents  w-[30px] "> ETH</span>
+                                            </div>
                                         </button>
-                                        <button className="flex items-center xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%]  flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7 xs:px-2 xs:py-1 py-2 border hover:border-gray-400">
-                                            <img src={USDT} className="pr-2  h-[22px]" alt="" />
-                                            USDT
+                                        <button className="flex items-center xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%]  flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7  xs:py-1 py-2 border hover:border-gray-400">
+                                            <div className="flex w-[60px]">
+                                            <img src={USDT} className="h-[22px] xs:h-[20px] mr-2" alt="" />
+                                           <span className="mt-0 contents  w-[30px] "> USDT</span>
+                                            </div>
                                         </button>
-                                        <button className="flex items-center  xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%]  flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7 xs:px-2 xs:py-1 py-2 border hover:border-gray-400">
-                                            <img src={BNB} className="pr-2 h-[25px]" alt="" />
-                                            BNB
+                                        <button className="flex items-center  xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%]  flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7  xs:py-1 py-2 border hover:border-gray-400">
+                                            <div className="flex w-[60px]">
+                                            <img src={BNB} className="h-[25px] mr-2" alt="" />
+                                           <span className="mt-0 contents  w-[30px] ">BNB</span>
+                                            </div>
                                         </button>
 
                                     </div>

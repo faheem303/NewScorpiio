@@ -98,13 +98,13 @@ const RewardSection = () => {
           id: 1,
           icon: Tick1,
           text: "RewardSection.packageText21",
-          message:"You will automatically receive additional SCORP tokens to your wallet. For example, if you purchase the bronze membership NFT with 10% bonus tokens and you buy 100,000 SCORP, you’ll receive 110,000 SCORP tokens."
+          message:"You will automatically receive additional SCORP tokens to your wallet. For example, if you purchase the bronze membership NFT with 15% bonus tokens and you buy 100,000 SCORP, you’ll receive 110,000 SCORP tokens."
         },
         {
           id: 2,
           icon: Tick1,
           text: "RewardSection.packageText22",
-          message:"You will receive 5% of your total contribution in USD to play on Scorpion Casino. This feature will be available in Q4 with the release of the new Casino Beta."
+          message:"You will receive 10% of your total contribution in USD to play on Scorpion Casino. This feature will be available in Q4 with the release of the new Casino Beta."
         },
         {
           id: 3,
@@ -136,13 +136,13 @@ const RewardSection = () => {
           id: 1,
           icon: Tick1,
           text: "RewardSection.packageText31",
-          message:"You will automatically receive additional SCORP tokens to your wallet. For example, if you purchase the bronze membership NFT with 10% bonus tokens and you buy 100,000 SCORP, you’ll receive 110,000 SCORP tokens."
+          message:"You will automatically receive additional SCORP tokens to your wallet. For example, if you purchase the bronze membership NFT with 25% bonus tokens and you buy 100,000 SCORP, you’ll receive 110,000 SCORP tokens."
         },
         {
           id: 2,
           icon: Tick1,
           text: "RewardSection.packageText32",
-          message:"You will receive 5% of your total contribution in USD to play on Scorpion Casino. This feature will be available in Q4 with the release of the new Casino Beta."
+          message:"You will receive 15% of your total contribution in USD to play on Scorpion Casino. This feature will be available in Q4 with the release of the new Casino Beta."
         },
         {
           id: 3,
@@ -174,19 +174,19 @@ const RewardSection = () => {
           id: 1,
           icon: Tick1,
           text: "RewardSection.packageText41",
-          message:"You will automatically receive additional SCORP tokens to your wallet. For example, if you purchase the bronze membership NFT with 10% bonus tokens and you buy 100,000 SCORP, you’ll receive 110,000 SCORP tokens."
+          message:"You will automatically receive additional SCORP tokens to your wallet. For example, if you purchase the bronze membership NFT with 40% bonus tokens and you buy 100,000 SCORP, you’ll receive 110,000 SCORP tokens."
         },
         {
           id: 2,
           icon: Tick1,
           text: "RewardSection.packageText42",
-          message:"You will receive 5% of your total contribution in USD to play on Scorpion Casino. This feature will be available in Q4 with the release of the new Casino Beta."
+          message:"You will receive 25% of your total contribution in USD to play on Scorpion Casino. This feature will be available in Q4 with the release of the new Casino Beta."
         },
         {
           id: 3,
           icon: Tick1,
           text: "RewardSection.packageText43",
-          message:"You will earn additional Daily Staking Rewards. For example, with the Gold Membership NFT, you’ll receive an additional 5% on the current daily staking rewards rate. So, if the daily rate is hypothetically 1%, you would get 1.05% staking rewards based on the total SCORP tokens you purchased."
+          message:"You will earn additional Daily Staking Rewards. For example, with the Gold Membership NFT, you’ll receive an additional 10% on the current daily staking rewards rate. So, if the daily rate is hypothetically 1%, you would get 1.05% staking rewards based on the total SCORP tokens you purchased."
         },
         {
           id: 4,
@@ -212,19 +212,19 @@ const RewardSection = () => {
           id: 1,
           icon: Tick1,
           text: "RewardSection.packageText51",
-          message:"You will automatically receive additional SCORP tokens to your wallet. For example, if you purchase the bronze membership NFT with 10% bonus tokens and you buy 100,000 SCORP, you’ll receive 110,000 SCORP tokens."
+          message:"You will automatically receive additional SCORP tokens to your wallet. For example, if you purchase the bronze membership NFT with 60% bonus tokens and you buy 100,000 SCORP, you’ll receive 110,000 SCORP tokens."
         },
         {
           id: 2,
           icon: Tick1,
           text: "RewardSection.packageText52",
-          message:"You will receive 5% of your total contribution in USD to play on Scorpion Casino. This feature will be available in Q4 with the release of the new Casino Beta."
+          message:"You will receive 40% of your total contribution in USD to play on Scorpion Casino. This feature will be available in Q4 with the release of the new Casino Beta."
         },
         {
           id: 3,
           icon: Tick1,
           text: "RewardSection.packageText53",
-          message:"You will earn additional Daily Staking Rewards. For example, with the Gold Membership NFT, you’ll receive an additional 5% on the current daily staking rewards rate. So, if the daily rate is hypothetically 1%, you would get 1.05% staking rewards based on the total SCORP tokens you purchased."
+          message:"You will earn additional Daily Staking Rewards. For example, with the Gold Membership NFT, you’ll receive an additional 20% on the current daily staking rewards rate. So, if the daily rate is hypothetically 1%, you would get 1.05% staking rewards based on the total SCORP tokens you purchased."
         },
         {
           id: 4,

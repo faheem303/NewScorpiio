@@ -186,7 +186,7 @@ const BiggestSection = () => {
                                 <li className="text-[#F9C333] w-[120px] text-center text-[12px] font-[800] leading-[28px] font-[inter]" >{t('BiggestSection.rank')}</li>
                                 <li className="text-[#F9C333] w-[180px] text-center  text-[12px] font-[800] leading-[28px] font-[inter]" >{t('BiggestSection.wallet')}</li>
                                 <li className="text-[#F9C333] w-[180px] text-center  text-[12px] font-[800] leading-[28px] font-[inter]" >{t('BiggestSection.totalBuy')}</li>
-                                <li className="text-[#F9C333] w-[120px] text-center  text-[12px] font-[800] leading-[28px] font-[inter]" >{t('BiggestSection.price')}</li>
+                                <li className="text-[#F9C333] w-[120px] text-center  text-[12px] font-[800] leading-[28px] font-[inter]" >{t('BiggestSection.prize')}</li>
                             </ul>
                         </div>
                         <div className="px-6 tablerow">

@@ -47,7 +47,7 @@ const BuySection = () => {
                            <button className="stepbtnbg text-white w-[140px] justify-center xs:text-[16px]  rounded-full flex items-center 2xl:h-[54px]  xl:h-[54px]  lg:h-[45px] md:h-[45px] sm:h-[45px] h-[45px]   space-x-3 text-[16px] font-[700] font-[inter]" >{t('BuySection.btn2')}</button></a>
                         </div>
                 </div>
-                <div className="2xl:w-[72%]    xl:w-[68%]  lg:w-[61%] md:w-[100%] sm:w-full w-full">
+                <div className="2xl:w-[68%]  xl:w-[68%]  lg:w-[61%] md:w-[100%] sm:w-full w-full">
                     <img className="" src={Buyimg} alt="" />
                 </div>
 

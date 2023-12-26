@@ -5,15 +5,16 @@ import { ToastContainer, toast } from 'react-toastify';
 import ved from "../../assects/video/course-video.mp4"
 import Bg from "../../assects/images/bg11.png"
 import Iicon from "../../assects/images/i.png";
+import Loinp from '../../assects/images/loinp.png'
 import Link from "../../assects/svgs/Link1.svg"
 import Tree from "../../assects/svgs/tree.svg"
 import tei from "../../assects/svgs/twi.svg"
 import tel from "../../assects/svgs/tele.svg"
 import igrm from "../../assects/svgs/igm.svg"
-import eth from "../../assects/images/eth.png";
+import eth from "../../assects/images/loinppre (1).png";
 import eth2 from "../../assects/images/eth2.png";
 import USDT from "../../assects/images/USDT.png";
-import BNB from "../../assects/images/bnb.png";
+import BNB from "../../assects/images/loinppre (2).png";
 import Button from '../../components/Button/button';
 import gc from "../../assects/images/gc.png"
 import Solid from "../../assects/images/logo-white-3.png.png"
@@ -80,8 +81,8 @@ const ProductDetailsSection = () => {
                     <h5 className="text-[18px] font-[400] leading-[28px] font-[Inter]  text-white ">{t('ProductDetails.para2')}</h5>
                     <button className="herobtnbg rounded-[19px] flex h-[49px] w-[253px] xs:w-[180px] flex justify-center items-center font-[700] text-[21px] xs:text-[14px] text-white">  <img className="mr-2 w-[40px] h-[30px]" src={gc} alt="" /> <a href={Pdf} target="_blank">{t('ProductDetails.verifyBtn')}</a> </button>
                     <div className="flex items-center">
-                        <p className="text-[19px] font-[400] font-[Inter] underline text-white">{t('ProductDetails.para3')}</p>
-                        <img className="h-[45px] ml-2" src={Solid} alt="" />
+                        <p className="text-[19px] text-[11px] font-[400] font-[Inter] underline text-white">{t('ProductDetails.para3')}</p>
+                        <img className="h-[45px] xs:h-[22px] ml-2" src={Solid} alt="" />
                     </div>
                     <div className="pt-[2.2rem] xs:py-[0.8rem] ">
                         <video controls preload="metadata" poster={poster} playsinline className="bg-filterved rounded-[20px] bgposter max-h-[458px] xs:h-[280px] sm:h-[330px] md:h-[420px] " height="100px" width="100%" >
@@ -143,15 +144,15 @@ const ProductDetailsSection = () => {
                                     </div>
                                     <div className="2xl:flex justify-between xl:flex lg:block md:block block sm:block xs:space-y-2 sm:space-y-2 md:space-y-2 lg:space-y-2 ">
                                         <button className="flex items-center xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7 xs:px-2 xs:py-1  py-2 border hover:border-gray-400">
-                                            <img src={eth} className="pr-2" alt="" />
+                                            <img src={eth} className="pr-2 h-[22px]" alt="" />
                                             ETH
                                         </button>
                                         <button className="flex items-center xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%]  flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7 xs:px-2 xs:py-1 py-2 border hover:border-gray-400">
-                                            <img src={USDT} className="pr-2 w-[26px]" alt="" />
+                                            <img src={USDT} className="pr-2  h-[22px]" alt="" />
                                             USDT
                                         </button>
                                         <button className="flex items-center  xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%]  flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7 xs:px-2 xs:py-1 py-2 border hover:border-gray-400">
-                                            <img src={BNB} className="pr-2" alt="" />
+                                            <img src={BNB} className="pr-2 h-[25px]" alt="" />
                                             BNB
                                         </button>
 
@@ -161,7 +162,7 @@ const ProductDetailsSection = () => {
                                         <div className="flex">
                                             <input type="text" className="w-[100%] py-3 px-2 outline-none rounded-l " placeholder="100" />
                                             <button className="flex items-center text-white rounded-r space-y-3 px-5 py-3 border-l bg-gray-300">
-                                                <img src={eth2} className="pr-2 w-[30px]" alt="" />
+                                                <img src={USDT} className="pr-2 w-[30px]" alt="" />
                                             </button>
                                         </div>
                                     </div>
@@ -170,7 +171,7 @@ const ProductDetailsSection = () => {
                                         <div className="flex">
                                             <input type="text" className="w-[100%] py-3 px-2 outline-none rounded-l " placeholder="100" />
                                             <button className="flex items-center text-white rounded-r space-y-3 px-5 py-3 border-l bg-gray-300">
-                                                <img src={USDT} className="pr-2 w-[30px]" alt="" />
+                                                <img src={Loinp} className="pr-2 w-[30px]" alt="" />
                                             </button>
                                         </div>
                                     </div>

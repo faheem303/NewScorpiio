@@ -10,14 +10,12 @@ import icn from "../../assects/icons/i.png"
 
 
 
-const RewardCard = ({ item, amountRange, handleRange }) => {
+const RewardCard = ({ item, amountRange, handleRange, handleImageClick }) => {
     const { t } = useTranslation()
 
-    const handleImageClick = () => {
-        toast.info('You will have priority access to E-Mail and Chat Support. Additionally, you’ll receive dedicated VIP support and invitations to Special VIP Events.', {
-            position: "bottom-right",
-            });
-    };
+    const handleClick = (message) => {
+        handleImageClick(message);
+      };
     return (
 
         <div className="rounded-md  bgposter py-4">
@@ -40,7 +38,7 @@ const RewardCard = ({ item, amountRange, handleRange }) => {
                                                 className="w-[12px] h-[13px] cursor-pointer"
                                                 src={icn}
                                                 alt=""
-                                                onClick={handleImageClick}
+                                                onClick={() => handleClick(j.message)}
                                             />
                                             
                                         </div>

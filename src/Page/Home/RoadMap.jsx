@@ -110,12 +110,12 @@ const RoadMap = () => {
                 {
                     id: uuidv4(),
                     tickIcon: Tick1,
-                    para: "RoadMap.swiperpara25 ",
+                    para: "RoadMap.swiperpara25",
                 },
                 {
                     id: uuidv4(),
                     tickIcon: Tick1,
-                    para: "RoadMap.swiperpara26 ",
+                    para: "RoadMap.swiperpara26",
                 },
 
             ]
@@ -163,7 +163,7 @@ const RoadMap = () => {
 
                 {
                     id: uuidv4(),
-                    para: "RoadMap.swiperpara41 ",
+                    para: "RoadMap.swiperpara41",
                 },
                 {
                     id: uuidv4(),
@@ -171,7 +171,7 @@ const RoadMap = () => {
                 },
                 {
                     id: uuidv4(),
-                    para: "RoadMap.swiperpara43 ",
+                    para: "RoadMap.swiperpara43",
                 },
                 {
                     id: uuidv4(),

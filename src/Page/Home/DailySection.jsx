@@ -32,10 +32,10 @@ const DailySection = () => {
         </div>
         <div className="hidden xs:block sm:block md:block">
             
-            <div className="  2xl:w-[35%] xl:w-[35%] lg:w-[35%] md:w-[100%] sm:w-[100%] w-[100%] xs:text-center sm:text-center  space-y-[20px]">
+            <div className="  2xl:w-[35%] xl:w-[35%] lg:w-[35%] md:w-[100%] sm:w-[100%] w-[100%] xs:text-center sm:text-center pb-4 space-y-[25px]">
                 <h3 className="text-[26px] pr-4 font-[900] font-[Inter] leading-[28px]  gradientText uppercase">{t('DailySection.title')}</h3>
-                <h4 className="xs:pr-[2rem] xs:pl-[2.3rem] text-[18px] font-[600] text-white font-[Inter] leading-[26px]">{t('DailySection.subTitle')}</h4>
-                <h5 className="text-[18px] font-[Inter] font-[400] leading-[23.8px] text-white">{t('DailySection.para2')}</h5>
+                
+                <h5 className="text-[18px] font-[Inter] font-[400] leading-[23.8px] text-white">{t('DailySection.para1')}</h5>
                 
             </div>
             <div className=" h-[300px] pt-3 px-2 flex justify-center items-center  2xl:w-[57%] xl:w-[57%] lg:w-[57%] md:w-[100%] sm:w-[100%] w-[100%] mr-auto "   >

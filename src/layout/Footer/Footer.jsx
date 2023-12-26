@@ -50,7 +50,7 @@ function Footer() {
               </div>
             </div>
             <div className="flex justify-between gap-[20px]">
-              <p className=" text-[18px] xs:text-[16px] text-white font-[400] leading-[23px]">
+              <p className=" text-[16px] xs:text-[16px] text-white font-[400] leading-[23px]">
               {t('Footer.joinPara1')}  <br />{" "}
               {t('Footer.joinPara2')}
               </p>
@@ -138,10 +138,10 @@ function Footer() {
               <h2 className="text-[20px] text-white font-[700] leading-[30px]">
               {t('Footer.casinoTitle')}
               </h2>
-              <p className="text-[14px] text-white font-[400] leading-[18px]">
+              <p className="pb-[20px] text-[14px] text-white font-[400] leading-[18px]">
               {t('Footer.casinoSubtitle')}
               </p>
-              <div className="flex flex-col gap-[5px] pb-[5px]">
+              <div className="flex flex-col space-y-[10px] pb-[5px]">
               <a
                   href="https://presale.scorpion.casino/static/media/TOS.2f18aa7fff3ccb4d9a47.pdf"
                   className="text-[14px] text-white font-[400] leading-[18px] underline"
@@ -173,7 +173,7 @@ function Footer() {
                   {t('Footer.casinolink5')}
                 </a>
               </div>
-              <p className="pt-6 text-[16px] text-[#B4A5A5] font-[400] leading-[18px]">
+              <p className="pt-6 text-[16px] xs:text-[13px] text-[#B4A5A5] font-[400] leading-[18px]">
               {t('Footer.casinoPara')}
               </p>
               <div className="flex justify-center">

@@ -28,7 +28,7 @@ function Experts() {
         <div>
           <h2 className="2xl:text-[40px] xl:text-[40px] lg:text-[40px] md:text-[40px] sm:text-[32px] text-[26px] xs:leading-[30px] text-center gradientText font-[900] leading-[40px] uppercase 2xl:pb-[83px] xl:pb-[83px] lg:pb-[83px] md:pb-[44px] sm:pb-[44px] pb-[44px]">
          
-          {t('Experts.titleMain')}
+          {t('Experts.title')}
           </h2>
         </div>
         <div className="2xl:pb-[83px] xl:pb-[83px] lg:pb-[83px] md:pb-[44px] sm:pb-[44px] pb-[44px]">

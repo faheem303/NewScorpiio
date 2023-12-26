@@ -43,17 +43,17 @@ const Navbar = ({ handelClick }) => {
     const locales = {
         en: { img: fg13, title: "English" },
         gr: { img: fg12, title: "German" },
-        fr: { img: fg3, title: "French" },
-        es: { img: fg4, title: "Spanish" },
-        it: { img: fg5, title: "Italian" },
-        du: { img: fg6, title: "Dutch" },
+        fr: { img: fg11, title: "French" },
+        es: { img: fg10, title: "Spanish" },
+        it: { img: fg9, title: "Italian" },
+        du: { img: fg8, title: "Dutch" },
         tu: { img: fg7, title: "Turkey" },
-        jp: { img: fg8, title: "Japan" },
-        kr: { img: fg9, title: "Korean" },
-        nr: { img: fg10, title: "Norwegian" },
-        ru: { img: fg11, title: "Russian" },
+        jp: { img: fg6, title: "Japan" },
+        kr: { img: fg5, title: "Korean" },
+        nr: { img: fg4, title: "Norwegian" },
+        ru: { img: fg3, title: "Russian" },
         ch: { img: fg2, title: "Chinese" },
-        pr: { img: fg13, title: "Portugese" },
+        pr: { img: fg1, title: "Portugese" },
         vt: { img: fg14, title: "Vietnamese" },
         
     };
@@ -129,12 +129,12 @@ const Navbar = ({ handelClick }) => {
                     </div>
                     <div className='flex items-center justify-between xs:justify-start space-x-5 xs:space-x-0 '>
                         <div className='flex justify-between space-x-6 xs:hidden sm:hidden md:hidden '>
-                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#scorpion">{t('main.navlink1')}</a> </h4>
-                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]'>  <a href="#howto">{t('main.navlink2')}</a></h4>
-                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#whitepaper">{t('main.navlink3')}</a> </h4>
-                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#token">{t('main.navlink4')}</a> </h4>
-                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]' > <a href="#success">{t('main.navlink5')}</a> </h4>
-                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[12px] font-[400] hover:text-[#a0a0a0]'> <a href="#faqs">{t('main.navlink6')}</a> </h4>
+                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[14px] font-[400] hover:text-[#a0a0a0]' > <a href="#scorpion">{t('main.navlink1')}</a> </h4>
+                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[14px] font-[400] hover:text-[#a0a0a0]'>  <a href="#howto">{t('main.navlink2')}</a></h4>
+                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[14px] font-[400] hover:text-[#a0a0a0]' > <a href="#whitepaper">{t('main.navlink3')}</a> </h4>
+                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[14px] font-[400] hover:text-[#a0a0a0]' > <a href="#token">{t('main.navlink4')}</a> </h4>
+                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[14px] font-[400] hover:text-[#a0a0a0]' > <a href="#success">{t('main.navlink5')}</a> </h4>
+                            <h4 className='text-white font-[Inter] text-[16px] lg:text-[10px] xl:text-[14px] font-[400] hover:text-[#a0a0a0]'> <a href="#faqs">{t('main.navlink6')}</a> </h4>
 
                         </div>
 

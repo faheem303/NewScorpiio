@@ -19,24 +19,24 @@ const BuySection = () => {
                     <div className="stepsbg py-4 2xl:space-y-1 px-8 rounded-[40px]">
                         <h3 className="2xl:text-[20px] text-[16px] xs:text-[16px]  font-[700] leading-[18px] font-[inter] gradientText">{t('BuySection.cardTitle1')}
                         </h3>
-                        <h4 className="2xl:block xl:block lg:block md:hidden sm:hidden hidden  2xl:text-[21px] text-[16px] gradientText xs:text-[16px] font-[900] font-[Inter] text-white text-white leading-[29px] ">{t('BuySection.cardSubtitle1')}</h4>
-                        <h4 className="2xl:hidden xl:hidden lg:hidden md:block sm:block block  2xl:text-[21px] text-[16px]  xs:text-[16px] font-[900] font-[Inter] text-white text-white leading-[29px] ">{t('BuySection.cardSubtitle1')}</h4>
+                        <h4 className="2xl:block xl:block lg:block md:hidden sm:hidden hidden  2xl:text-[21px] text-[16px]  xs:text-[16px] font-[900] font-[Inter] text-white  leading-[29px] ">{t('BuySection.cardSubtitle1')}</h4>
+                        <h4 className="2xl:hidden xl:hidden lg:hidden md:block sm:block block  2xl:text-[21px] text-[16px]  xs:text-[16px] font-[900] font-[Inter]  text-white leading-[29px] ">{t('BuySection.cardSubtitle1')}</h4>
                         <p className="2xl:text-[16px] text-[14px] text-[white] 2xl:leading-[24px] leading-[19px]  font-[400] font-[inter] ">{t('BuySection.cardPara1')}</p>
                     </div>
                     <div className="stepsbg py-4 2xl:space-y-1 px-8 rounded-[40px]">
                         <h3 className="2xl:text-[20px] text-[16px] xs:text-[16px]  font-[700] leading-[18px] font-[inter] gradientText">{t('BuySection.cardTitle2')}
                         </h3>
                        
-                        <h4 className="2xl:block xl:block lg:block md:hidden sm:hidden hidden  2xl:text-[21px] text-[16px] gradientText xs:text-[16px] font-[900] font-[Inter] text-white text-white leading-[29px] ">{t('BuySection.cardSubtitle2')}</h4>
-                        <h4 className="2xl:hidden xl:hidden lg:hidden md:block sm:block block  2xl:text-[21px] text-[16px]  xs:text-[16px] font-[900] font-[Inter] text-white text-white leading-[29px] ">{t('BuySection.cardSubtitle2')}</h4>
+                        <h4 className="2xl:block xl:block lg:block md:hidden sm:hidden hidden  2xl:text-[21px] text-[16px]  xs:text-[16px] font-[900] font-[Inter] text-white  leading-[29px] ">{t('BuySection.cardSubtitle2')}</h4>
+                        <h4 className="2xl:hidden xl:hidden lg:hidden md:block sm:block block  2xl:text-[21px] text-[16px]  xs:text-[16px] font-[900] font-[Inter] text-white leading-[29px] ">{t('BuySection.cardSubtitle2')}</h4>
                         <p className="2xl:text-[16px] text-[14px] text-[white] 2xl:leading-[24px] leading-[19px]  font-[400] font-[inter] ">{t('BuySection.cardPara2')}</p>
                     </div>
                     <div className="stepsbg py-4 2xl:space-y-1 px-8 rounded-[40px]">
                         <h3 className="2xl:text-[20px] text-[16px] xs:text-[16px]  font-[700] leading-[18px] font-[inter] gradientText">{t('BuySection.cardTitle3')}
                         </h3>
                       
-                        <h4 className="2xl:block xl:block lg:block md:hidden sm:hidden hidden  2xl:text-[21px] text-[16px] gradientText xs:text-[16px] font-[900] font-[Inter] text-white text-white leading-[29px] ">{t('BuySection.cardSubtitle3')}</h4>
-                        <h4 className="2xl:hidden xl:hidden lg:hidden md:block sm:block block  2xl:text-[21px] text-[16px]  xs:text-[16px] font-[900] font-[Inter] text-white text-white leading-[29px] ">{t('BuySection.cardSubtitle3')}</h4>
+                        <h4 className="2xl:block xl:block lg:block md:hidden sm:hidden hidden  2xl:text-[21px] text-[16px]  xs:text-[16px] font-[900] font-[Inter] text-white leading-[29px] ">{t('BuySection.cardSubtitle3')}</h4>
+                        <h4 className="2xl:hidden xl:hidden lg:hidden md:block sm:block block  2xl:text-[21px] text-[16px]  xs:text-[16px] font-[900] font-[Inter] text-white leading-[29px] ">{t('BuySection.cardSubtitle3')}</h4>
                         <p className="2xl:text-[16px] text-[14px] text-[white] 2xl:leading-[24px] leading-[19px]  font-[400] font-[inter] ">{t('BuySection.cardPara3')}</p>
                     </div>
                     <div className="2xl:flex xl:flex lg:flex md:hidden sm:hidden xs:hidden pt-3 flex mt-14 xs:justify-center sm:justify-center">

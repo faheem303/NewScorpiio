@@ -87,11 +87,11 @@ const TokenDetailsSection = () => {
 
                                     <div className="h-[90px] xs:h-[78px] 2xl:w-[30%] xl:w-[30%] flex flex-col justify-start lg:w-[30%] md:w-[100%] sm:w-[100%] w-[100%] 2xl:border-r xl:border-r lg:border-r  border-[#F9C333]" >
                                         <h3 className="text-[20px] font-[600] font-[Inter] text-white mb-2"> {t('TokenDetailsSection.pre-saleTitle2')}</h3>
-                                        <p className="text-[15px] font-[400] font-[Inter] text-white mr-2">1 SCORP = $0.022</p>
+                                        <p className="text-[15px] font-[400] font-[Inter] text-white mr-2">1 $SCORP = $0.022</p>
                                     </div>
                                     <div className="h-[90px] 2xl:w-[25%] xl:w-[25%] lg:w-[20%] md:w-[100%] sm:w-[100%] w-[100%]">
                                         <h3 className="text-[20px] font-[600] font-[Inter] text-white mb-2">   {t('TokenDetailsSection.pre-saleTitle3')}</h3>
-                                        <p className="text-[15px] font-[400] font-[Inter] text-white mr-2">1 SCORP = $0.05</p>
+                                        <p className="text-[15px] font-[400] font-[Inter] text-white mr-2">1 $SCORP = $0.05</p>
                                     </div>
                                 </div>
                             </div>

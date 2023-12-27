@@ -16,26 +16,26 @@ const LicensedCardSection = () => {
     return (
         <div className="" >
             <div className="flex items-center 2xl:space-y-0 xl:space-y-0 lg:space-y-0  md:space-y-5 sm:space-y-5 space-y-5 justify-between gap-[28px] xs:block sm:block md:block">
-                <div className=" rounded-[32px] flex justify-between pl-[32px]  py-[38px] border LicensedCard border-[#FFF89C] h-[auto] max-w-[432px] w-[100%]">
-                    <div className="w-[300px] space-y-3">
+                <div className=" rounded-[32px] flex justify-between pl-[32px]  py-[38px] border LicensedCard border-[#FFF89C] h-[auto] 2xl:h-[215px] xl:h-[220px] max-w-[432px] w-[100%]">
+                    <div className="w-[300px]  space-y-3">
                         <h3 className="font-[inter] -tracking-[1.7px] text-[24px] 2xl:text-[28px] xl:text-[25px] lg:text-[24px] md:text-[28px] sm:text-[28px] font-[700] leading-[35.064px] text-white">{t('LicensedCard.card1Title')}</h3>
-                        <p className=" font-[inter] text-[14px] font-[400] leading-[20.064px] text-white">{t('LicensedCard.card1Para')}</p>
+                        <p className=" font-[inter] text-[13.5px] font-[400] leading-[20.064px] text-white">{t('LicensedCard.card1Para')}</p>
                     </div>
                     <div className="">
                         <img className=" w-[163px] 2xl:h-[120px] xl:h-[120px] lg:h-[110px] md:h-[auto] sm:h-[auto] h-[auto]" src={licimg1} alt="" />
                     </div>
                 </div>
-                <div className=" rounded-[32px] flex justify-between pl-[32px]  py-[38px] border LicensedCard border-[#FFF89C] h-[auto] max-w-[432px] w-[100%]">
-                    <div className="w-[300px] space-y-3">
+                <div className=" rounded-[32px] flex justify-between pl-[32px]  py-[38px] border LicensedCard border-[#FFF89C] h-[auto] 2xl:h-[215px] xl:h-[220px] max-w-[432px] w-[100%]">
+                    <div className="w-[300px]  space-y-3">
                         <h3 className="font-[inter] -tracking-[1.7px] text-[24px] 2xl:text-[32px] xl:text-[26px] lg:text-[24px] md:text-[28px] sm:text-[28px] font-[700] leading-[35.064px] text-white">{t('LicensedCard.card2Title')}</h3>
                         <p className=" font-[inter] text-[14px] font-[400] leading-[20.064px] text-white">{t('LicensedCard.card2Para')}</p>
                     </div>
                     <div className="">
-                        <img className=" w-[163px] 2xl:h-[120px] xl:h-[auto] lg:h-[auto] md:h-[auto] sm:h-[auto] h-[auto]" src={licimg3} alt="" />
+                        <img className=" w-[163px] 2xl:h-[120px] xl:h-[120px] lg:h-[auto] md:h-[auto] sm:h-[auto] h-[auto]" src={licimg3} alt="" />
                     </div>
                 </div>
-                <div className=" rounded-[32px] flex justify-between pl-[32px]  py-[38px] border LicensedCard border-[#FFF89C] h-[auto] max-w-[432px] w-[100%]">
-                    <div className="w-[300px] space-y-3">
+                <div className=" rounded-[32px] flex justify-between pl-[32px]  py-[38px] border LicensedCard border-[#FFF89C] h-[auto] 2xl:h-[215px] xl:h-[220px] max-w-[432px] w-[100%]">
+                    <div className="w-[300px]  space-y-3">
                         <h3 className="font-[inter] -tracking-[1.7px] text-[24px] 2xl:text-[32px] xl:text-[26px] lg:text-[24px] md:text-[28px] sm:text-[28px] font-[700] leading-[35.064px] text-white">{t('LicensedCard.card3Title')}</h3>
                         <p className=" font-[inter] text-[14px] font-[400] leading-[20.064px] text-white">{t('LicensedCard.card3Para')}</p>
                     </div>

@@ -108,7 +108,7 @@ const RewardSection = () => {
         },
         {
           id: 3,
-          icon: cross,
+          icon: Tick1,
           text: "RewardSection.packageText23",
           message:"You will earn additional Daily Staking Rewards. For example, with the Gold Membership NFT, you’ll receive an additional 5% on the current daily staking rewards rate. So, if the daily rate is hypothetically 1%, you would get 1.05% staking rewards based on the total SCORP tokens you purchased."
         },

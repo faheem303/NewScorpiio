@@ -9,9 +9,9 @@ function SuccessCards({src,imgClass,title,para}) {
         <div className='h-[210px] xs:h-[190px] flex items-end'>
         <img className={imgClass}  src={src} alt="" />
         </div>
-       <div className='h-[265px] xs:h-[250px]'>
+       <div className='h-[265px] xs:h-[242px]'>
        <h3 className='pt-[40px] pb-4 xs:pb-[7px] text-[30px] font-[700] leading-[29.94px] gradientText text-center'>{title}</h3>
-        <p className=" xs:text-[14px] text-[white] text-center font-[400] 2xl:leading-[28.80px] xl:leading-[28.80px] lg:leading-[28.80px] md:leading-[28.80px] sm:leading-[28.80px] leading-[18.01px] opacity-[0.7]">
+        <p className=" xs:text-[15px] text-[white] text-center font-[400] 2xl:leading-[28.80px] xl:leading-[28.80px] lg:leading-[28.80px] md:leading-[28.80px] sm:leading-[28.80px] leading-[18.01px] opacity-[0.7]">
           {para}
         </p>
        </div>

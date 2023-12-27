@@ -55,7 +55,7 @@ const BenefitSection = () => {
                            
                             <div className="2xl:h-[140px] xl:h-[150px] lg:h-[160px] md:h-[200px] sm:h-[200px] h-[139px]">
                             <h3 className="font-[900] xs:px-[50px] font-[Inter] uppercase text-[21px] leading-[26px] gradientText pb-2">{t(item.titlekey)} <br /> {t(item.titlekey2)}</h3>
-                            <p id="howtobuy" className="text-center font-[400] font-[Inter] text-[14px] xs:text-[13px] text-[#FFF] xs:px-8">{t(item.subtitlekey)}</p>
+                            <p id="howtobuy" className="text-center font-[400] font-[Inter] text-[14px] xs:text-[14px] text-[#FFF] xs:px-8">{t(item.subtitlekey)}</p>
                             </div>
                             <div className="flex justify-center items-center 2xl:h-[234px] xl:h-[200px] lg:h-[200px] md:h-[200px] sm:h-[200px] h-[121px]">
                             <img src={item.image} alt=""  className="2xl:h-[234px] xl:h-[200px] lg:h-[200px] md:h-[200px] sm:h-[200px] h-[139px]"/>

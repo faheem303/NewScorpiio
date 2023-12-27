@@ -77,7 +77,7 @@ const HoverDropDn = ({onLanguageChange, locales }) => {
                                 <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">{t('main.hoverDropDn-title2-para1')}</p>
                             </div>
                         </a>
-                        <a target="_blank" href="">
+                        <a target="_blank" href="https://youtube.com/@scorpioncasino.official">
                             <div className="pb-[22px] flex items-center space-x-4">
                                 <img src={Xicon3} alt="" />
                                 <p className="text-[16px] text-[#fff] font-[500] font-[Inter]"> {t('main.hoverDropDn-title2-para2')}</p>

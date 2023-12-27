@@ -18,7 +18,7 @@ function BlockChain() {
             {t('BlockChain.title')}
             </h2>
             <p className="text-white text-[18px] font-[400] leading-[28.80px] 2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center text-center">
-            {t('BlockChain.para1')}<br />
+            {t('BlockChain.para1')}<br /><br />
             {t('BlockChain.para2')}
             </p>
              <div className='w-[100%] '>

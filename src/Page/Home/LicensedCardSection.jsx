@@ -22,7 +22,7 @@ const LicensedCardSection = () => {
                         <p className=" font-[inter] text-[14px] font-[400] leading-[20.064px] text-white">{t('LicensedCard.card1Para')}</p>
                     </div>
                     <div className="">
-                        <img className=" w-[163px] h-[110px]" src={licimg1} alt="" />
+                        <img className=" w-[163px] h-[120px]" src={licimg1} alt="" />
                     </div>
                 </div>
                 <div className=" rounded-[32px] flex justify-between pl-[32px]  py-[38px] border LicensedCard border-[#FFF89C] h-[auto] max-w-[432px] w-[100%]">
@@ -31,7 +31,7 @@ const LicensedCardSection = () => {
                         <p className=" font-[inter] text-[14px] font-[400] leading-[20.064px] text-white">{t('LicensedCard.card2Para')}</p>
                     </div>
                     <div className="">
-                        <img className=" w-[163px] h-[110px]" src={licimg3} alt="" />
+                        <img className=" w-[163px] h-[120px]" src={licimg3} alt="" />
                     </div>
                 </div>
                 <div className=" rounded-[32px] flex justify-between pl-[32px]  py-[38px] border LicensedCard border-[#FFF89C] h-[auto] max-w-[432px] w-[100%]">
@@ -40,7 +40,7 @@ const LicensedCardSection = () => {
                         <p className=" font-[inter] text-[14px] font-[400] leading-[20.064px] text-white">{t('LicensedCard.card3Para')}</p>
                     </div>
                     <div className="">
-                        <img className=" w-[163px] h-[110px]" src={licimg2} alt="" />
+                        <img className=" w-[163px] h-[120px]" src={licimg2} alt="" />
                     </div>
                 </div>
 

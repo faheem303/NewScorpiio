@@ -73,32 +73,32 @@ const HoverDropDn = ({onLanguageChange, locales }) => {
                     <div className="">
                         <a target="_blank" href="https://twitter.com/ScorpionCasino">
                             <div className="pb-[22px] flex items-center space-x-4">
-                                <img src={Xicon4} alt="" />
+                                <img className="w-[20px]" src={Xicon4} alt="" />
                                 <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">{t('main.hoverDropDn-title2-para1')}</p>
                             </div>
                         </a>
                         <a target="_blank" href="https://youtube.com/@scorpioncasino.official">
                             <div className="pb-[22px] flex items-center space-x-4">
-                                <img src={Xicon3} alt="" />
+                                <img className="w-[20px]" src={Xicon3} alt="" />
                                 <p className="text-[16px] text-[#fff] font-[500] font-[Inter]"> {t('main.hoverDropDn-title2-para2')}</p>
                             </div>
                         </a>
 
                         <a target="_blank" href="https://www.instagram.com/scorpion.casino/">
                             <div className="pb-[22px] flex items-center space-x-4">
-                                <img src={Xicon2} alt="" />
+                                <img className="w-[20px]" src={Xicon2} alt="" />
                                 <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">{t('main.hoverDropDn-title2-para3')}</p>
                             </div>
                         </a>
                         <a target="_blank" href="https://t.me/scorpioncasino_official">
                             <div className="pb-[22px] flex items-center space-x-4">
-                                <img src={Xicon1} alt="" />
+                                <img className="w-[20px]" src={Xicon1} alt="" />
                                 <p className="text-[16px] text-[#fff] font-[500] font-[Inter]">{t('main.hoverDropDn-title2-para4')}</p>
                             </div>
                         </a>
                         <a target="_blank" href="https://linkin.bio/scorpioncasino">
                             <div className="flex items-center space-x-4">
-                                <img src={Xicon5} alt="" />
+                                <img className="w-[20px]" src={Xicon5} alt="" />
                                 <p className="text-[16px] text-[#fff] font-[500] font-[Inter]"> {t('main.hoverDropDn-title2-para5')}</p>
                             </div>
                         </a>

@@ -1,6 +1,8 @@
 
 import React, { useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
+import { IoIosArrowDown, IoIosClose } from "react-icons/io"
+
 
 import ved from "../../assects/video/course-video.mp4"
 import Bg from "../../assects/images/bg11.png"
@@ -22,6 +24,11 @@ import poster from "../../assects/images/vedio.png"
 import que from "../../assects/svgs/questionIcon.svg"
 import refe from "../../assects/svgs/referralIcon.svg"
 import Pdf from "../../assects/pdf/Scorpion License (1).pdf"
+import imgclose from "../../assects/images/close.png"
+import popic1 from "../../assects/images/popic (1).svg"
+import popic2 from "../../assects/images/popic (2).svg"
+import pop3 from "../../assects/images/popic (3).svg"
+import pop4 from "../../assects/images/popic (4).svg"
 
 // import { useTranslation } from "react-i18next";
 import { useTranslation } from 'react-i18next';
@@ -29,47 +36,116 @@ import { useTranslation } from 'react-i18next';
 
 
 const ProductDetailsSection = () => {
-
+    const [isOPen, setIsOPen] = useState(false)
     const [pop2, setPop2] = useState(false);
     const [pop1, setPop1] = useState(false);
     const [show, setShow] = useState(false);
     const { t } = useTranslation();
+
+    const handleClick = () => {
+        setIsOPen(!isOPen)
+    }
+    const handleClose = () => {
+        setIsOPen(false)
+    }
 
     const handelBonus = () => {
         setShow(!show)
     }
     const handleCopy = () => {
         navigator.clipboard.writeText("https://lucent-caramel-6be687.netlify.app/")
-          .then(() => {
-            toast.success('Copied!');
-          })
-          .catch((error) => {
-            console.error('Error copying:', error);
-            toast.error('Failed to copy.');
-          });
-      };
+            .then(() => {
+                toast.success('Copied!');
+            })
+            .catch((error) => {
+                console.error('Error copying:', error);
+                toast.error('Failed to copy.');
+            });
+    };
 
     return (
         <div className='b-[#111010]  space-y-4 pt-[2.5rem]' id="hero">
+            {
+                isOPen ? (
+                    <div
+                        id="authentication-modal"
+                        className="flex overflow-y-auto overflow-x-hidden fixed top-[10%] right-0 left-0 z-[999] justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full bg-[#00000080]"
+                    >
+                        <div className="relative  w-full max-w-xl max-h-full">
+                            {/* <!-- Modal content --> */}
+                            <div className="model relative shadow modelbgclr !overflow-hidden">
+                                {/* <!-- Modal header --> */}
+                                <div className="inner  bgmodelclr2 overflow-none">
+                                    <div className="flex pb-[1.5rem] items-center justify-end pt-[1rem]  pr-5">
+                                        <button
+                                            type="button"
+                                            className="end-2.5 text-[32px] text-[#1d1e24] bg-[#2e2f34] rounded-full"
+                                            data-modal-hide="authentication-modal"
+                                            onClick={handleClose}
+                                        >
+                                            <img className="h-[30px]" src={imgclose} alt="" />
+                                            <span className="sr-only">Close modal</span>
+                                        </button>
+                                    </div>
+                                    {/* <!-- Modal body --> */}
+                                    <div className="pb-[2.5rem]  2xl:px-[30px] xl:px-[30px] lg:px-[30px] md:px-[30px] sm:px-[30px] px-[20px] relative">
+                                        <form className="" action="#">
+                                            <div>
+                                                <h2 className="text-[26px] text-white text-center leading-[28px] font-[700] pb-[24px]">Earn 5% Referral for $SCORP 
+                                                    referring your friends and community!</h2>
+                                                    <p className="pb-[24px] text-[16px] text-white text-center font-[400] opacity-[0.9] ">Share your unique link below and receive</p>
+                                            </div>
+                                            <div className="flex flex-col gap-[24px]">
+                                                <input
+                                                    type="email"
+                                                    name="email"
+                                                    id="email"
+                                                    className="text-[#1c1d23] text-[18px] font-[500] h-[54px] rounded-[17px] border-[1px] border-solid border-[#443567] pl-[20px] pr-[10px] bg-[#fff] opacity-[0.35] focus:ring-blue-500 focus:border-blue-500 block w-full dark:placeholder-gray-400 outline-none"
+                                                    required
+                                                />
+                                               
+                                               
+                                                <div className="text-center">
+                                                    <Button text={"Connect Wallet"} classes={"h-[56px] w-[200px] bgcolor text-[black] text-[18px] text-center font-[700] rounded-[30px]"} />
+                                                </div>
+                                                <p className="text-[16px] text-white text-center font-[400] opacity-[0.9] ">
+                                                Share it directly on your social media!
+                                                </p>
+                                                <div className="flex justify-center space-x-8">
+                                                    <img className="h-[30px] cursor-pointer" src={popic2} alt="" />
+                                                    <img className="h-[30px] cursor-pointer" src={popic1} alt="" />
+                                                    <img className="h-[30px] cursor-pointer" src={pop3} alt="" />
+                                                    <img className="h-[30px] cursor-pointer" src={pop4} alt="" />
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <img src="" className="absolute bottom-[0] right-[0]" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                ) : ("")
+            }
             <div className="flex items-center justify-end space-x-3 md:hidden sm:hidden xs:hidden z-[2]">
 
-               <div>
-              
-               <button className="flex items-center justify-center w-[29px] h-[29px]" onClick={handleCopy}><img className=" rounded-md h-[100%]  text-[9px] " src={Link} alt="" /></button>
-                <ToastContainer />
-               </div>
+                <div>
 
-                
-                    <Button target="_blank" link="https://linkin.bio/scorpioncasino" classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={Tree}
-                    />
-              
-                    <Button target="_blank" link="https://twitter.com/ScorpionCasino" classes=" flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={tei}
-                    />
-              
-                    <Button target="_blank" link="https://t.me/scorpioncasino_official" classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={tel}
-                    />
-                    <Button target="_blank" link="https://www.instagram.com/scorpion.casino/" classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={igrm}
-                    />
+                    <button className="flex items-center justify-center w-[29px] h-[29px]" onClick={handleCopy}><img className=" rounded-md h-[100%]  text-[9px] " src={Link} alt="" /></button>
+                    <ToastContainer />
+                </div>
+
+
+                <Button target="_blank" link="https://linkin.bio/scorpioncasino" classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={Tree}
+                />
+
+                <Button target="_blank" link="https://twitter.com/ScorpionCasino" classes=" flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={tei}
+                />
+
+                <Button target="_blank" link="https://t.me/scorpioncasino_official" classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={tel}
+                />
+                <Button target="_blank" link="https://www.instagram.com/scorpion.casino/" classes="flex items-center justify-center   text-[9px] w-[32px] h-[32px] rounded-md" wallet={igrm}
+                />
 
             </div>
 
@@ -84,7 +160,7 @@ const ProductDetailsSection = () => {
                         <p className="text-[19px] xs:text-[13.2px] font-[400] font-[Inter] underline text-white">{t('ProductDetails.para3')}</p>
                         <img className="h-[45px] xs:h-[19px] ml-2" src={Solid} alt="" />
                     </div>
-                    <div className="pt-[2.2rem] xs:py-[0.8rem] "> 
+                    <div className="pt-[2.2rem] xs:py-[0.8rem] ">
                         <video controls preload="metadata" poster={poster} playsinline className="bg-filterved rounded-[20px] bgposter max-h-[458px] xs:h-[280px] sm:h-[330px] md:h-[420px] " height="100px" width="100%" >
                             <source src={ved} type="video/mp4" />
                         </video>
@@ -145,20 +221,20 @@ const ProductDetailsSection = () => {
                                     <div className="2xl:flex justify-between xl:flex lg:block md:block block sm:block xs:space-y-2 sm:space-y-2 md:space-y-2 lg:space-y-2 ">
                                         <button className="flex items-center xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7  xs:py-1  py-2 border hover:border-gray-400">
                                             <div className="flex w-[60px]">
-                                            <img src={eth} className="h-[22px] mr-2" alt="" />
-                                           <span className="mt-0 contents  w-[30px] "> ETH</span>
+                                                <img src={eth} className="h-[22px] mr-2" alt="" />
+                                                <span className="mt-0 contents  w-[30px] "> ETH</span>
                                             </div>
                                         </button>
                                         <button className="flex items-center xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%]  flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7  xs:py-1 py-2 border hover:border-gray-400">
                                             <div className="flex w-[60px]">
-                                            <img src={USDT} className="h-[22px] xs:h-[20px] mr-2" alt="" />
-                                           <span className="mt-0 contents  w-[30px] "> USDT</span>
+                                                <img src={USDT} className="h-[22px] xs:h-[20px] mr-2" alt="" />
+                                                <span className="mt-0 contents  w-[30px] "> USDT</span>
                                             </div>
                                         </button>
                                         <button className="flex items-center  xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%]  flex justify-center text-white xs:text-[14px] rounded-md space-y-3 px-7  xs:py-1 py-2 border hover:border-gray-400">
                                             <div className="flex w-[60px]">
-                                            <img src={BNB} className="h-[25px] mr-2" alt="" />
-                                           <span className="mt-0 contents  w-[30px] ">BNB</span>
+                                                <img src={BNB} className="h-[25px] mr-2" alt="" />
+                                                <span className="mt-0 contents  w-[30px] ">BNB</span>
                                             </div>
                                         </button>
 
@@ -199,9 +275,10 @@ const ProductDetailsSection = () => {
                         </div>
                         <div>
                             <div className="flex justify-between space-x-[15px] pt-[1rem]">
-                                
+
                                 <a href="https://master--legendary-gaufre-d9fd23.netlify.app/" className="cursor-pointer text-[14px] xs:text-[11px] font-[500] font-[Inter] leading-[21px] flex w-[278px] h-[30px] items-center justify-center text-white  rounded-[10px] bg-[#3F3F3F]"> <img className="pr-1 w-[22px] h-[22px]" src={que} alt="" /> {t('ProductDetails.card-body-buyBtn')}</a>
-                                <button className="cursor-pointer text-[14px] xs:text-[11px] font-[500] font-[Inter] leading-[21px] flex w-[278px] h-[30px] items-center justify-center text-white  rounded-[10px] bg-[#3F3F3F]"> <img className="pr-1 w-[22px] h-[22px]" src={refe} alt="" />{t('ProductDetails.card-body-referralBtn')}</button>
+                                <button onClick={handleClick} className="cursor-pointer text-[14px] xs:text-[11px] font-[500] font-[Inter] leading-[21px] flex w-[278px] h-[30px] items-center justify-center text-white  rounded-[10px] bg-[#3F3F3F]"> <img className="pr-1 w-[22px] h-[22px]" src={refe} alt="" />{t('ProductDetails.card-body-referralBtn')}</button>
+
 
                             </div>
 

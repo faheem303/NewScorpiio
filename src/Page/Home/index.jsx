@@ -43,6 +43,7 @@ import icon11 from "../../assects/bgicons/v11.png"
 import icon12 from "../../assects/bgicons/v12.png"
 import icon13 from "../../assects/bgicons/v13.png"
 import icon14 from "../../assects/bgicons/v14.png"
+import JoinSection from './JoinSection';
 
 
 
@@ -77,11 +78,16 @@ const Home = () => {
                         <div>
                             <LicensedCardSection />
                         </div>
+                        <div>
+                        <JoinSection />
+                        </div>
+                        
                         <div className='relative'>
                             <BenefitSection />
                             <div className='bg-box1'></div>
 
                         </div>
+                       
                         <div className='relative'>
                             <RewardSection />
 

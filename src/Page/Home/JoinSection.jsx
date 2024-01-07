@@ -15,7 +15,7 @@ const JoinSection = () => {
 
 
     return (
-        <div className="py-[80px] w-[90%] mx-auto" >
+        <div className="pb-[80px] w-[90%] xs:w-[100%] mx-auto" >
             <div className="">
                 <div className="py-[55px] space-y-8 ">
 
@@ -28,16 +28,17 @@ const JoinSection = () => {
 
                         </a>
                     </div>
-                    <div className="p-[30px] w-[60%] mx-auto bg-filter">
+                    <div className=" p-[30px] xs:p-[18px] w-[60%] xs:w-[100%] mx-auto bg-filter">
+                        <div className="scrollbar overflow h-[1120px]">
                         <iframe
                             title="Gleam Widget"
-                            className=""
+                            className="h-[1338px] xs:h-[1540px]  w-[100%] max-w-[486px] mx-auto"
                             src="https://gleam.io/y4qrs/scorpion-casino-250000-giveaway"
-                            width="100%"
-                            height="1190px"
+                            
                             frameBorder="0"
                             scrolling="no"
                         />
+                        </div>
                     </div>
 
                 </div>

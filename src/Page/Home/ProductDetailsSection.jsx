@@ -30,6 +30,17 @@ import popic2 from "../../assects/images/popic (2).svg"
 import pop3 from "../../assects/images/popic (3).svg"
 import pop4 from "../../assects/images/popic (4).svg"
 
+import {
+    FacebookShareButton,
+    FacebookIcon,
+    TwitterShareButton,
+    XIcon,
+    TelegramShareButton,
+    TelegramIcon,
+    WhatsappShareButton,
+    WhatsappIcon,
+} from "react-share";
+
 // import { useTranslation } from "react-i18next";
 import { useTranslation } from 'react-i18next';
 
@@ -41,6 +52,9 @@ const ProductDetailsSection = () => {
     const [pop1, setPop1] = useState(false);
     const [show, setShow] = useState(false);
     const { t } = useTranslation();
+
+    const shareUrl = "https://lucent-caramel-6be687.netlify.app/";
+    const title = "Scorpio Casino";
 
     const handleClick = () => {
         setIsOPen(!isOPen)
@@ -91,9 +105,9 @@ const ProductDetailsSection = () => {
                                     <div className="pb-[2.5rem]  2xl:px-[30px] xl:px-[30px] lg:px-[30px] md:px-[30px] sm:px-[30px] px-[20px] relative">
                                         <form className="" action="#">
                                             <div>
-                                                <h2 className="text-[26px] text-white text-center leading-[28px] font-[700] pb-[24px]">Earn 5% Referral for $SCORP 
+                                                <h2 className="text-[26px] text-white text-center leading-[28px] font-[700] pb-[24px]">Earn 5% Referral for $SCORP
                                                     referring your friends and community!</h2>
-                                                    <p className="pb-[24px] text-[16px] text-white text-center font-[400] opacity-[0.9] ">Share your unique link below and receive</p>
+                                                <p className="pb-[24px] text-[16px] text-white text-center font-[400] opacity-[0.9] ">Share your unique link below and receive</p>
                                             </div>
                                             <div className="flex flex-col gap-[24px]">
                                                 <input
@@ -103,19 +117,47 @@ const ProductDetailsSection = () => {
                                                     className="text-[#1c1d23] text-[18px] font-[500] h-[54px] rounded-[17px] border-[1px] border-solid border-[#443567] pl-[20px] pr-[10px] bg-[#fff] opacity-[0.35] focus:ring-blue-500 focus:border-blue-500 block w-full dark:placeholder-gray-400 outline-none"
                                                     required
                                                 />
-                                               
-                                               
+
+
                                                 <div className="text-center">
                                                     <Button text={"Connect Wallet"} classes={"h-[56px] w-[200px] bgcolor text-[black] text-[18px] text-center font-[700] rounded-[30px]"} />
                                                 </div>
                                                 <p className="text-[16px] text-white text-center font-[400] opacity-[0.9] ">
-                                                Share it directly on your social media!
+                                                    Share it directly on your social media!
                                                 </p>
                                                 <div className="flex justify-center space-x-8">
-                                                    <img className="h-[30px] cursor-pointer" src={popic2} alt="" />
+                                                    {/* <img className="h-[30px] cursor-pointer" src={popic2} alt="" />
                                                     <img className="h-[30px] cursor-pointer" src={popic1} alt="" />
                                                     <img className="h-[30px] cursor-pointer" src={pop3} alt="" />
-                                                    <img className="h-[30px] cursor-pointer" src={pop4} alt="" />
+                                                    <img className="h-[30px] cursor-pointer" src={pop4} alt="" /> */}
+                                                    <TwitterShareButton
+                                                        url={shareUrl}
+                                                        title={title}
+                                                        className=""
+                                                    >
+                                                        <XIcon size={32} round />
+                                                    </TwitterShareButton>
+                                                    <FacebookShareButton
+                                                        url={shareUrl}
+                                                        className="Demo__some-network__share-button"
+                                                    >
+                                                        <FacebookIcon size={32} round />
+                                                    </FacebookShareButton>
+                                                    <TelegramShareButton
+                                                        url={shareUrl}
+                                                        title={title}
+                                                        className="Demo__some-network__share-button"
+                                                    >
+                                                        <TelegramIcon size={32} round />
+                                                    </TelegramShareButton>
+                                                    <WhatsappShareButton
+                                                        url={shareUrl}
+                                                        title={title}
+                                                        separator=":: "
+                                                        className="Demo__some-network__share-button"
+                                                    >
+                                                        <WhatsappIcon size={32} round />
+                                                    </WhatsappShareButton>
                                                 </div>
                                             </div>
                                         </form>

@@ -15,9 +15,9 @@ const JoinSection = () => {
 
 
     return (
-        <div className="pb-[80px] w-[90%] xs:w-[100%] mx-auto" >
+        <div className=" w-[90%] xs:w-[100%] mx-auto" >
             <div className="">
-                <div className="py-[55px] space-y-8 ">
+                <div className=" space-y-8 ">
 
                     <div className=" text-center space-y-[21px]">
                         <h3 className="xs:text-center text-[36px] font-[900] leading-[38px] font-[inter]  gradientText uppercase">

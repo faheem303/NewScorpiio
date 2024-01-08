@@ -8,8 +8,8 @@ const Loader = () => {
 
     return (
         <>
-            <div className="space-y-2 flex h-[100vh] justify-center items-center ">
-               <img className="h-[200px] xs:h-[100px]" src={loader} alt="" />
+            <div className="bg-[#111010] space-y-2 flex h-[100vh] justify-center items-center ">
+               <img className="h-[140px] xs:h-[100px]" src={loader} alt="" />
             </div>
         </>
     )

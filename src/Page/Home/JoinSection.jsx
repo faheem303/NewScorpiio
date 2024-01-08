@@ -21,9 +21,9 @@ const JoinSection = () => {
 
                     <div className=" text-center space-y-[21px]">
                         <h3 className="xs:text-center text-[36px] font-[900] leading-[38px] font-[inter]  gradientText uppercase">
-                            Join Our $30k minedrop!
+                        {t('JoinOurSection.cardTitle')}
                         </h3>
-                        <p className="xs:text-center text-[18px] pb-[21px] opacity-70 leading-[24px] pb-2 text-white"> Enter our Gleam competition below to stand a chance to win one of 10 prize allocations, each worth $3,000. We aim to reward our community with $30,000 worth of $BTCMTX tokens in total. Terms and conditions apply.</p>
+                        <p className="xs:text-center text-[18px] pb-[21px] opacity-70 leading-[24px] pb-2 text-white"> {t('JoinOurSection.cardPara')}</p>
                         <a href="#home" className="">
 
                         </a>
